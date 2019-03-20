@@ -1,0 +1,8 @@
+prefix=/home/marco/catkin_workspace_SOFAR_semantic_slam/install
+
+Name: Module1
+Description: Description of Module1
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/marco/catkin_workspace_SOFAR_semantic_slam/install/lib 
+Requires: 
