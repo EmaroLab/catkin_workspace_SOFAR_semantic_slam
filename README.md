@@ -23,7 +23,7 @@
  When an Obstacle is detected Miro starts turning by more than 90 degrees until the obstacle is not detected anymore and then it moves forward  to make sure you actually avoid the obstacle.
  Then the control goes back to the previous behaviour.
 
- ### Autonomous modality
+ ### Manual modality
  In this modality you can take control of Miro's movements using a Ps4 joystick:
  * Moving along the vertial axis of the left stick you can control linear velocity
  * Moving along the horizontal axis of the right stick you can control angular velocity
@@ -86,7 +86,7 @@ $ sudo apt-get install ros-kinetic-joy
 
  ```
 $ sudo ds4drv
-$ rosparam set joy_node/dev"dev/input/js0"
+
 ```
  To get the joystick data published over ROS we need to start the joy node. First let's tell the joy node which joystick device to use, the default is js0. 
 
