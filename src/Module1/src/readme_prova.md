@@ -108,6 +108,41 @@ cose per goal
 
 Connect the Miro robot to the ROS Master (boohhhh)
 
+```
+$ ssh root@<MIRO-IP> 
+$ sudo nano ./profile
+```
+Insert your IP after ROS_MASTER_IP
+
+For more detailed instructions see [MIRO: Commission MIRO](https://consequential.bitbucket.io/Developer_Preparation_Commission_MIRO.html)
+
+The following command will start the project
+
+```
+$ roslaunch miro_sofar miro_sofar.launch
+```
+Parameters that can be set in the launch file ( all of them are explained inside the launch file itself):
+* robot_name <--  Select if use real miro or simulated robot in Gazebo
+* node_rate
+* control_mode <-- Select the BASIC or ADVANCED mode
+* sonar_treshold <-- Select the values below which an obstacle is detected
+## Results
+* Video Demo with a Real Miro.
+
+[![Video Demo with a Real Miro](https://img.youtube.com/vi/LT71kVHBBu4/0.jpg)](https://www.youtube.com/watch?v=LT71kVHBBu4&feature=youtu.be).
+
+## Documentation
+The documentation of the code can be found on the folder miro_sofar_doxygen/html by opening the file index.html with an html browser
+
+## Works based on the current Project
+* Developement of a Pet-like Behavior for Miro Robot --> https://github.com/hoodedapollo/MiroBehaviours
+
+## Acknowledgments
+
+* [mqtt_ros_bridge](https://github.com/EmaroLab/mqtt_ros_bridge) 
+* [imu_stream](https://github.com/EmaroLab/imu_stream)
+
+
 ### Team
 * Francesca Canale *francesca.canale.95@gmail.com*
 * Marco Giordano *marcogiordano295@gmail.com*
