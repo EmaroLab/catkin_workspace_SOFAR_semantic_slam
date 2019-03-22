@@ -3,7 +3,7 @@ import rospy
 
 #import msgs type
 from std_msgs.msg import String
-from geometry_msg.msg import Pose
+from geometry_msgs.msg import Pose
 from semantical_slam.msg import SemanticalPoint
 
 #import service
@@ -37,14 +37,14 @@ def main():
 	rospy.init_node('semantical_map_genrator')
 	
 	#inizialize actual pose
-	acual_pose=Pose()
+	actual_pose=Pose()
 	
 	#subscribe both to string and to pose topics
 	sub1=rospy.Subscriber('adapted_message', String, callback0,(actual_pose))
 	sub2=rospy.Subscriber('miro/rob01/wordl/pose',Pose,callback1)#wordlpose
 	
 	#publish the point
-	pub=rospy.Publisher('semantical_loci', SemanticalPoint)
+	pub=rospy.Publisher('semantical_loci', SemanticalPoint,queue_size=1)
 
 	rospy.spin()
 
