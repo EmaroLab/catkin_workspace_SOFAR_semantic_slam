@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 import rospy
 
+#import msgs type
 from std_msgs.msg import String
 from geometry_msg.msg import Pose
 from semantical_slam.msg import SemanticalPoint
 
-rom semantical_slam.srv import CreateSemMsg
+#import service
+from semantical_slam.srv import CreateSemMsg
 
 
-rospy.init_node('semantical_map_genrator')
-acual_pose=pose()
 #when arrives a smessage from beacon o image reconiction store the string and
 #calls service to create the SemanticalPoint  to ben published
 
@@ -33,9 +33,17 @@ def callback1(msg_from_miro):
 	
 #main
 def main():
+	#initialize node
+	rospy.init_node('semantical_map_genrator')
+	
+	#inizialize actual pose
+	acual_pose=Pose()
+	
+	#subscribe both to string and to pose topics
 	sub1=rospy.Subscriber('adapted_message', String, callback0,(actual_pose))
 	sub2=rospy.Subscriber('miro/rob01/wordl/pose',Pose,callback1)#wordlpose
-
+	
+	#publish the point
 	pub=rospy.Publisher('semantical_loci', SemanticalPoint)
 
 	rospy.spin()

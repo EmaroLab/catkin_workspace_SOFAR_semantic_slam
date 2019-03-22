@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 import rospy
+
+#import msg type
 from std_msgs.msg import String
+#from chissa dove importa msgs ir
 
-
-rospy.init_node('ir_adapter')
-
-
+#when a msg arrive we filter it in order to get just a string
 def callback(msg_from_adapter, args):
 	actual_place=String()
 	actual_place=loromsg.namedtupl
@@ -15,6 +15,7 @@ def callback(msg_from_adapter, args):
 	
 #main
 def main():
+	rospy.init_node('ir_adapter')
 	sub=rospy.Subscriber('topic su cui pubblicano i tizi ', loro cose, callback,)
 	pub=rospy.Publisher('adapted_message', String)
 	rospy.spin()
