@@ -1,0 +1,6 @@
+<launch>
+  <node name="semantical_map_generator" pkg="semantical_slam"
+  <node name="bt_adepter" pkg="semantical_slam"
+  <node name="ir_adapter" pkg="semantical_slam"
+   
+</launch>
