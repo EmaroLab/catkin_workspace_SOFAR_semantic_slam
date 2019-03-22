@@ -86,7 +86,6 @@ $ sudo apt-get install ros-kinetic-joy
 
  ```
 $ sudo ds4drv
-
 ```
  To get the joystick data published over ROS we need to start the joy node. First let's tell the joy node which joystick device to use, the default is js0. 
 
