@@ -15,7 +15,7 @@ def callback(msg_from_adapter, args):
 	
 #main
 def main():
-	sub=rospy.Subscriber('topic su cui pubblicano i tizi ', string, callback,)
+	sub=rospy.Subscriber('topic su cui pubblicano i tizi ', loro cose, callback,)
 	pub=rospy.Publisher('adapted_message', string)
 	rospy.spin()
 

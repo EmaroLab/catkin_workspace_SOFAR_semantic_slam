@@ -106,7 +106,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 # INCLUDE_DIRS include
 # LIBRARIES semantical_slam
-  CATKIN_DEPENDS roscpp rospy #message_runtime std_msgs geometry_msgs
+  CATKIN_DEPENDS roscpp rospy message_runtime #std_msgs geometry_msgs
 #  DEPENDS system_lib
 )
 
