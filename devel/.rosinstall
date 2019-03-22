@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/setup.sh

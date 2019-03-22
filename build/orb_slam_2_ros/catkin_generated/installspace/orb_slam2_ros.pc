@@ -1,0 +1,8 @@
+prefix=/home/sofar/catkin_workspace_SOFAR_semantic_slam/install
+
+Name: orb_slam2_ros
+Description: Description of orb_slam2_ros
+Version: 0.0.1
+Cflags: -I/home/sofar/catkin_workspace_SOFAR_semantic_slam/install/include
+Libs: -L/home/sofar/catkin_workspace_SOFAR_semantic_slam/install/lib -l{PROJECT_NAME} -llibDBoW2 -llibg2o
+Requires: roscpp rospy std_msgs cv_bridge image_transport tf sensor_msgs dynamic_reconfigure

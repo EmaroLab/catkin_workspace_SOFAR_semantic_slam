@@ -1,0 +1,8 @@
+prefix=/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel
+
+Name: semantical_slam
+Description: Description of semantical_slam
+Version: 0.0.0
+Cflags: -I/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include
+Libs: -L/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib 
+Requires: roscpp rospy

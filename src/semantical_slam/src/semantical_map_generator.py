@@ -2,7 +2,7 @@
 import rospy
 
 from std_msgs.msg import string
-from geometry_msg.msg import pose
+from geometry_msg.msg import geometry_msgs/Pose
 from semantical_slam.msg import SemanticalPoint
 
 rom semantical_slam.srv import CreateSemMsg
@@ -26,7 +26,7 @@ def callback0(msg_from_adapter, args):
 
 #when arrives a message from wordl pose store it in actual_pose
 def callback1(msg_from_miro):
-	actual_pose=pose()
+	actual_pose=geometry_msgs/Pose()
 	actual_pose.position=msg_from_miro.position
 	actual_pose.quternion=msg_from_miro.quaternion
 	return actual_pose
@@ -34,7 +34,7 @@ def callback1(msg_from_miro):
 #main
 def main():
 	sub1=rospy.Subscriber('adapted_message', string, callback0,(actual_pose))
-	sub2=rospy.Subscriber('miro/rob01/wordl/pose',pose,callback1)#wordlpose
+	sub2=rospy.Subscriber('miro/rob01/wordl/pose',geometry_msgs/Pose,callback1)#wordlpose
 
 	pub=rospy.Publisher('semantical_loci', SemanticalPoint)
 

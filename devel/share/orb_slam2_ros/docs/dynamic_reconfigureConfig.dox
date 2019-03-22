@@ -1,0 +1,8 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~localize_only" : \b [bool] Disable mapping, localize only min: False, default: False, max: True
+- \b "~reset_map" : \b [bool] Erase the map; toggles back to false automatically min: False, default: False, max: True
+- \b "~min_num_kf_in_map" : \b [int] Minimum number of key frames in the map for initialization min: 1, default: 5, max: 50
+
