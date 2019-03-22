@@ -6,7 +6,7 @@ from std_msgs.msg import String
 #from chissa dove importa msgs ir
 
 #when a msg arrive we filter it in order to get just a string
-def callback(msg_from_adapter, args):
+def callback(msg_from_adapter):
 	actual_place=String()
 	actual_place=loromsg.namedtupl
 	pub.publsh(actual_place)
