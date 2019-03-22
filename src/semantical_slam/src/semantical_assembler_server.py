@@ -3,8 +3,8 @@ import rospy
 
 from semantical_slam.srv import CreateSemMsg, CreateSemMsgResponse
 
-from std_msgs.msg import string
-from geometry_msg.msg import geometry_msgs/Pose
+from std_msgs.msg import String
+from geometry_msg.msg import Pose
 from semantical_slam.msg import SemanticalPoint
 
 def create_sem_msg(request)

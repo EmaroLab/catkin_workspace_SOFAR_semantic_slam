@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import rospy
 
-from std_msgs.msg import string
-from geometry_msg.msg import geometry_msgs/Pose
+from std_msgs.msg import String
+from geometry_msg.msg import Pose
 from semantical_slam.msg import SemanticalPoint
 
 rom semantical_slam.srv import CreateSemMsg
@@ -15,7 +15,7 @@ acual_pose=pose()
 
 def callback0(msg_from_adapter, args):
 	actual_pose=args[0]
-	actual_place=string()
+	actual_place=String()
 	final_ponint=SemanticalPoint()
 	actual_place.data=msg_from_adapter.data 
 	rospy.wait_for_service('create_sem_msg')
@@ -33,8 +33,8 @@ def callback1(msg_from_miro):
 	
 #main
 def main():
-	sub1=rospy.Subscriber('adapted_message', string, callback0,(actual_pose))
-	sub2=rospy.Subscriber('miro/rob01/wordl/pose',geometry_msgs/Pose,callback1)#wordlpose
+	sub1=rospy.Subscriber('adapted_message', String, callback0,(actual_pose))
+	sub2=rospy.Subscriber('miro/rob01/wordl/pose',Pose,callback1)#wordlpose
 
 	pub=rospy.Publisher('semantical_loci', SemanticalPoint)
 

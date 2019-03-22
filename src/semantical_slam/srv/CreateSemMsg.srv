@@ -2,4 +2,4 @@ string actual_place
 geometry_msgs/Pose actual_pose
 ---
  SemanticalPoint final_message
- 
+

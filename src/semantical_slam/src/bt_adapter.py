@@ -7,7 +7,7 @@ rospy.init_node('bt_adapter')
 
 
 def callback(msg_from_adapter):
-	actual_place=string()
+	actual_place=String()
 	actual_place=loromsg.namedtupl
 	pub.publsh(actual_place)
 	
@@ -16,7 +16,7 @@ def callback(msg_from_adapter):
 #main
 def main():
 	sub=rospy.Subscriber('topic su cui pubblica bt ', loro cose, callback,)
-	pub=rospy.Publisher('adapted_message', string)
+	pub=rospy.Publisher('adapted_message', String)
 	rospy.spin()
 
 if __name__== "__main__":
