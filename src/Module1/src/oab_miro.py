@@ -80,7 +80,7 @@ class ObstacleAvoidance():
             self.counter=self.counter+1
 	
             ## Linear velocity in the x-axis.
-            self.body_vel.linear.x=300
+            self.body_vel.linear.x=400
 	    self.body_vel.linear.y=0
 	    self.body_vel.linear.z=0
             

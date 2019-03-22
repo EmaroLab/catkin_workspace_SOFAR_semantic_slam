@@ -55,17 +55,27 @@ class miroBOT_miro():
         return sqrt(pow((goal_pose.x - self.pose.x), 2) +
                     pow((goal_pose.y - self.pose.y), 2))
 
-    def linear_vel(self, goal_pose, constant=15):
+    def linear_vel(self, goal_pose, constant=29):
        
         return constant * self.euclidean_distance(goal_pose)
 
     def steering_angle(self, goal_pose):
+	angolo= atan2(goal_pose.y - self.pose.y, goal_pose.x - self.pose.x)
         
-        return atan2(goal_pose.y - self.pose.y, goal_pose.x - self.pose.x)
+	return angolo
 
     def angular_vel(self, goal_pose, constant=1):
-        
-        return constant * (self.steering_angle(goal_pose) - self.pose.theta)
+        angle=self.steering_angle(goal_pose)-self.pose.theta
+	if angle<-3.15:
+		angle=6.28+(self.steering_angle(goal_pose)-self.pose.theta)
+		
+		print "bbkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
+		vel=constant * (angle)
+	else:
+		vel=constant * (angle)
+	print "angle: "
+	print angle
+        return  vel
      
     def move2goal(self):
 	## Function that asks the goal position and construct the platform_control message to publish
@@ -90,12 +100,18 @@ class miroBOT_miro():
             # Angular velocity in the z-axis.
             self.body_vel.angular.x = 0
             self.body_vel.angular.y = 0
-            self.body_vel.angular.z = self.angular_vel(goal_pose)
-	    print self.body_vel.linear.x
+	    
+            self.body_vel.angular.z = (self.angular_vel(goal_pose))
+	    print self.body_vel.angular.z
+	      
+	    #print  self.body_vel.angular.z
 	    q.body_vel = self.body_vel
             self.pub_platform_control.publish(q)
             self.rate.sleep()
-        print "GOAL REACHED !!! "
+        self.body_vel.linear.x = 0
+	self.body_vel.angular.z =0
+	q.body_vel = self.body_vel
+        self.pub_platform_control.publish(q)
         rospy.spin()
 	
 
