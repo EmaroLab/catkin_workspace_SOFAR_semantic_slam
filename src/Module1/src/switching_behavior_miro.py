@@ -1,15 +1,14 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 ################################################################
 
 import rospy
 from std_msgs.msg import String, Bool
-from sensor_msgs.msg import Image,CompressedImage,Range
+from sensor_msgs.msg import Image,CompressedImage,Range,Imu
 from geometry_msgs.msg import Twist
 
 import miro_msgs
 from miro_msgs.msg import platform_config,platform_sensors,platform_state,platform_mics,platform_control,core_state,core_control,core_config,bridge_config,bridge_stream
-
 
 import math
 import numpy
@@ -20,27 +19,27 @@ from miro_constants import miro
 from datetime import datetime
 
 ## \file switching_behavior_miro.py
-## \brief The node switching_behavior_miro.py allows to switch from the Goal based behaviour published by the gb_miro.py and the Obstacle avoidance behavior published by oab_miro.py
+## \brief The node switching_behavior_miro.py allows to switch from the Goal behaviour published by gb_miro.py to the Obstacle Avoidance behavior published by oab_miro.py
 ## @n The switch depends on the presence of an obstacle. 
 ## @n More in details:
 ## @n Subscribe to the topic /platform/sensors
 ## @n Read the value from the sonar and check the presence of an obstacle
 ## @n Subscribe to the topic /gb 
 ## @n Subscribe to the topic /oab
-## @n Publish the Goal based behavior on miro platform/control
-## @n When an obstacle is encountered publish the Obstacle avoidance behavior on miro platform/control
+## @n Publish the Goal behavior on MiRo platform/control
+## @n When an obstacle is encountered publish the Obstacle Avoidance behavior on MiRo platform/control
 
-## The class SwitchingBehavior allows to switch between the two possible behaviors based on the presence of an obstacle
+##\brief The class SwitchingBehavior allows to switch between the two possible behaviors based on the presence of an obstacle
 
 class SwitchingBehavior():
 
-    ## Constructor
     def __init__(self):
 
         ## Topic root
         self.robot_name = rospy.get_param ( '/robot_name', 'miro_robot')
         topic_root = "/miro/" + self.robot_name
         print "topic_root", topic_root
+
 	## Node rate
         self.rate = rospy.get_param('rate',2)
         ## Linear and Angular velocities that will be part of the platform_control message
@@ -51,20 +50,20 @@ class SwitchingBehavior():
         self.safe = True
         ## Subscriber to the topic /platform/sensors a message of type platform_sensors that cointains the sonar readings
         self.sub_sonar_data = rospy.Subscriber(topic_root + "/platform/sensors", platform_sensors, self.callback_switching_condition,queue_size=1)
-        ## platform_control object that rapresents the Goal Based Behavior
+        ## platform_control object that rapresents the Goal behavior
         self.q_miroBOT = platform_control()
-	## Subscriber to the topic /gb a message of type platform_control that rapresents the Goal Based Behavior
+	## Subscriber to the topic /gb a message of type platform_control that rapresents the Goal behavior
         self.sub_miroBOT = rospy.Subscriber('/gb', platform_control, self.callback_miroBOT, queue_size=1)
-	## platform_control object that rapresents the Obstacle Avoidance Behavior
+	## platform_control object that rapresents the Obstacle Avoidance behavior
         self.q_oab = platform_control()
-	## Subscriber to the topic /oab a message of type platform_control that rapresents the Obstacle Avoidance Behavior
+	## Subscriber to the topic /oab a message of type platform_control that rapresents the Obstacle Avoidance behavior
         self.sub_oab = rospy.Subscriber('/oab', platform_control, self.callback_oab, queue_size=1)
 	## Publisher to the topic /platform/control on the robot a message of type platform_control that represents the selected behavior
         self.pub_behavior = rospy.Publisher(topic_root + "/platform/control", platform_control, queue_size=0)
 
 
     def callback_switching_condition(self,sonar_data):
-   	## Callback that receives the data from the robot sensors, and uses the information given by the sonar sensor to evaluate the presence 
+   	## Callback that receives the data from the robot sensors and uses the information given by the sonar sensor to evaluate the presence 
 	## of an obstacle
 
         sonar_value = sonar_data.sonar_range.range
@@ -77,20 +76,18 @@ class SwitchingBehavior():
             self.safe = True
             print "NO OBSTACLE"
 
-    def callback_miroBOT(self,gb):
-    	## Callback that receives the Goal Based Behavior as a platform_control message
-
-        self.q_miroBOT = gb
+    def callback_miroBOT( self, gb):
+    	## Callback that receives the Goal behavior as a platform_control message
+	self.q_miroBOT = gb
 
    
     def callback_oab( self, oab):
- 	## Callback that receives the Obstacle Avoidance Behavior as a platform_control message
+ 	## Callback that receives the Obstacle Avoidance behavior as a platform_control message
+	self.q_oab = oab
 
-        self.q_oab = oab
-
-    def switching_behavior(self):
+    def switching_behavior( self):
  	## Function that based on the value of the variable safe, that represent the presence of the obstacle, publish the behavior selected on 
-	## Miro
+	## MiRo
 
         q = platform_control()
 	p = platform_control()
@@ -98,21 +95,27 @@ class SwitchingBehavior():
 
         while not rospy.is_shutdown():
 
-            if self.safe: # if there is not an obstacle
-
+            if self.safe:
+		## If there isn't an obstacle
                 print "goal"
 		
+		## Selecting Goal behavior
                 q = self.q_miroBOT
+
+		## Publishing platform_control message
 		self.pub_behavior.publish(q)
 
-            elif not self.safe: # if there is the obstacle
-
+            elif not self.safe:
+		## If there is an obstacle
                 print "obstacle"
 
+		## Selecting Obstacle Avoidance behavior
                 q = self.q_oab
-                self.pub_behavior.publish(q)
 
+		## Publishing platform_control message
+                self.pub_behavior.publish(q)
 		time.sleep(1.3)
+
             	self.body_vel.linear.x=500
 		p.body_vel = self.body_vel
 		self.pub_behavior.publish(p)
