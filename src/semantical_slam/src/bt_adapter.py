@@ -2,7 +2,7 @@
 import rospy
 
 #import msgs type
-from std_msgs.msg import string
+from std_msgs.msg import String
 
 
 #when a msg arrive we filter it in order to obtain just a string

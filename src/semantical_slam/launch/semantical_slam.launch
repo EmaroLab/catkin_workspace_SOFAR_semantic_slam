@@ -1,14 +1,14 @@
 <launch>
-  <node name="semantical_map_generator.py" pkg="semantical_slam"
-	type="semantical_map_generator" args="">
+  <node name="semantical_map_generator" pkg="semantical_slam"
+	type="semantical_map_generator.py" args="">
   </node>
 
-  <node name="bt_adapter.py" pkg="semantical_slam"
-	type="bt_adapter" args="">
+  <node name="bt_adapter" pkg="semantical_slam"
+	type="bt_adapter.py" args="">
   </node>
 
-  <node name="ir_adapter.py" pkg="semantical_slam"
-	type="bt_adapter" args="">
+  <node name="ir_adapter" pkg="semantical_slam"
+	type="ir_adapter.py" args="">
   </node>
    
 </launch>
