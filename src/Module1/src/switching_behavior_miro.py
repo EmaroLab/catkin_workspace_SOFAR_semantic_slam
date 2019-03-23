@@ -19,7 +19,7 @@ from miro_constants import miro
 from datetime import datetime
 
 ## \file switching_behavior_miro.py
-## \brief The node switching_behavior_miro.py allows to switch from the Goal behaviour published by gb_miro.py to the Obstacle Avoidance behavior published by oab_miro.py
+## \brief The node switching_behavior_miro.py allows to switch from the Goal behaviour published by gb_miro.py to the Obstacle Avoidance behavior published by oab_miro.py.
 ## @n The switch depends on the presence of an obstacle. 
 ## @n More in details:
 ## @n Subscribe to the topic /platform/sensors

@@ -83,19 +83,19 @@ class miroBOT_miro():
         q=platform_control()
         goal_pose = Pose2D()
 
-	## Get the input from the user.
+	## Get the input from the user
         goal_pose.x = input("Set your x goal: ")
         goal_pose.y = input("Set your y goal: ")
         distance_tolerance = 0.1
 
         while self.euclidean_distance(goal_pose) >= distance_tolerance:
 
-            ## Linear velocity in the x-axis.
+            ## Linear velocity in the x-axis
             self.body_vel.linear.x = self.linear_vel(goal_pose)
             self.body_vel.linear.y = 0
             self.body_vel.linear.z = 0
 
-            ## Angular velocity in the z-axis.
+            ## Angular velocity in the z-axis
             self.body_vel.angular.x = 0
             self.body_vel.angular.y = 0
 	    self.body_vel.angular.z = self.angular_vel(goal_pose)
@@ -105,10 +105,14 @@ class miroBOT_miro():
             self.pub_platform_control.publish(q)
             self.rate.sleep()
 
+	print "Goal reached"
+
+	## Stopping MiRo when the goal is reached
         self.body_vel.linear.x = 0
-	self.body_vel.angular.z =0
+	self.body_vel.angular.z = 0
 	q.body_vel = self.body_vel
         self.pub_platform_control.publish(q)
+
         rospy.spin()
 	
 
