@@ -26,9 +26,9 @@ def callback0(msg_from_adapter, args):
 
 #when arrives a message from wordl pose store it in actual_pose
 def callback1(msg_from_miro):
-	actual_pose=geometry_msgs/Pose()
+	actual_pose=Pose()
 	actual_pose.position=msg_from_miro.position
-	actual_pose.quternion=msg_from_miro.quaternion
+	actual_pose.orientation=msg_from_miro.orientation
 	return actual_pose
 	
 #main
@@ -39,12 +39,12 @@ def main():
 	#inizialize actual pose
 	actual_pose=Pose()
 	
-	#subscribe both to string and to pose topics
-	sub1=rospy.Subscriber('adapted_message', String, callback0,(actual_pose))
-	sub2=rospy.Subscriber('miro/rob01/wordl/pose',Pose,callback1)#wordlpose
-	
 	#publish the point
-	pub=rospy.Publisher('semantical_loci', SemanticalPoint,queue_size=1)
+	pub=rospy.Publisher('/semantical_loci', SemanticalPoint,queue_size=1)
+	
+	#subscribe both to string and to pose topics
+	sub1=rospy.Subscriber('/adapted_message', String, callback0,(actual_pose))
+	sub2=rospy.Subscriber('/adapted_pose',Pose,callback1)#wordlpose
 
 	rospy.spin()
 
