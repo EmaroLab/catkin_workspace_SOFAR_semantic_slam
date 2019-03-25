@@ -1,4 +1,7 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
+
+################################################################
+
 import rospy
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import Joy
@@ -20,29 +23,32 @@ from miro_constants import miro
 from datetime import datetime
 
 ## \file joy.py
-## \brief This ROS Node converts Joystick inputs from the joy node into commands for Miro
+## \brief The node joy.py node converts Joystick inputs into commands for MiRo.
 ## @n More in details: 
-## @n Subscribe to the topic joy
-## @n Then converts the joysick inputs into Twist commands
+## @n Subscribe to the topic /joy
+## @n Converts the joysick inputs into Twist commands
 ## @n Axis 1 aka left stick vertical controls linear speed
 ## @n Axis 2 aka right stick horizonal controls angular speed
+## @n Publish on /control/cmd_vel a Twist message containing MiRo's linear and angular body velocities
 
-## Intializes everything
+
 def start():
-    ## publishing to ".../cmd_vel" to control miro
+    ## Publisher on the topic /control/cmd_vel a message of type Twist
     global pub
     pub = rospy.Publisher('/miro/miro_robot/control/cmd_vel', Twist, queue_size = 1)
-    ## subscribed to joystick inputs on topic "joy"
+    ## Subscriber to the topic /joy to joystick inputs
     rospy.Subscriber("joy", Joy, callback)
-    ## starts the node
     
     rospy.spin()
+
 def callback(data):
     twist = Twist()
-    ## vertical left stick axis = linear rate
+    ## Vertical left stick axis = linear rate
     twist.linear.x = 4*data.axes[1]
-    ## horizontal right stick axis = turn rate
+    ## Horizontal right stick axis = turn rate
     twist.angular.z = 4*data.axes[2]
+
+    ## Publishing the message
     pub.publish(twist)
 
 if __name__ == '__main__':

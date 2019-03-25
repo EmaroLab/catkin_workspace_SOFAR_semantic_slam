@@ -1,2 +1,2 @@
 Module1
--DCATKIN_DEVEL_PREFIX=/home/marco/catkin_workspace_SOFAR_semantic_slam/devel -DCMAKE_INSTALL_PREFIX=/home/marco/catkin_workspace_SOFAR_semantic_slam/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/franca/catkin_workspace_SOFAR_semantic_slam/devel -DCMAKE_INSTALL_PREFIX=/home/franca/catkin_workspace_SOFAR_semantic_slam/install -G Unix Makefiles

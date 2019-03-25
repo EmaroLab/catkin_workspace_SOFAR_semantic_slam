@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 ################################################################
 
@@ -19,99 +19,100 @@ from miro_constants import miro
 from datetime import datetime
 
 ## \file gb_miro.py
-## \brief The node gb_miro.py subscribes to the pose of miro to know his position, read from user's input the goal position and publish a platform_control message
-## @n A platform_control message contains linear and angular velocities necessary to reach the goal, the lightening pattern of miro's body and other tipes of messages @n.
+## \brief The node gb_miro.py subscribes to the pose of MiRo to know his position, reads from user's input the goal position and publishes a platform_control message.
+## @n A platform_control message contains linear and angular velocities necessary to reach the goal.
 ## @n More in details:
-## @n Subscribe to the topic /miro/'robot_name'/world/pose
-## @n Read from that topic the miro's position
-## @n Read from user's input the goal position and compute the trajectory necessary to reach the goal
-## @n Publish on /gb a platform_control msg containing miro body velocity and a lightening pattern
+## @n Subscribe to the topic /world/pose
+## @n Read from that topic MiRo's position
+## @n Read from user's input the goal position and computes the trajectory necessary to reach the goal
+## @n Publish on /gb a platform_control message containing MiRo's linear and angular body velocities
 
 
-##\brief The class miroBOT_miro implements the Goal based behavior
+##\brief The class miroBOT_miro implements the Goal behavior
 
 class miroBOT_miro():
-    ## Constructor
+
     def __init__(self):
-        
-        ## Linear and Angular velocities that will be part of the platform_control message
+
+	## Topic root
+        self.robot_name = rospy.get_param ( '/robot_name', 'miro_robot')
+        topic_root = "/miro/" + self.robot_name
+        print "topic_root", topic_root
+
+	## Linear and Angular velocities that will be part of the platform_control message
         self.body_vel=Twist()
-	## Publisher on the topic /gb a message of type platform_control which corresponds to the Goal Based Behavior
+	## Publisher on the topic /gb a message of type platform_control which corresponds to the Goal behavior
         self.pub_platform_control = rospy.Publisher('/gb', platform_control, queue_size=0)
-	## Subscriber to the topic /world/pose to know the position and orientation of miro
-        self.pose_subscriver=rospy.Subscriber('/miro/miro_robot/world/pose',Pose2D,self.update_pose)
+	## Subscriber to the topic /world/pose to know the position and orientation of MiRo
+        self.pose_subscriber=rospy.Subscriber('/miro/miro_robot/world/pose',Pose2D,self.update_pose)
 	self.pose=Pose2D()
         ## Node rate
 	self.rate=rospy.Rate(100)
 
     def update_pose(self, data):
-        #Callback function which is called when a new message of type Pose is received by the subscriber.
+        ## Callback function which is called when a new message of type Pose is received by the subscriber
         self.pose = data
         self.pose.x = round(self.pose.x, 4)
         self.pose.y = round(self.pose.y, 4)
 
     def euclidean_distance(self, goal_pose):
-        #Euclidean distance between current pose and the goal.
+        ## Euclidean distance between current pose and the goal
         return sqrt(pow((goal_pose.x - self.pose.x), 2) +
                     pow((goal_pose.y - self.pose.y), 2))
 
     def linear_vel(self, goal_pose, constant=29):
-       
+        ## Linear velocity
         return constant * self.euclidean_distance(goal_pose)
 
     def steering_angle(self, goal_pose):
-	angolo= atan2(goal_pose.y - self.pose.y, goal_pose.x - self.pose.x)
-        
-	return angolo
+	##
+	return atan2(goal_pose.y - self.pose.y, goal_pose.x - self.pose.x)
 
     def angular_vel(self, goal_pose, constant=1):
-        angle=self.steering_angle(goal_pose)-self.pose.theta
-	if angle<-3.15:
-		angle=6.28+(self.steering_angle(goal_pose)-self.pose.theta)
-		
-		print "bbkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
-		vel=constant * (angle)
-	else:
-		vel=constant * (angle)
-	print "angle: "
-	print angle
-        return  vel
+	## Angular velocity
+        angle = self.steering_angle(goal_pose) - self.pose.theta
+
+	## If the angle is bigger than pi, it's more conveninet to turn left
+	if angle < -3.14:
+		angle = 6.28 + (self.steering_angle(goal_pose) - self.pose.theta)
+	return constant * (angle)
      
     def move2goal(self):
 	## Function that asks the goal position and construct the platform_control message to publish
    
         q=platform_control()
         goal_pose = Pose2D()
-	# Get the input from the user.
+
+	## Get the input from the user
         goal_pose.x = input("Set your x goal: ")
         goal_pose.y = input("Set your y goal: ")
+        distance_tolerance = 0.1
 
-        # Please, insert a number slightly greater than 0 (e.g. 0.01).
-        distance_tolerance = input("Set your tolerance: ")
+        while self.euclidean_distance(goal_pose) >= distance_tolerance:
 
-       
-	while self.euclidean_distance(goal_pose) >= distance_tolerance:
-
-            # Linear velocity in the x-axis.
+            ## Linear velocity in the x-axis
             self.body_vel.linear.x = self.linear_vel(goal_pose)
             self.body_vel.linear.y = 0
             self.body_vel.linear.z = 0
 
-            # Angular velocity in the z-axis.
+            ## Angular velocity in the z-axis
             self.body_vel.angular.x = 0
             self.body_vel.angular.y = 0
-	    
-            self.body_vel.angular.z = (self.angular_vel(goal_pose))
-	    print self.body_vel.angular.z
+	    self.body_vel.angular.z = self.angular_vel(goal_pose)
 	      
-	    #print  self.body_vel.angular.z
+	    ## Publishing the message
 	    q.body_vel = self.body_vel
             self.pub_platform_control.publish(q)
             self.rate.sleep()
+
+	print "Goal reached"
+
+	## Stopping MiRo when the goal is reached
         self.body_vel.linear.x = 0
-	self.body_vel.angular.z =0
+	self.body_vel.angular.z = 0
 	q.body_vel = self.body_vel
         self.pub_platform_control.publish(q)
+
         rospy.spin()
 	
 
