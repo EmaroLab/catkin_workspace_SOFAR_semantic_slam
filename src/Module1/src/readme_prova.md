@@ -26,8 +26,8 @@
  ### Manual modality
 
  In this modality the user can take control of MiRo's movements using a Ps4 joystick:
- * Moving along the vertial axis of the left stick he can control linear velocity
- * Moving along the horizontal axis of the right stick he can control angular velocity
+ * Moving along the vertial axis of the left stick he can control MiRo's linear velocity
+ * Moving along the horizontal axis of the right stick he can control MiRo's angular velocity
 
  ## The implementation 
 
@@ -40,14 +40,12 @@
 
 
 
- The *gb_miro* node subscribes to '/world/pose' and 'module_5' topics to obtain MiRo's actual position and the goal position , than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control on '/gb' topic.
-
- The *oab_miro* node subscibes to '/platform/sensors' topic to detect the presence of an obstacle using sonar, and it publishes a message of type platform_control that contains miro's body velocities on '/oab' topic. 
+ The *oab_miro* node subscibes to '/platform/sensors' topic to detect the presence of an obstacle using sonar, and it publishes a message of type platform_control that contains MiRo's body velocities on '/oab' topic. 
  
  The *switching_behavior* node subscribes to both '/gb' and '/oab' topics that correspond to the two different behaviors.
  Depending on the presence (or not) of an obstacle it selects which behavior to publish on the robot and the corespondent velocities.
 
- The *joy* node subscibes to '/joy' topic to read data from the joystick and convert them into Twist commands, and it publishes a Twist message that contains miro's body velocities on '/control/cmd_vel' topic. 
+ The *joy* node subscibes to '/joy' topic to read data from the joystick and convert them into Twist commands, and it publishes a Twist message that contains MiRo's body velocities on '/control/cmd_vel' topic. 
 
  Our project aims at total scalability, so each module can be improved or replaced without any changes on the others and new behaviours can be easily added. 
  
