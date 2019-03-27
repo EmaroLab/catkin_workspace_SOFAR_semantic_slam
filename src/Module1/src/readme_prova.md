@@ -34,7 +34,7 @@
  Each module which is part of the architecture has been implemented as a ROS node.
 
  For comunication between the nodes we use a Publish/Subscibe messaging pattern.
- <img src="https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src/Module1/img/sofar_architecture.jpeg" alt="drawing" width="50" height="200"/>
+ <img src="https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src/Module1/img/sofar_architecture.jpeg" alt="drawing" width="4" height="4"/>
  ![NavigationMiro_Sofar_architecture](https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src/Module1/img/sofar_architecture.jpeg =100x20)
 
 
