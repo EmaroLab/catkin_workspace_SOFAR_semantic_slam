@@ -34,21 +34,22 @@
  Each module which is part of the architecture has been implemented as a ROS node.
 
  For comunication between the nodes we use a Publish/Subscibe messaging pattern.
- foto architettura
-
- **For more details see the report**
-
+ 
+ ![NavigationMiro_Sofar_architecture](https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/img/sofar_architecture.jpeg)
 
 
  The *gb_miro* node subscribes to '/world/pose' and 'module_5' topics to obtain MiRo's actual position and the goal position , than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control (occhio che è in corsivo ma non riesco a toglierlo) on '/gb' topic.
 
- The *oab_miro* node subscibes to '/platform/sensors' topic to detect the presence of an obstacle using sonar, and it publishes a message of type platform_control that contains miro body velocities on '/oab' topic. 
+ The *oab_miro* node subscibes to '/platform/sensors' topic to detect the presence of an obstacle using sonar, and it publishes a message of type platform_control that contains miro's body velocities on '/oab' topic. 
  
  The *switching_behavior* node subscribes to both '/gb' and '/oab' topics that correspond to the two different behaviors.
  Depending on the presence (or not) of an obstacle it selects which behavior to publish on the robot and the corespondent velocities.
 
- Our project aims at total scalability, so each module can be improved or replaced without any changes on the others.
+ The *joy* node subscibes to '/joy' topic to read data from the joystick and convert them into Twist commands, and it publishes a Twist message that contains miro's body velocities on '/control/cmd_vel' topic. 
 
+ Our project aims at total scalability, so each module can be improved or replaced without any changes on the others and new behaviours can be easily added. 
+ 
+  **For more details see the report**
  # Gettin Started
 
  ## Prerequisites
@@ -74,6 +75,17 @@ $ cd .....
 $ catkin_make
 $ source devel/setup.bash
 ```
+
+ Connect the Miro robot to the ROS Master (boohhhh)
+
+```
+$ ssh root@<MIRO-IP> 
+$ sudo nano ./profile
+```
+ Insert your IP after ROS_MASTER_IP
+
+For more detailed instructions see [MIRO: Commission MIRO](https://consequential.bitbucket.io/Developer_Preparation_Commission_MIRO.html)
+
 ### Manual modality
  
  Install ds4drv and other features to connect joystick with the pc
@@ -104,43 +116,39 @@ $ ./joy.py
 
 ### Autonomous modality
 
-cose per goal
-
-Connect the Miro robot to the ROS Master (boohhhh)
+After the connection with MiRo the following commands will start the modality 
 
 ```
-$ ssh root@<MIRO-IP> 
-$ sudo nano ./profile
+$ cd catkin_workspace_SOFAR_semantic_slam/src/Module1/src
+$ oab_miro.py
 ```
-Insert your IP after ROS_MASTER_IP
-
-For more detailed instructions see [MIRO: Commission MIRO](https://consequential.bitbucket.io/Developer_Preparation_Commission_MIRO.html)
-
-The following command will start the project
+In other terminals 
 
 ```
-$ roslaunch miro_sofar miro_sofar.launch
+$ cd catkin_workspace_SOFAR_semantic_slam/src/Module1/src
+$ switching_behavior.py
 ```
-Parameters that can be set in the launch file ( all of them are explained inside the launch file itself):
-* robot_name <--  Select if use real miro or simulated robot in Gazebo
-* node_rate
-* control_mode <-- Select the BASIC or ADVANCED mode
-* sonar_treshold <-- Select the values below which an obstacle is detected
+
+```
+$ cd catkin_workspace_SOFAR_semantic_slam/src/Module1/src
+$ gb_miro.py
+```
+
 ## Results
 * Video Demo with a Real Miro.
 
-[![Video Demo with a Real Miro](https://img.youtube.com/vi/LT71kVHBBu4/0.jpg)](https://www.youtube.com/watch?v=LT71kVHBBu4&feature=youtu.be).
+[![Video Demo with a Real Miro]().
 
-## Documentation
-The documentation of the code can be found on the folder miro_sofar_doxygen/html by opening the file index.html with an html browser
 
-## Works based on the current Project
-* Developement of a Pet-like Behavior for Miro Robot --> https://github.com/hoodedapollo/MiroBehaviours
+## Works based on the previous Project
+* Guide MiRo using a wearable device through specific gestures.--> https://github.com/EmaroLab/GestureBasedControlMiro
 
 ## Acknowledgments
 
-* [mqtt_ros_bridge](https://github.com/EmaroLab/mqtt_ros_bridge) 
-* [imu_stream](https://github.com/EmaroLab/imu_stream)
+* [switching_behavior](https://github.com/EmaroLab/GestureBasedControlMiro) 
+* [oab_miro](https://github.com/EmaroLab/GestureBasedControlMiro) 
+* [gb_miro](https://github.com/clebercoutof/turtlesim_cleaner  ROS_Wiki) 
+
 
 
 ### Team
