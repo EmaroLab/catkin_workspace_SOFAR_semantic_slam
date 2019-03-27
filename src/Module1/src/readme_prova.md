@@ -35,7 +35,7 @@
 
  For comunication between the nodes we use a Publish/Subscibe messaging pattern.
  <img src="https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src/Module1/img/sofar_architecture.jpeg" alt="drawing" width="4" height="4"/>
- ![NavigationMiro_Sofar_architecture](https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src/Module1/img/sofar_architecture.jpeg =100x20)
+ ![NavigationMiro_Sofar_architecture|512x397,20%](https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src/Module1/img/sofar_architecture.jpeg )
 
 
  The *gb_miro* node subscribes to '/world/pose' and 'module_5' topics to obtain MiRo's actual position and the goal position , than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control (occhio che è in corsivo ma non riesco a toglierlo) on '/gb' topic.
