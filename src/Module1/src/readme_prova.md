@@ -34,8 +34,8 @@
  Each module which is part of the architecture has been implemented as a ROS node.
 
  For comunication between the nodes we use a Publish/Subscibe messaging pattern.
- 
- ![NavigationMiro_Sofar_architecture](https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src/Module1/img/sofar_architecture.jpeg)
+ <img src="https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src/Module1/img/sofar_architecture.jpeg" alt="drawing" width="200"/>
+ ![NavigationMiro_Sofar_architecture](https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src/Module1/img/sofar_architecture.jpeg =100x20)
 
 
  The *gb_miro* node subscribes to '/world/pose' and 'module_5' topics to obtain MiRo's actual position and the goal position , than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control (occhio che è in corsivo ma non riesco a toglierlo) on '/gb' topic.
@@ -147,7 +147,7 @@ $ gb_miro.py
 
 * [switching_behavior](https://github.com/EmaroLab/GestureBasedControlMiro) 
 * [oab_miro](https://github.com/EmaroLab/GestureBasedControlMiro) 
-* [gb_miro](https://github.com/clebercoutof/turtlesim_cleaner  ROS_Wiki) 
+* [gb_miro](https://github.com/clebercoutof/turtlesim_cleaner)  ROS_Wiki
 
 
 
