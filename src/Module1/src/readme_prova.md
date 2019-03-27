@@ -35,12 +35,12 @@
 
  For comunication between the nodes we use a Publish/Subscibe messaging pattern.
 <p align="center">
- <img src="sofar_architecture.png"/>
+ <img src="Module1.jpeg"/>
 </p>
- ![NavigationMiro_Sofar_architecture | width=100 ](https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src/Module1/img/sofar_architecture.jpeg )
 
 
- The *gb_miro* node subscribes to '/world/pose' and 'module_5' topics to obtain MiRo's actual position and the goal position , than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control (occhio che è in corsivo ma non riesco a toglierlo) on '/gb' topic.
+
+ The *gb_miro* node subscribes to '/world/pose' and 'module_5' topics to obtain MiRo's actual position and the goal position , than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control on '/gb' topic.
 
  The *oab_miro* node subscibes to '/platform/sensors' topic to detect the presence of an obstacle using sonar, and it publishes a message of type platform_control that contains miro's body velocities on '/oab' topic. 
  
@@ -78,7 +78,7 @@ $ catkin_make
 $ source devel/setup.bash
 ```
 
- Connect the Miro robot to the ROS Master (boohhhh)
+ Connect the Miro robot to the ROS Master
 
 ```
 $ ssh root@<MIRO-IP> 
