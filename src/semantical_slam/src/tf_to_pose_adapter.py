@@ -9,10 +9,10 @@ from geometry_msgs.msg import Pose
 #when a msg arrive we filter it in order to obtain just a string
 def callback(msg):
 	adapted_pose=Pose()
-	adpted_pose.position.x=msg.translation.x
-	adpted_pose.position.y=msg.translation.y
-	adpted_pose.position.z=msg.translation.z
-	adpted_pose.orientation=msg.rotation
+	adpted_pose.position.x=msg.trasform.translation.x
+	adpted_pose.position.y=msg.trasform.translation.y
+	adpted_pose.position.z=msg.trasform.translation.z
+	adpted_pose.orientation=msg.trasform.rotation
 	pub.publish(adapted_pose)
 	
 
