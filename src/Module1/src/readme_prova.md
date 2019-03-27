@@ -147,7 +147,7 @@ $ gb_miro.py
 
 * [switching_behavior](https://github.com/EmaroLab/GestureBasedControlMiro) 
 * [oab_miro](https://github.com/EmaroLab/GestureBasedControlMiro) 
-* [gb_miro](https://github.com/clebercoutof/turtlesim_cleaner  ROS_Wiki) 
+* [gb_miro](https://github.com/clebercoutof/turtlesim_cleaner)  ROS_Wiki
 
 
 
