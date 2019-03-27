@@ -4,10 +4,20 @@
           $(find orb_slam2_ros)/orb_slam2/Vocabulary/ORBvoc.txt
           $(find orb_slam2_ros)/orb_slam2/config/mono.yaml"
       output="screen">
-       <remap from="/camera/image_raw" to="/miro/sim01/platform/camr" />
+       <!--
+		<remap from="/camera/image_raw" to="/miro/sim01/platform/camr" />
+	-->
 
        <param name="publish_pointcloud" type="bool" value="true" />
        <param name="pointcloud_frame_id" type="string" value="map" />
        <param name="camera_frame_id" type="string" value="camera_link" />
+  </node>
+  <node name="republish" type="republish" pkg="image_transport" output="screen" args="compressed 	in:=/camera/image out:=/camera/image_raw" />
+  </node>
+  <node pkg="rosbag" type="record" name="rosbag_record_semPoint"
+       args="record -o /semantical_loci "/>   
+  </node>
+ <node pkg="rosbag" type="record" name="rosbag_record_map"
+       args="record -o /map "/>   
   </node>
 </launch>

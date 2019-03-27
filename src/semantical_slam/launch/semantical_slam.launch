@@ -11,4 +11,7 @@
 	type="ir_adapter.py" args="">
   </node>
    
+  <node name="t" pkg=tf_to_pose_adapter"semantical_slam"
+	type="tf_to_pose_adapter.py" args="">
+  </node>
 </launch>
