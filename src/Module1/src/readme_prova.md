@@ -35,7 +35,7 @@
 
  For comunication between the nodes we use a Publish/Subscibe messaging pattern.
 <p align="center">
- <img src="sofar_architecture.jpeg"/>
+ <img src="sofar_architecture.png"/>
 </p>
  ![NavigationMiro_Sofar_architecture | width=100 ](https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src/Module1/img/sofar_architecture.jpeg )
 
