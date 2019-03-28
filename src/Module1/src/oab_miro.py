@@ -26,12 +26,12 @@ from datetime import datetime
 ## @n Subscribe to the topic /platform/sensors
 ## @n Read the value from the sonar and check the presence of an obstacle
 ## @n If there is an obstacle implement the Obstacle Avoidance behaviour 
-## @n The Obstacle Avoidance behavior:
+## @n The Obstacle Avoidance behaviour:
 ## @n When MiRo detects an obstacle it starts turning right of 1.9 radians and it goes straight for a little bit
 ## @n until there is no obstacle anymore. If the obstacle is detected for more than two times in a row it starts turning 
 ## @n left with the same strategy of before.
 
-##\brief The class ObstacleAvoidance implements the Obstacle Avoidance behavior
+##\brief The class ObstacleAvoidance implements the Obstacle Avoidance behaviour
 
 class ObstacleAvoidance():
 
@@ -52,7 +52,7 @@ class ObstacleAvoidance():
         self.body_vel=Twist()
 	## Subscriber to the topic /platform/sensors a message of type platform_sensors that cointains the sonar readings
         self.sub_sonar_data = rospy.Subscriber(topic_root + "/platform/sensors", platform_sensors, self.callback_oab,queue_size=1)
-        ## Publisher to the topic /oab a message of type platform_control which corresponds to the Obstacle Avoidance behavior
+        ## Publisher to the topic /oab a message of type platform_control which corresponds to the Obstacle Avoidance behaviour
         self.pub_platform_control = rospy.Publisher('/oab', platform_control, queue_size=1)
         ## Node rate
         self.rate = rospy.get_param('rate',1)

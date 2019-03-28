@@ -22,8 +22,8 @@ from miro_constants import miro
 
 from datetime import datetime
 
-## \file joy.py
-## \brief The node joy.py node converts Joystick inputs into commands for MiRo.
+## \file joy_miro.py
+## \brief The node joy_miro.py node converts Joystick inputs into commands for MiRo.
 ## @n More in details: 
 ## @n Subscribe to the topic /joy
 ## @n Converts the joysick inputs into Twist commands

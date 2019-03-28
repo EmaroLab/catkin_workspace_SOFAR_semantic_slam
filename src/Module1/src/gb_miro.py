@@ -28,7 +28,7 @@ from datetime import datetime
 ## @n Publish on /gb a platform_control message containing MiRo's linear and angular body velocities
 
 
-##\brief The class miroBOT_miro implements the Goal behavior
+##\brief The class miroBOT_miro implements the Goal behaviour
 
 class miroBOT_miro():
 
@@ -41,7 +41,7 @@ class miroBOT_miro():
 
 	## Linear and Angular velocities that will be part of the platform_control message
         self.body_vel=Twist()
-	## Publisher on the topic /gb a message of type platform_control which corresponds to the Goal behavior
+	## Publisher on the topic /gb a message of type platform_control which corresponds to the Goal behaviour
         self.pub_platform_control = rospy.Publisher('/gb', platform_control, queue_size=0)
 	## Subscriber to the topic /world/pose to know the position and orientation of MiRo
         self.pose_subscriber=rospy.Subscriber('/miro/miro_robot/world/pose',Pose2D,self.update_pose)
