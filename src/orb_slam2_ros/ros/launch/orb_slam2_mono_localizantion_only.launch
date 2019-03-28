@@ -4,10 +4,6 @@
           $(find orb_slam2_ros)/orb_slam2/Vocabulary/ORBvoc.txt
           $(find orb_slam2_ros)/orb_slam2/config/mono.yaml"
       output="screen">
-       <!--
-		<remap from="/camera/image_raw" to="/miro/sim01/platform/camr" />
-	-->
-
        <param name="publish_pointcloud" type="bool" value="true" />
        <param name="localize_only" type="bool" value="true" />
        <param name="pointcloud_frame_id" type="string" value="map" />
