@@ -3,14 +3,6 @@
 	type="semantical_map_generator.py" args="">
   </node>
 
-  <node name="bt_adapter" pkg="semantical_slam"
-	type="bt_adapter.py" args="">
-  </node>
-
-  <node name="ir_adapter" pkg="semantical_slam"
-	type="ir_adapter.py" args="">
-  </node>
-   
   <node name="tf_to_pose_adapter" pkg=tf_to_pose_adapter"semantical_slam"
 	type="tf_to_pose_adapter.py" args="">
   </node>
