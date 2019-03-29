@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/orb_slam2_ros_gencfg"
-  "/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/orb_slam2_ros/dynamic_reconfigureConfig.h"
-  "/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/share/orb_slam2_ros/docs/dynamic_reconfigureConfig.dox"
-  "/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/share/orb_slam2_ros/docs/dynamic_reconfigureConfig-usage.dox"
-  "/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/orb_slam2_ros/cfg/dynamic_reconfigureConfig.py"
-  "/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/share/orb_slam2_ros/docs/dynamic_reconfigureConfig.wikidoc"
+  "/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/devel/include/orb_slam2_ros/dynamic_reconfigureConfig.h"
+  "/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/devel/share/orb_slam2_ros/docs/dynamic_reconfigureConfig.dox"
+  "/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/devel/share/orb_slam2_ros/docs/dynamic_reconfigureConfig-usage.dox"
+  "/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/orb_slam2_ros/cfg/dynamic_reconfigureConfig.py"
+  "/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/devel/share/orb_slam2_ros/docs/dynamic_reconfigureConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

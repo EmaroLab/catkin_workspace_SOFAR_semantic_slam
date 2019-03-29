@@ -1,2 +1,2 @@
 orb_slam2_ros:semantical_slam
--DCATKIN_DEVEL_PREFIX=/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel -DCMAKE_INSTALL_PREFIX=/home/sofar/catkin_workspace_SOFAR_semantic_slam/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/devel -DCMAKE_INSTALL_PREFIX=/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/install -G Unix Makefiles
