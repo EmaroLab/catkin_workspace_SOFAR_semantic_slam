@@ -122,8 +122,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/build/gtest/cmake_install.cmake")
-  include("/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/cmake_install.cmake")
   include("/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros/cmake_install.cmake")
+  include("/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/cmake_install.cmake")
 
 endif()
 

@@ -14,6 +14,6 @@
        args="record -o $(find orb_slam2_ros)/ros/Bagfile/semantical_loci.bag /semantical_loci"/>   
   
  <node pkg="rosbag" type="record" name="rosbag_record_map"
-       args="record -o $(find orb_slam2_ros)/orb_slam2_ros/ros/Bagfile/point_cloud.bag /map"/>   
+       args="record -o $(find orb_slam2_ros)/ros/Bagfile/point_cloud.bag /map"/>   
   
 </launch>

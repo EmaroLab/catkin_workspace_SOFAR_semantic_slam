@@ -18,8 +18,10 @@ create)
 	then
    		rm -rf src/orb_slam2_ros/ros/Bagfile
 		mkdir src/orb_slam2_ros/ros/Bagfile
-		#terminator -T "orb_slam" -e "roslaunch orb_slam2_ros orb_slam2_mono.launch" &
-		#terminator -T "semantical_slam" -e "roslaunch semantical_slam semantical_slam.launch" &
+		
+		roslaunch orb_slam2_ros orb_slam2_mono.launch &
+		roslaunch semantical_slam semantical_slam.launch &
+		
 	else 
 		exit
 	fi
@@ -28,8 +30,8 @@ create)
 load)	
 	echo -n "___________________Load mode___________________"
 	echo
-	#terminator -T "orb_slam" -e "roslaunch orb_slam2_ros orb_slam2_mono.launch" &
-	#terminator -T "semantical_slam" -e "roslaunch semantical_slam semantical_slam.launch" &
+	roslaunch orb_slam2_ros orb_slam2_mono_localizantion_only.launch &
+	roslaunch semantical_slam semantical_slam.launch &
 	;;
 *)
  	echo -n "Unknown mode."

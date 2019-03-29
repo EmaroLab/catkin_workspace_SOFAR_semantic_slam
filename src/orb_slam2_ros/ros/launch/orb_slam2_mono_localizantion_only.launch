@@ -14,4 +14,5 @@
   
  <node pkg="rosbag" type="play" name="rosbag_play_map"
        args="--clock $(find orb_slam2_ros)/orb_slam2_ros/ros/Bagfile/point_cloud.bag"/>
+
 </launch>

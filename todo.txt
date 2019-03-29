@@ -1,4 +1,2 @@
-Make Miro work good
-Adapter from tf-->pose
-
-
+L'adapter per la TF non funziona, bisogna farlo con la libreria tf, non si comporta come un topic normale
+http://wiki.ros.org/tf/TfUsingPython

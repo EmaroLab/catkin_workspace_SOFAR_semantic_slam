@@ -5,4 +5,4 @@ Description: Description of semantical_slam
 Version: 0.0.0
 Cflags: -I/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/devel/include
 Libs: -L/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/devel/lib 
-Requires: roscpp rospy message_runtime
+Requires: roscpp rospy message_runtime tf

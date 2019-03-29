@@ -2,7 +2,7 @@
 
 message(STATUS "semantical_slam: 1 messages, 1 services")
 
-set(MSG_I_FLAGS "-Isemantical_slam:/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Isemantical_slam:/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg;-Itf:/opt/ros/melodic/share/tf/cmake/../msg;-Isensor_msgs:/opt/ros/melodic/share/sensor_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -251,6 +251,9 @@ endif()
 if(TARGET geometry_msgs_generate_messages_cpp)
   add_dependencies(semantical_slam_generate_messages_cpp geometry_msgs_generate_messages_cpp)
 endif()
+if(TARGET tf_generate_messages_cpp)
+  add_dependencies(semantical_slam_generate_messages_cpp tf_generate_messages_cpp)
+endif()
 
 if(geneus_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/semantical_slam)
   # install generated code
@@ -264,6 +267,9 @@ if(TARGET std_msgs_generate_messages_eus)
 endif()
 if(TARGET geometry_msgs_generate_messages_eus)
   add_dependencies(semantical_slam_generate_messages_eus geometry_msgs_generate_messages_eus)
+endif()
+if(TARGET tf_generate_messages_eus)
+  add_dependencies(semantical_slam_generate_messages_eus tf_generate_messages_eus)
 endif()
 
 if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/semantical_slam)
@@ -279,6 +285,9 @@ endif()
 if(TARGET geometry_msgs_generate_messages_lisp)
   add_dependencies(semantical_slam_generate_messages_lisp geometry_msgs_generate_messages_lisp)
 endif()
+if(TARGET tf_generate_messages_lisp)
+  add_dependencies(semantical_slam_generate_messages_lisp tf_generate_messages_lisp)
+endif()
 
 if(gennodejs_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/semantical_slam)
   # install generated code
@@ -292,6 +301,9 @@ if(TARGET std_msgs_generate_messages_nodejs)
 endif()
 if(TARGET geometry_msgs_generate_messages_nodejs)
   add_dependencies(semantical_slam_generate_messages_nodejs geometry_msgs_generate_messages_nodejs)
+endif()
+if(TARGET tf_generate_messages_nodejs)
+  add_dependencies(semantical_slam_generate_messages_nodejs tf_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/semantical_slam)
@@ -307,4 +319,7 @@ if(TARGET std_msgs_generate_messages_py)
 endif()
 if(TARGET geometry_msgs_generate_messages_py)
   add_dependencies(semantical_slam_generate_messages_py geometry_msgs_generate_messages_py)
+endif()
+if(TARGET tf_generate_messages_py)
+  add_dependencies(semantical_slam_generate_messages_py tf_generate_messages_py)
 endif()
