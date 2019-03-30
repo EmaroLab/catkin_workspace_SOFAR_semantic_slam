@@ -3,25 +3,31 @@ import rospy
 
 #import msgs type
 from std_msgs.msg import String
-from tf import tfMessage
-from geometry_msgs.msg import Pose
-
-#when a msg arrive we filter it in order to obtain just a string
-def callback(msg):
-	adapted_pose=Pose()
-	adpted_pose.position.x=msg.trasform.translation.x
-	adpted_pose.position.y=msg.trasform.translation.y
-	adpted_pose.position.z=msg.trasform.translation.z
-	adpted_pose.orientation=msg.trasform.rotation
-	pub.publish(adapted_pose)
-	
+import tf 
+from geometry_msgs.msg import PoseStamped, Pose	
 
 #main
 def main():
 	rospy.init_node('tf_to_pose_adapter')
-	pub=rospy.Publisher('/adapted_pose', Pose)
-	sub=rospy.Subscriber('/tf ', tfMessage, callback,)
-	rospy.spin()
+	
+	miro_pose_stamp=PoseStamped()
+	
+	miro_pose_stamp.pose.position=[0,0,0]
+	miro_pose_stamp.pose.orientation=[0,0,0,1]
+	
+	listener = tf.TransformListener()	
+	
+	pub=rospy.Publisher('/adapted_pose', Pose, queue_size=10)
+	
+	rate = rospy.Rate(10.0)
+	while not rospy.is_shutdown():
+        	try:	
+			waitForTransform(target_frame, source_frame, time, timeout, polling_sleep_duration = rospy.Duration(0.01))
+            		adapted_pose_stamped = listener.transformPose('wordl',miro_pose_stamp)
+			pub.publish(adapted_pose_stamped.pose)
+        	except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
+        		continue
+	rate.sleep()
 
 if __name__== "__main__":
   main()
