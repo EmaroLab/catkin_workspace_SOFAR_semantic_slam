@@ -28,8 +28,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.o"
   "CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.o"
   "CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.o"
-  "/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/lib/libg2o.pdb"
-  "/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/lib/libg2o.so"
+  "/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/lib/libg2o.pdb"
+  "/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/lib/libg2o.so"
 )
 
 # Per-language clean rules from dependency scanning.

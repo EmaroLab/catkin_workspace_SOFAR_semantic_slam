@@ -16,8 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrameDatabase.cc.o"
   "CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Sim3Solver.cc.o"
   "CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Initializer.cc.o"
-  "/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/lib/liborb_slam2_ros.pdb"
-  "/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/lib/liborb_slam2_ros.so"
+  "/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/lib/liborb_slam2_ros.pdb"
+  "/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/lib/liborb_slam2_ros.so"
 )
 
 # Per-language clean rules from dependency scanning.
