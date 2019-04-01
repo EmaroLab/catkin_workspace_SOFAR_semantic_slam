@@ -65,7 +65,7 @@ class miroBOT_miro():
         return constant * self.euclidean_distance(goal_pose)
 
     def steering_angle(self, goal_pose):
-	##
+	## Steering angle 
 	return atan2(goal_pose.y - self.pose.y, goal_pose.x - self.pose.x)
 
     def angular_vel(self, goal_pose, constant=1):

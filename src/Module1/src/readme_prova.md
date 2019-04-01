@@ -38,7 +38,7 @@
  <img src="Module1.jpeg"/>
 </p>
 
- The *gb_miro* node subscribes to '/world/pose' and 'module_5' topics to obtain MiRo's actual position and the goal position, than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control on '/gb' topic.  
+ The *gb_miro* node subscribes to '/actual_pose'  and 'module_5' topics to obtain MiRo's actual position and the goal position, than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control on '/gb' topic.  
 
  The *oab_miro* node subscribes to '/platform/sensors' topic to detect the presence of an obstacle using sonar, and it publishes a message of type platform_control that contains MiRo's body velocities on '/oab' topic. 
  

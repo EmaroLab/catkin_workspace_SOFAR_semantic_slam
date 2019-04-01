@@ -86,8 +86,8 @@ class Switchingbehaviour():
 	self.q_oab = oab
 
     def switching_behaviour( self):
- 	## Function that based on the value of the variable safe, that represent the presence of the obstacle, publish the behaviour selected on 
-	## MiRo
+ 	## Function that based on the value of the variable safe, that represent the presence of the obstacle, publish the behaviour selected 
+	## on MiRo
 
         q = platform_control()
 	p = platform_control()
@@ -96,7 +96,7 @@ class Switchingbehaviour():
         while not rospy.is_shutdown():
 
             if self.safe:
-		## If there isn't an obstacle
+		## If there is not an obstacle
                 print "goal"
 		
 		## Selecting Goal behaviour
