@@ -67,6 +67,8 @@ Strictly follow the instructions in the Install MDK section as the following ste
 
 Not necessary to make static IP for your workstation (laptop) while setting up connection with MiRo.
 
+ ### Navigation
+
 Create a catkin workspace and clone all the packages in the src folder
 
 ```
@@ -86,53 +88,57 @@ $ sudo nano ./profile
 
 For more detailed instructions see [MIRO: Commission MIRO](https://consequential.bitbucket.io/Developer_Preparation_Commission_MIRO.html)
 
-### Manual modality
- 
- Install ds4drv and other features to connect joystick with the pc
+ ### Manual Modality
+Install ds4drv and other features to connect joystick with the pc.
 
 ```
 $ sudo pip install ds4drv
 $ sudo apt-get install ros-kinetic-joy
 ```
 
- Run ds4drv and connect the bluethoot joystick by holding Share + the PS button until the LED starts blinking rapidly.
+ Run ds4drv and connect the Bluetooth joystick by holding Share + the PS button until the LED starts blinking rapidly.
 
- ```
+```
 $ sudo ds4drv
 ```
- To get the joystick data published over ROS we need to start the joy_miro node. First let's tell the joy_miro node which joystick device to use, the default is js0. 
+
+ To get the joystick data published over ROS we need to start the \textit{joy\_miro node}. First let's tell the \textit{joy\_miro} node which joystick device to use, the default is js0. 
 
 ```
 $ roscore
 $ rosparam set joy-node/dev"dev/input/js0"
 ```
 
- Then while Miro is connected run the nodes
+ ## How to run the project
 
- ```
+ ### Manual modality
+Open a new terminal and launch:
+
+```
+$ roscore
+```
+
+As for the installation run ds4drv and connect the Bluetooth joystick by holding Share + the PS button until the LED starts blinking rapidly.
+In a new terminal:
+
+```
+$ ds4drv
+```
+
+In other two different terminals run the node to acquire the data from the joystick and our node:
+
+```
 $ rosrun joy joy_node
 $ ./joy_miro.py
 ```
 
-### Autonomous modality
-
-After the connection with MiRo the following commands will start the modality 
-
-```
-$ cd catkin_workspace_SOFAR_semantic_slam/src/Module1/src
-$ oab_miro.py
-```
-In other terminals 
+ ### Autonomous modality
+The following command will start the modality:
 
 ```
-$ cd catkin_workspace_SOFAR_semantic_slam/src/Module1/src
-$ switching_behaviour.py
+$ roslaunch Module1 miro.launch
 ```
 
-```
-$ cd catkin_workspace_SOFAR_semantic_slam/src/Module1/src
-$ gb_miro.py
-```
 
 ## Results
 * Video Demo with a Real Miro.
