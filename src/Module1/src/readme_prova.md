@@ -50,7 +50,7 @@
  Our project aims at total scalability, so each module can be improved or replaced without any changes on the others and new behaviours can be easily added. 
  
   **For more details see the report**
- # Gettin Started
+ ## Gettin Started
 
  ## Prerequisites
 
