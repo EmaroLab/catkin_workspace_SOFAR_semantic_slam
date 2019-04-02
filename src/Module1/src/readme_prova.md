@@ -35,7 +35,7 @@
 
  For communication between the nodes we use a Publish/Subscibe messaging pattern.
 <p align="center">
- <img src="Module1.jpeg"/>
+ <img src="module1_architecture.png"/>
 </p>
 
  The *gb_miro* node subscribes to '/actual_pose'  and 'module_5' topics to obtain MiRo's actual position and the goal position, than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control on '/gb' topic.  
