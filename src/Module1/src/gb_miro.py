@@ -3,7 +3,7 @@
 ################################################################
 
 import rospy
-from std_msgs.msg import String,Int32
+from std_msgs.msg import String, Int32
 from sensor_msgs.msg import Image,CompressedImage,Range,Imu
 from geometry_msgs.msg import Twist,Pose2D
 
@@ -19,12 +19,14 @@ from miro_constants import miro
 from datetime import datetime
 
 ## \file gb_miro.py
-## \brief The node gb_miro.py subscribes to the pose of MiRo to know his position, reads from user's input the goal position and publishes a platform_control message.
+## \brief The node gb_miro.py subscribes to the pose of MiRo and of the goal to know their position and publishes a platform_control message.
 ## @n A platform_control message contains linear and angular velocities necessary to reach the goal.
 ## @n More in details:
 ## @n Subscribe to the topic /world/pose
 ## @n Read from that topic MiRo's position
-## @n Read from user's input the goal position and computes the trajectory necessary to reach the goal
+## @n Subscribe to the topic /goal_position
+## @n Read from that topic the goal position
+## @n Computes the trajectory necessary to reach the goal
 ## @n Publish on /gb a platform_control message containing MiRo's linear and angular body velocities
 
 
@@ -32,27 +34,26 @@ from datetime import datetime
 
 class miroBOT_miro():
 
-    def __init__(self):
-
 	## Topic root
         self.robot_name = rospy.get_param ( '/robot_name', 'miro_robot')
         topic_root = "/miro/" + self.robot_name
         print "topic_root", topic_root
-	self.start=0
+
+
 	## Linear and Angular velocities that will be part of the platform_control message
-        self.body_vel=Twist()
+        self.body_vel = Twist()
 	## Publisher on the topic /gb a message of type platform_control which corresponds to the Goal behaviour
         self.pub_platform_control = rospy.Publisher('/gb', platform_control, queue_size=0)
-	self.pub_goal_reached =rospy.Publisher('/goal_reached', Int32, queue_size=0)
+	## Publisher on the topic /goal_reached a message when MiRo has reached the goal
+	self.pub_goal_reached = rospy.Publisher('/goal_reached', Int32, queue_size=0)
 	## Subscriber to the topic /world/pose to know the position and orientation of MiRo
-        self.pose_subscriber=rospy.Subscriber('/miro/miro_robot/world/pose',Pose2D,self.update_pose)
-	rospy.Subscriber("/goal_position", Pose2D, self.move2goal)
+        self.pose_subscriber = rospy.Subscriber(topic_root + "/world/pose", Pose2D, self.update_pose)
+	## Subscriber to the topic /goal_position to know the position of the goal
+	self.goal_subscriber = rospy.Subscriber("/goal_position", Pose2D, self.move2goal)
 	self.pose=Pose2D()
         ## Node rate
 	self.rate=rospy.Rate(50)
  
-	 
-	    
     def update_pose(self, data):
         ## Callback function which is called when a new message of type Pose is received by the subscriber
         self.pose = data
@@ -81,45 +82,46 @@ class miroBOT_miro():
 		angle = 6.28 + (self.steering_angle(goal_pose) - self.pose.theta)
 	return constant * (angle)
      
-    def move2goal(self,data):
-	## Function that asks the goal position and construct the platform_control message to publish
+    def move2goal(self, data):
+	## Callback function that receives the position of the goal and construct the platform_control message to publish
+
+	## Setting the goal position
 	self.goal = Pose2D()
-	self.goal.x=data.x
-	self.goal.y=data.y
-	self.start=1
-        if self.start==1:
+	self.goal.x = data.x
+	self.goal.y = data.y
+	goal_pose = self.goal
 		
-		q=platform_control()
-		goal_pose = self.goal
-
-		## Get the input from the user
+	q = platform_control()
 		
-		distance_tolerance = 0.1
+	distance_tolerance = 0.1
 
-		while self.euclidean_distance(goal_pose) >= distance_tolerance:
+	while self.euclidean_distance(goal_pose) >= distance_tolerance:
 
-		    ## Linear velocity in the x-axis
-		    self.body_vel.linear.x = self.linear_vel(goal_pose)
-		    self.body_vel.linear.y = 0
-		    self.body_vel.linear.z = 0
+		## Linear velocity in the x-axis
+		self.body_vel.linear.x = self.linear_vel(goal_pose)
+		self.body_vel.linear.y = 0
+		self.body_vel.linear.z = 0
 
-		    ## Angular velocity in the z-axis
-		    self.body_vel.angular.x = 0
-		    self.body_vel.angular.y = 0
-		    self.body_vel.angular.z = self.angular_vel(goal_pose)
+		## Angular velocity in the z-axis
+		self.body_vel.angular.x = 0
+		self.body_vel.angular.y = 0
+		self.body_vel.angular.z = self.angular_vel(goal_pose)
 		     
-		    ## Publishing the message
-		    q.body_vel = self.body_vel
-		    self.pub_platform_control.publish(q)
-		    self.rate.sleep()
-
-		print "Goal reached"
-                self.pub_goal_reached.publish(1)
-		## Stopping MiRo when the goal is reached
-		self.body_vel.linear.x = 0
-		self.body_vel.angular.z = 0
+		## Publishing the message
 		q.body_vel = self.body_vel
 		self.pub_platform_control.publish(q)
+		self.rate.sleep()
+
+	print "Goal reached"
+
+	## Publishing '1' on /goal_reached 
+       	self.pub_goal_reached.publish(1)
+
+	## Stopping MiRo when the goal is reached
+	self.body_vel.linear.x = 0
+	self.body_vel.angular.z = 0
+	q.body_vel = self.body_vel
+	self.pub_platform_control.publish(q)
 
     def main (self):
        rospy.spin()
@@ -128,6 +130,6 @@ class miroBOT_miro():
 if __name__== '__main__':
         rospy.init_node('gb_miro')
     
-	x= miroBOT_miro()
+	x = miroBOT_miro()
 	x.main()
   

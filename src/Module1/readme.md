@@ -71,13 +71,19 @@ It is not necessary to make static IP for your workstation (laptop) while settin
 
  ### Navigation
 
-Create a catkin workspace and clone all the packages in the src folder
+Create a catkin workspace and clone the Module1 package in the src folder
 
 ```
-$ git clone https://github.com/.....
-$ cd .....
+$ git clone https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/module1/src
+$ cd catkin_ws
 $ catkin_make
 $ source devel/setup.bash
+```
+
+Make sure that every file has the permission of execution 
+
+```
+$ chmod +x filename.py
 ```
 
  ### Manual Modality

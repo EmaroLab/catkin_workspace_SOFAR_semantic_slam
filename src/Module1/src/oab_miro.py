@@ -42,29 +42,29 @@ class ObstacleAvoidance():
         topic_root = "/miro/" + self.robot_name
         print "topic_root", topic_root
 	
+
         ## Signal if there is an obstacle or not
         self.obstacle = False
         ## Counter that increases each time the same obstacle is encoutered
-        self.counter=0
+        self.counter = 0
         ## Sonar theshold below which an obstacle is encountered
-        self.danger_threshold = rospy.get_param ('sonar_threshold',1)
+        self.danger_threshold = rospy.get_param ('sonar_threshold', 1)
         ## Linear and Angular velocities that will be part of the platform_control message
-        self.body_vel=Twist()
+        self.body_vel = Twist()
 	## Subscriber to the topic /platform/sensors a message of type platform_sensors that cointains the sonar readings
-        self.sub_sonar_data = rospy.Subscriber(topic_root + "/platform/sensors", platform_sensors, self.callback_oab,queue_size=1)
+        self.sub_sonar_data = rospy.Subscriber(topic_root + "/platform/sensors", platform_sensors, self.callback_oab, queue_size=1)
         ## Publisher to the topic /oab a message of type platform_control which corresponds to the Obstacle Avoidance behaviour
         self.pub_platform_control = rospy.Publisher('/oab', platform_control, queue_size=1)
         ## Node rate
-        self.rate = rospy.get_param('rate',1)
+        self.rate = rospy.get_param('rate', 1)
 
-	
-	self.i=1
+	self.i = 1
    
-    def callback_oab(self,sonar_data):
+    def callback_oab(self, sonar_data):
    	## Callback that receives the data from the robot sensors, and uses the information given by the sonar sensor to evaluate the presence 	
 	## of an obstacle
 
-        q=platform_control()
+        q = platform_control()
         sonar_value = sonar_data.sonar_range.range
 
         self.obstacle =  sonar_value < self.danger_threshold
@@ -74,32 +74,31 @@ class ObstacleAvoidance():
             r = rospy.Rate(self.rate)
 
 	    ## Counter of how many times the obstacle is encountered
-            self.counter=self.counter+1
+            self.counter = self.counter + 1
 	
             ## Linear velocity in the x-axis
-            self.body_vel.linear.x=400
-	    self.body_vel.linear.y=0
-	    self.body_vel.linear.z=0
+            self.body_vel.linear.x = 400
+	    self.body_vel.linear.y = 0
+	    self.body_vel.linear.z = 0
             
             ## Angular velocity in the z-axis
-	    self.body_vel.angular.x=0
-	    self.body_vel.angular.y=0
-            self.body_vel.angular.z=-1.9*self.i
+	    self.body_vel.angular.x = 0
+	    self.body_vel.angular.y = 0
+            self.body_vel.angular.z = -1.9 * self.i
 
 	    ## Publishing the message
             q.body_vel = self.body_vel
 	    self.pub_platform_control.publish(q)
-	    self.pub_platform_control.publish(q)
 
 	    ## If the obstacle is encountered more than two times
 	    if self.counter == 3:
-		self.i=self.i*-1 # change right/left
+		self.i = self.i * -1 # change right/left
 	    
 	    r.sleep()
 
 	## There is no more obstacle
         else:
-            self.counter=0
+            self.counter = 0
         
     def main (self):
         rospy.spin()
