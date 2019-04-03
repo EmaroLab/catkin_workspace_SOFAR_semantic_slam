@@ -1,0 +1,15 @@
+<launch>
+
+<!-- GESTURE BASED BEHAVIOR -->
+
+<node name="gb_miro" pkg="Module1" type="gb_miro.py" output="screen"  />
+
+<!-- OBSTACLE AVOIDANCE BEHAVIOR -->
+
+<node name="oab_miro" pkg="Module1" type="oab_miro.py"   />
+
+<!-- SWITCHING BEHAVIOR -->
+
+<node name="switching_behavior_miro" pkg="Module1" type="switching_behavior_miro.py"  />
+
+</launch>
