@@ -1,12 +1,12 @@
  # Navigation with MiRo Robot
 
  ## Module 1
- The main goal of module 1 is to guide MiRo with two different modalities: autonomous and manual.
- The autonomous one consists in reaching a goal position chosen by the user from module 5 (GUI). The robot must be able to override the velocity commands when an obstacle is detected in order to avoid collision with it.
- The manual modality consists in moving Miro trough the environment with a PS4 joystick.
+ The main goal of module 1 is guiding MiRo with two different modalities: autonomous and manual.
+ The autonomous one consists in reaching a goal position chosen by the user from the GUI (Module 5). The robot must be able to override the velocity command when an obstacle is detected in order to avoid collision with it.
+ The manual modality consists in moving MiRo trough the environment with a PS4 joystick.
  This Project has been developed for the Software Architecture course of the master degree program in Robotics Engineering at University of Genoa.
 
- ### MiRo Robot
+ ### MiRo Robot of Consequential Robotics
  MiRo is a fully programmable autonomous robot for researchers, educators, developers and healthcare professionals. With six senses, eight   degrees of freedom, an innovative brain-inspired operating system and a simulation software package, MiRo is a flexible platform suited for developing companion robots.
 
 
@@ -16,11 +16,11 @@
  * Goal behaviour
  * Obstacle Avoidance behaviour
  
- The **Goal behaviour** regards the robot's ability to reach a specific goal position with a tolerance of 0.1 meters. The user must insert from the GUI the desired position.
- Basically, it computes the distance and the steering angle needed to reach the goal and, depending on a constant, it sets MiRo's linear and angular velocities.
+ The **Goal behaviour** regards the robot's ability to reach a specific goal position with a tolerance of 0.1 meters. The user must insert the desired position from the GUI.
+ Basically, it computes the distance and the steering angle which are needed to reach the goal and, depending on a constant, it sets MiRo's linear and angular velocities.
 
  The **Obstacle Avoidance behaviour** overrides the Goal behaviour when and obstacle is detected by using MiRo's sonar sensors.
- When an obstacle is detected MiRo starts turning by more than 90 degrees and then it moves forward to make sure it actually avoids the obstacle. It continues doing this until the obstacle is not detected anymore.
+ When an obstacle is detected MiRo starts turning by more than 90 degrees and moving forward to make sure to avoid the obstacle. It continues doing this until the obstacle is not detected anymore.
  Then the control of MiRo goes back to the previous behaviour.
 
  ### Manual modality
@@ -31,23 +31,23 @@
 
  ## The implementation 
 
- Each module which is part of the architecture has been implemented as a ROS node.
+ Each section of the architecture from Module 1 has been implemented as a ROS node.
 
- For communication between the nodes we use a Publish/Subscibe messaging pattern.
+ A Publish/Subsciber messaging pattern is used for communication between the nodes.
 <p align="center">
  <img src="module1_architecture.png"/>
 </p>
 
- The *gb_miro* node subscribes to '/actual_pose'  and 'module_5' topics to obtain MiRo's actual position and the goal position, than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control on '/gb' topic.  
+ The *gb_miro* node subscribes to '/actual_pose'  and 'module_5' topics to obtain the chosen navigation modality, MiRo's actual and goal position, than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control on '/gb' topic.  
 
  The *oab_miro* node subscribes to '/platform/sensors' topic to detect the presence of an obstacle using sonar, and it publishes a message of type platform_control that contains MiRo's body velocities on '/oab' topic. 
  
  The *switching_behaviour* node subscribes to both '/gb' and '/oab' topics that correspond to the two different behaviours.
- Depending on the presence (or not) of an obstacle it selects which behaviour to publish on the robot and the corespondent velocities.
+ Depending on the presence (or not) of an obstacle, it selects which behaviour the robot should perform and it publishes a message of type platform_control containing the velocities to the topic '/platform/control'.
 
  The *joy_miro* node subscibes to '/joy' topic to read data from the joystick and convert them into Twist commands, and it publishes a Twist message that contains MiRo's body velocities on '/control/cmd_vel' topic. 
 
- Our project aims at total scalability, so each module can be improved or replaced without any changes on the others and new behaviours can be easily added. 
+ Our project aims to obtain a total scalability, in order to improve or replace each module without modifying any of the others. This way new behaviours can be easily added.
  
   **For more details see the report**
  ## Gettin Started
@@ -59,13 +59,13 @@ This project is developed using [ROS](http://wiki.ros.org/kinetic/Installation/U
 * rosdistro: kinetic
 * rosversion: 1.12.13
 
- ### MiRo Workstation Setup
+ ### MiRo Workstation
 Download the [Miro Developer kit](http://labs.consequentialrobotics.com/miro/mdk/).
 
 Follow the instructions from Consequential Robotics [Miro: Prepare Workstation](https://consequential.bitbucket.io/Developer_Preparation_Prepare_workstation.html) to set up your workstation to work with MiRo. 
 Strictly follow the instructions in the Install MDK section as the following steps will rely on this.
 
-Not necessary to make static IP for your workstation (laptop) while setting up connection with MiRo.
+It is not necessary to make static IP for your workstation (laptop) while setting up connection with MiRo.
 
  ### Navigation
 
@@ -77,16 +77,6 @@ $ cd .....
 $ catkin_make
 $ source devel/setup.bash
 ```
-
- Connect the Miro robot to the ROS Master
-
-```
-$ ssh root@<MIRO-IP> 
-$ sudo nano ./profile
-```
- Insert your IP after ROS_MASTER_IP
-
-For more detailed instructions see [MIRO: Commission MIRO](https://consequential.bitbucket.io/Developer_Preparation_Commission_MIRO.html)
 
  ### Manual Modality
 Install ds4drv and other features to connect joystick with the pc.
@@ -102,7 +92,7 @@ $ sudo apt-get install ros-kinetic-joy
 $ sudo ds4drv
 ```
 
- To get the joystick data published over ROS we need to start the \textit{joy\_miro node}. First let's tell the \textit{joy\_miro} node which joystick device to use, the default is js0. 
+ To publish the joystick data over ROS we need to start the 'joy_miro' node. First, you have to tell the 'joy_miro' node which joystick device to use, the default is js0. 
 
 ```
 $ roscore
@@ -118,17 +108,22 @@ Open a new terminal and launch:
 $ roscore
 ```
 
-As for the installation run ds4drv and connect the Bluetooth joystick by holding Share + the PS button until the LED starts blinking rapidly.
-In a new terminal:
+As you have already done for the installation run ds4drv and connect the Bluetooth joystick by holding Share + the PS button until the LED starts blinking rapidly.
+In a new terminal run the following command:
 
 ```
 $ ds4drv
 ```
 
-In other two different terminals run the node to acquire the data from the joystick and our node:
+In other terminal run the node to acquire the data from the joystick:
 
 ```
 $ rosrun joy joy_node
+```
+
+In one last terminal run:
+
+```
 $ ./joy_miro.py
 ```
 
