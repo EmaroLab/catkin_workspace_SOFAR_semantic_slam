@@ -38,14 +38,16 @@
  <img src="module1_architecture.png"/>
 </p>
 
- The *gb_miro* node subscribes to '/actual_pose'  and 'module_5' topics to obtain the chosen navigation modality, MiRo's actual and goal position, than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control on '/gb' topic.  
+ The *gb_miro* node subscribes to '/actual_pose' topic of Module 2 and '/goal_position' topic of Module 5 to obtain MiRo's actual and goal position, than computes the distance, the steering angle and sets the velocities in order to publish a message of type platform_control on '/gb' topic. When the goal is reached a '1' is published on '/goal_reached' topic.
 
  The *oab_miro* node subscribes to '/platform/sensors' topic to detect the presence of an obstacle using sonar, and it publishes a message of type platform_control that contains MiRo's body velocities on '/oab' topic. 
  
- The *switching_behaviour* node subscribes to both '/gb' and '/oab' topics that correspond to the two different behaviours.
- Depending on the presence (or not) of an obstacle, it selects which behaviour the robot should perform and it publishes a message of type platform_control containing the velocities to the topic '/platform/control'.
+ The *switching_behaviour* node subscribes to '/modalities' topic of Module 5 to obtain the chosen navigation modality, to both '/gb' and '/oab' topics that correspond to the two different behaviours and to 'platform/sensors' to check sonar value.
+ If the autonomous modality has been chosen, depending on the presence (or not) of an obstacle, it selects which behaviour the robot should perform and it publishes a message of type platform_control containing the velocities to the topic '/platform/control'.
 
- The *joy_miro* node subscibes to '/joy' topic to read data from the joystick and convert them into Twist commands, and it publishes a Twist message that contains MiRo's body velocities on '/control/cmd_vel' topic. 
+ The *joy_miro* node subscibes to '/modalities' topic of Module 5 to obtain the chosen navigation modality and to '/joy' topic to read data from the joystick. If the manual modality has been chosen, it converts the data into Twist commands, and it publishes a Twist message that contains MiRo's body velocities on '/control/cmd_vel' topic.
+
+The *module_5* node is a temporary node that simulates the behaviour of Module 5. It asks to the user to chose a modality of navigation: if he chooses the autonomous one a '0' is published on '/modalities' topic, if instead he chooses the manual one a '1' is published on the same topic. Moreover it asks to the user a desired goal position that is published on '/goal_position' topic as a Pose2D message.
 
  Our project aims to obtain a total scalability, in order to improve or replace each module without modifying any of the others. This way new behaviours can be easily added.
  
@@ -138,7 +140,7 @@ $ roslaunch Module1 miro.launch
 ## Results
 * Video Demo with a Real Miro.
 
-[![Video Demo with a Real Miro]().
+[![Video Demo with a Real MiRo]().
 
 
 ## Works based on the previous Project
@@ -146,9 +148,9 @@ $ roslaunch Module1 miro.launch
 
 ## Acknowledgments
 
-* [switching_behaviour](https://github.com/EmaroLab/GestureBasedControlMiro) 
+* [switching_behaviour_miro](https://github.com/EmaroLab/GestureBasedControlMiro) 
 * [oab_miro](https://github.com/EmaroLab/GestureBasedControlMiro) 
-* [gb_miro](https://github.com/clebercoutof/turtlesim_cleaner)  ROS_Wiki
+* [gb_miro](https://github.com/clebercoutof/turtlesim_cleaner)
 
 
 
