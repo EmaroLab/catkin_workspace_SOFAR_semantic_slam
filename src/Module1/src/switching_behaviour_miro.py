@@ -3,7 +3,7 @@
 ################################################################
 
 import rospy
-from std_msgs.msg import String, Bool
+from std_msgs.msg import String, Bool,Int32
 from sensor_msgs.msg import Image,CompressedImage,Range,Imu
 from geometry_msgs.msg import Twist
 
@@ -34,14 +34,15 @@ from datetime import datetime
 class Switchingbehaviour():
 
     def __init__(self):
-
+	
+	self.i=2
         ## Topic root
         self.robot_name = rospy.get_param ( '/robot_name', 'miro_robot')
         topic_root = "/miro/" + self.robot_name
         print "topic_root", topic_root
 
 	## Node rate
-        self.rate = rospy.get_param('rate',2)
+        self.rate = rospy.get_param('rate',10)
         ## Linear and Angular velocities that will be part of the platform_control message
         self.body_vel=Twist()
         ## Sonar theshold below which an obstacle is encountered
@@ -58,10 +59,20 @@ class Switchingbehaviour():
         self.q_oab = platform_control()
 	## Subscriber to the topic /oab a message of type platform_control that rapresents the Obstacle Avoidance behaviour
         self.sub_oab = rospy.Subscriber('/oab', platform_control, self.callback_oab, queue_size=1)
+	## Subscriber to the topic /modalities a message of type Pose2D that rapresents the position of the goal
+	rospy.Subscriber("/modalities", Int32, self.callback_mod)
 	## Publisher to the topic /platform/control on the robot a message of type platform_control that represents the selected behaviour
         self.pub_behaviour = rospy.Publisher(topic_root + "/platform/control", platform_control, queue_size=0)
 
-
+    def callback_mod(self,data):
+	    
+	   
+	    if data==1:
+		self.i=1
+	
+	    else:
+		self.i=0 
+		 
     def callback_switching_condition(self,sonar_data):
    	## Callback that receives the data from the robot sensors and uses the information given by the sonar sensor to evaluate the presence 
 	## of an obstacle
@@ -95,7 +106,7 @@ class Switchingbehaviour():
 
         while not rospy.is_shutdown():
 
-            if self.safe:
+            if self.safe and self.i==0:
 		## If there is not an obstacle
                 print "goal"
 		
@@ -105,7 +116,7 @@ class Switchingbehaviour():
 		## Publishing platform_control message
 		self.pub_behaviour.publish(q)
 
-            elif not self.safe:
+            elif not self.safe and self.i==0:
 		## If there is an obstacle
                 print "obstacle"
 

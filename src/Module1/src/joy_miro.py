@@ -52,5 +52,5 @@ def callback(data):
     pub.publish(twist)
 
 if __name__ == '__main__':
-	rospy.init_node('Joy')
+	rospy.init_node('Joy_miro')
         start()

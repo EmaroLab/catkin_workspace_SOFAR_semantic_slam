@@ -57,8 +57,8 @@ class ObstacleAvoidance():
         ## Node rate
         self.rate = rospy.get_param('rate',1)
 
-	global i
-	i=1
+	
+	self.i=1
    
     def callback_oab(self,sonar_data):
    	## Callback that receives the data from the robot sensors, and uses the information given by the sonar sensor to evaluate the presence 	
@@ -70,7 +70,7 @@ class ObstacleAvoidance():
         self.obstacle =  sonar_value < self.danger_threshold
 	
         if self.obstacle:
-	    global i
+	    
             r = rospy.Rate(self.rate)
 
 	    ## Counter of how many times the obstacle is encountered
@@ -84,7 +84,7 @@ class ObstacleAvoidance():
             ## Angular velocity in the z-axis
 	    self.body_vel.angular.x=0
 	    self.body_vel.angular.y=0
-            self.body_vel.angular.z=-1.9*i
+            self.body_vel.angular.z=-1.9*self.i
 
 	    ## Publishing the message
             q.body_vel = self.body_vel
@@ -93,7 +93,7 @@ class ObstacleAvoidance():
 
 	    ## If the obstacle is encountered more than two times
 	    if self.counter == 3:
-		i=i*-1 # change right/left
+		self.i=self.i*-1 # change right/left
 	    
 	    r.sleep()
 
