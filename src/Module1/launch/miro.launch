@@ -8,8 +8,8 @@
 
 <node name="oab_miro" pkg="Module1" type="oab_miro.py"   />
 
-<!-- SWITCHING BEHAVIOR -->
+<!-- SWITCHING BEHAVIOUR -->
 
-<node name="switching_behavior_miro" pkg="Module1" type="switching_behavior_miro.py"  />
+<node name="switching_behavior_miro" pkg="Module1" type="switching_behaviour_miro.py"  />
 
 </launch>

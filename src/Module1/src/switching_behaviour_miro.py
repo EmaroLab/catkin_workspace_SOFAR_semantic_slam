@@ -119,9 +119,8 @@ class Switchingbehaviour():
             	self.body_vel.linear.x=500
 		p.body_vel = self.body_vel
 		self.pub_behaviour.publish(p)
-
 		time.sleep(0.5)
-		self.pub_behaviour.publish(p)
+		
 
             time.sleep(0.3)
 
