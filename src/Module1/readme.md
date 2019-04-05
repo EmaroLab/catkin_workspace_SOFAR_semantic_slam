@@ -120,7 +120,7 @@ As you have already done for the installation run ds4drv and connect the Bluetoo
 In a new terminal run the following command:
 
 ```
-$ ds4drv
+$ sudo ds4drv
 ```
 
 In other terminal run the node to acquire the data from the joystick:
@@ -144,9 +144,12 @@ $ roslaunch Module1 miro.launch
 
 
 ## Results
-* Video Demo with a Real Miro.
+* Video Demo of a simulation of the autonomous modality of MiRo on Gazebo.
 
-[![Video Demo with a Real MiRo]().
+[![Video Demo](https://www.youtube.com/watch?v=S2p8JdRTcTw).
+
+* Video Demo of a simulation of the maunual modality of MiRo on Gazebo.
+[![Video Demo](https://www.youtube.com/watch?v=wapS9PwTN8o).
 
 
 ## Works based on the previous Project
