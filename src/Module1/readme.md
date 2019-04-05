@@ -45,7 +45,7 @@
  The *switching_behaviour* node subscribes to '/modalities' topic of Module 5 to obtain the chosen navigation modality, to both '/gb' and '/oab' topics that correspond to the two different behaviours and to 'platform/sensors' to check sonar value.
  If the autonomous modality has been chosen, depending on the presence (or not) of an obstacle, it selects which behaviour the robot should perform and it publishes a message of type platform_control containing the velocities to the topic '/platform/control'.
 
- The *joy_miro* node subscibes to '/modalities' topic of Module 5 to obtain the chosen navigation modality and to '/joy' topic to read data from the joystick. If the manual modality has been chosen, it converts the data into Twist commands, and it publishes a Twist message that contains MiRo's body velocities on '/control/cmd_vel' topic.
+ The *joy_miro* node subscibes to '/modalities' topic of Module 5 to obtain the chosen navigation modality and to '/joy' topic to read data from the joystick. If the manual modality has been chosen, it converts the data into platform_control commands, and it publishes a platform_control message that contains MiRo's body velocities on '/platform/control' topic.
 
 The *module_5* node is a temporary node that simulates the behaviour of Module 5. It asks to the user to chose a modality of navigation: if he chooses the autonomous one a '0' is published on '/modalities' topic, if instead he chooses the manual one a '1' is published on the same topic. Moreover it asks to the user a desired goal position that is published on '/goal_position' topic as a Pose2D message.
 
@@ -150,7 +150,7 @@ $ roslaunch Module1 miro.launch
 
 
 * Video Demo of a simulation of the maunual modality of MiRo on Gazebo.
-[![Video Demo](https://img.youtube.com/vi/LT71kVHBBu4/0.jpg)](https://www.youtube.com/watch?v=wapS9PwTN8o)
+[![Video Demo](https://img.youtube.com/vi/wapS9PwTN8o/0.jpg)](https://www.youtube.com/watch?v=wapS9PwTN8o&feature=youtu.be)
 
 
 ## Works based on the previous Project
