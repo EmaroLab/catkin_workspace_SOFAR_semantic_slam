@@ -22,9 +22,10 @@ class select_modalities():
 
         
     def __init__(self):
+
 	goal_pose=Pose2D()
         ## Topic root
-        self.robot_name = rospy.get_param ( '/robot_name', 'rob01')
+        self.robot_name = rospy.get_param ( '/robot_name', 'miro_robot')
         topic_root = "/miro/" + self.robot_name
         print "topic_root", topic_root
 	self.rate=rospy.Rate(10)
