@@ -145,7 +145,7 @@ $ roslaunch Module1 miro.launch
 
 ## Results
 * Video Demo of a simulation of the autonomous modality of MiRo on Gazebo.
-[![Video Demo](https://img.youtube.com/vi/LT71kVHBBu4/0.jpg)](https://www.youtube.com/watch?v=S2p8JdRTcTw)
+[![Video Demo](https://img.youtube.com/vi/S2p8JdRTcTw/0.jpg)](https://www.youtube.com/watch?v=S2p8JdRTcTw&feature=youtu.be)
 
 
 
