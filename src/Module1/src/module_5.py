@@ -24,7 +24,7 @@ class select_modalities():
     def __init__(self):
 	goal_pose=Pose2D()
         ## Topic root
-        self.robot_name = rospy.get_param ( '/robot_name', 'miro_robot')
+        self.robot_name = rospy.get_param ( '/robot_name', 'rob01')
         topic_root = "/miro/" + self.robot_name
         print "topic_root", topic_root
 	self.rate=rospy.Rate(10)
@@ -33,10 +33,11 @@ class select_modalities():
 	while(1):  	 
 		goal_pose=Pose2D()     
 		x = input("Insert 1 for manual or 0 for automatic: ")
-		goal_pose.x = input("Set your x goal: ")
-       		goal_pose.y = input("Set your y goal: ")
+		if x==0:
+			goal_pose.x = input("Set your x goal: ")
+	       		goal_pose.y = input("Set your y goal: ")
 		
-		pub_goal.publish(goal_pose)
+			pub_goal.publish(goal_pose)
 		
 		pub_mod.publish(x)
 
