@@ -39,6 +39,12 @@ class miroBOT_miro():
 		topic_root = "/miro/" + self.robot_name
 		print "topic_root", topic_root
 
+    def __init__(self):
+
+	## Topic root
+        self.robot_name = rospy.get_param ( '/robot_name', 'miro_robot')
+        topic_root = "/miro/" + self.robot_name
+        print "topic_root", topic_root
 
 		## Linear and Angular velocities that will be part of the platform_control message
 		self.body_vel = Twist()

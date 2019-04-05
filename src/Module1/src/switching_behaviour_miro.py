@@ -71,7 +71,7 @@ class Switchingbehaviour():
     def callback_mod(self,data):
 	## Callback function that receives the modality of navigation chosen
 	   
-	    if data == 1:
+	    if data.data == 1:
 		## Manual modality
 		self.i = 1
 	
