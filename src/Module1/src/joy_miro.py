@@ -39,7 +39,7 @@ def start():
 
     ## Publisher on the topic /control/cmd_vel a message of type Twist
     global pub
-    pub = rospy.Publisher('/miro/rob01/platform/control', platform_control, queue_size = 5)
+    pub = rospy.Publisher('/miro/miro_robot/platform/control', platform_control, queue_size = 5)
     ## Subscriber to the topic /modalities a message of type Int32 that rapresents the modality of navigation chosen
     rospy.Subscriber("/modalities", Int32, callback_mod)
     ## Subscriber to the topic /joy to joystick inputs

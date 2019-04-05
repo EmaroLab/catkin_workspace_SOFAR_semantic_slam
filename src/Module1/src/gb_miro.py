@@ -33,7 +33,10 @@ from datetime import datetime
 ##\brief The class miroBOT_miro implements the Goal behaviour
 
 class miroBOT_miro():
+	
+
 	def __init__(self):
+		
 		## Topic root
 		self.robot_name = rospy.get_param ( '/robot_name', 'miro_robot')
 		topic_root = "/miro/" + self.robot_name
