@@ -1,0 +1,8 @@
+prefix=/home/filippo/catkin_workspace_SOFAR_semantic_slam/install
+
+Name: cob_people_object_detection_tensorflow
+Description: Description of cob_people_object_detection_tensorflow
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/filippo/catkin_workspace_SOFAR_semantic_slam/install/lib 
+Requires: 

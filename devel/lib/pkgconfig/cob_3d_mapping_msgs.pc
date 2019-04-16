@@ -1,0 +1,8 @@
+prefix=/home/filippo/catkin_workspace_SOFAR_semantic_slam/devel
+
+Name: cob_3d_mapping_msgs
+Description: Description of cob_3d_mapping_msgs
+Version: 0.6.11
+Cflags: -I/home/filippo/catkin_workspace_SOFAR_semantic_slam/devel/include
+Libs: -L/home/filippo/catkin_workspace_SOFAR_semantic_slam/devel/lib 
+Requires: actionlib actionlib_msgs cob_object_detection_msgs message_runtime geometry_msgs sensor_msgs std_msgs

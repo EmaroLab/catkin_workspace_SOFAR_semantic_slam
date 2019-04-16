@@ -1,0 +1,8 @@
+prefix=/home/filippo/catkin_workspace_SOFAR_semantic_slam/install
+
+Name: module3
+Description: Description of module3
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/filippo/catkin_workspace_SOFAR_semantic_slam/install/lib 
+Requires: 
