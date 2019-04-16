@@ -52,7 +52,7 @@ The *module_5* node is a temporary node that simulates the behaviour of Module 5
  Our project aims to obtain a total scalability, in order to improve or replace each module without modifying any of the others. This way new behaviours can be easily added.
  
   **For more details see the report**
- ## Gettin Started
+ ## Getting Started
 
  ## Prerequisites
 
@@ -123,13 +123,13 @@ In a new terminal run the following command:
 $ sudo ds4drv
 ```
 
-In other terminal run the node to acquire the data from the joystick:
+In a third terminal run the node to acquire the data from the joystick:
 
 ```
 $ rosrun joy joy_node
 ```
 
-In one last terminal run:
+In a fourth terminal run this command to convert data into platform_control messages:
 
 ```
 $ ./joy_miro.py
