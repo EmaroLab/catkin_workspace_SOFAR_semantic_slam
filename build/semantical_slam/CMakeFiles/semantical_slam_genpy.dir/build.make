@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/src
+CMAKE_SOURCE_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/build
+CMAKE_BINARY_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/build
 
 # Utility rule file for semantical_slam_genpy.
 
@@ -63,10 +63,10 @@ semantical_slam/CMakeFiles/semantical_slam_genpy.dir/build: semantical_slam_genp
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_genpy.dir/build
 
 semantical_slam/CMakeFiles/semantical_slam_genpy.dir/clean:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && $(CMAKE_COMMAND) -P CMakeFiles/semantical_slam_genpy.dir/cmake_clean.cmake
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && $(CMAKE_COMMAND) -P CMakeFiles/semantical_slam_genpy.dir/cmake_clean.cmake
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_genpy.dir/clean
 
 semantical_slam/CMakeFiles/semantical_slam_genpy.dir/depend:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sofar/catkin_workspace_SOFAR_semantic_slam/src /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam /home/sofar/catkin_workspace_SOFAR_semantic_slam/build /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/CMakeFiles/semantical_slam_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tommi/catkin_workspace_SOFAR_semantic_slam/src /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam /home/tommi/catkin_workspace_SOFAR_semantic_slam/build /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/CMakeFiles/semantical_slam_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_genpy.dir/depend
 

@@ -7,8 +7,10 @@
        <param name="publish_pointcloud" type="bool" value="true" />
        <param name="pointcloud_frame_id" type="string" value="map" />
        <param name="camera_frame_id" type="string" value="camera_link" />
+	<remap from="/camera/image_raw" to="/miro/rob01/platform/camr"/>
   </node>
   <node name="republish" type="republish" pkg="image_transport" output="screen" args="compressed in:=/camera/image out:=/camera/image_raw" />
+
   
   <node pkg="rosbag" type="record" name="rosbag_record_semPoint"
        args="record -o $(find orb_slam2_ros)/ros/Bagfile/semantical_loci.bag /semantical_loci"/>   

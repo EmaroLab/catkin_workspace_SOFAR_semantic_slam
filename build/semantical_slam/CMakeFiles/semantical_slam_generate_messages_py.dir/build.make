@@ -43,53 +43,53 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/src
+CMAKE_SOURCE_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/build
+CMAKE_BINARY_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/build
 
 # Utility rule file for semantical_slam_generate_messages_py.
 
 # Include the progress variables for this target.
 include semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/progress.make
 
-semantical_slam/CMakeFiles/semantical_slam_generate_messages_py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py
-semantical_slam/CMakeFiles/semantical_slam_generate_messages_py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py
-semantical_slam/CMakeFiles/semantical_slam_generate_messages_py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py
-semantical_slam/CMakeFiles/semantical_slam_generate_messages_py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py
+semantical_slam/CMakeFiles/semantical_slam_generate_messages_py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py
+semantical_slam/CMakeFiles/semantical_slam_generate_messages_py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py
+semantical_slam/CMakeFiles/semantical_slam_generate_messages_py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py
+semantical_slam/CMakeFiles/semantical_slam_generate_messages_py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py
 
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG semantical_slam/SemanticalPoint"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg -Isemantical_slam:/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Itf:/opt/ros/kinetic/share/tf/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p semantical_slam -o /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG semantical_slam/SemanticalPoint"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg -Isemantical_slam:/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Itf:/opt/ros/kinetic/share/tf/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p semantical_slam -o /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/srv/CreateSemMsg.srv
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV semantical_slam/CreateSemMsg"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/srv/CreateSemMsg.srv -Isemantical_slam:/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Itf:/opt/ros/kinetic/share/tf/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p semantical_slam -o /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/srv/CreateSemMsg.srv
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV semantical_slam/CreateSemMsg"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/srv/CreateSemMsg.srv -Isemantical_slam:/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Itf:/opt/ros/kinetic/share/tf/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p semantical_slam -o /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for semantical_slam"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg --initpy
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for semantical_slam"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg --initpy
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for semantical_slam"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv --initpy
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for semantical_slam"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv --initpy
 
 semantical_slam_generate_messages_py: semantical_slam/CMakeFiles/semantical_slam_generate_messages_py
-semantical_slam_generate_messages_py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py
-semantical_slam_generate_messages_py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py
-semantical_slam_generate_messages_py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py
-semantical_slam_generate_messages_py: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py
+semantical_slam_generate_messages_py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py
+semantical_slam_generate_messages_py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py
+semantical_slam_generate_messages_py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py
+semantical_slam_generate_messages_py: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py
 semantical_slam_generate_messages_py: semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/build.make
 
 .PHONY : semantical_slam_generate_messages_py
@@ -100,10 +100,10 @@ semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/build: seman
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/build
 
 semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/clean:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && $(CMAKE_COMMAND) -P CMakeFiles/semantical_slam_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && $(CMAKE_COMMAND) -P CMakeFiles/semantical_slam_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/clean
 
 semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/depend:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sofar/catkin_workspace_SOFAR_semantic_slam/src /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam /home/sofar/catkin_workspace_SOFAR_semantic_slam/build /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tommi/catkin_workspace_SOFAR_semantic_slam/src /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam /home/tommi/catkin_workspace_SOFAR_semantic_slam/build /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/depend
 

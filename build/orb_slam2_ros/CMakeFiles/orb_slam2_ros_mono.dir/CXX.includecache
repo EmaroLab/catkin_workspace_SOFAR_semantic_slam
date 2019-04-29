@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/orb_slam2_ros/dynamic_reconfigureConfig.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/orb_slam2_ros/dynamic_reconfigureConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.h
 iostream
 -
 map
@@ -32,7 +32,7 @@ map
 vector
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FClass.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FClass.h
 opencv2/core/core.hpp
 -
 vector
@@ -40,7 +40,7 @@ vector
 string
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.h
 opencv2/core/core.hpp
 -
 vector
@@ -48,11 +48,11 @@ vector
 string
 -
 FClass.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FClass.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FClass.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 BowVector.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.h
 map
 -
 vector
@@ -60,11 +60,11 @@ vector
 iostream
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.h
 BowVector.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
 cassert
 -
 vector
@@ -82,39 +82,39 @@ opencv2/core/core.hpp
 limits
 -
 FeatureVector.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 BowVector.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.h
 ScoringObject.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.h
 ../DUtils/Random.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.h
 cstdlib
 -
 vector
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/config.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/config.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_binary_edge.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_binary_edge.h
 iostream
 -
 limits
 -
 base_edge.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_edge.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_edge.h
 robust_kernel.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h
 ../../config.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/config.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/config.h
 base_binary_edge.hpp
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_binary_edge.hpp
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_binary_edge.hpp
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_binary_edge.hpp
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_binary_edge.hpp
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_edge.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_edge.h
 iostream
 -
 limits
@@ -122,9 +122,9 @@ limits
 Eigen/Core
 -
 optimizable_graph.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_unary_edge.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_unary_edge.h
 iostream
 -
 cassert
@@ -132,23 +132,23 @@ cassert
 limits
 -
 base_edge.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_edge.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_edge.h
 robust_kernel.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h
 ../../config.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/config.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/config.h
 base_unary_edge.hpp
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_unary_edge.hpp
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_unary_edge.hpp
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_unary_edge.hpp
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_unary_edge.hpp
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.h
 optimizable_graph.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h
 creators.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/creators.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/creators.h
 ../stuff/macros.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/macros.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/macros.h
 Eigen/Core
 -
 Eigen/Dense
@@ -160,19 +160,19 @@ Eigen/StdVector
 stack
 -
 base_vertex.hpp
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.hpp
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.hpp
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.hpp
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.hpp
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/creators.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/creators.h
 hyper_graph.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.h
 string
 -
 typeinfo
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.h
 map
 -
 set
@@ -192,7 +192,7 @@ unordered_map
 tr1/unordered_map
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h
 Eigen/Core
 -
 Eigen/StdVector
@@ -202,17 +202,17 @@ vector
 cassert
 -
 hyper_graph.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/openmp_mutex.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/openmp_mutex.h
 ../../config.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/config.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/config.h
 omp.h
 -
 cassert
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h
 set
 -
 iostream
@@ -226,25 +226,25 @@ cmath
 typeinfo
 -
 openmp_mutex.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/openmp_mutex.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/openmp_mutex.h
 hyper_graph.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.h
 parameter.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/parameter.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/parameter.h
 parameter_container.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.h
 jacobian_workspace.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h
 ../stuff/macros.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/macros.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/macros.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/parameter.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/parameter.h
 iosfwd
 -
 hyper_graph.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.h
 iosfwd
 -
 map
@@ -252,7 +252,7 @@ map
 string
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h
 memory
 -
 tr1/memory
@@ -260,95 +260,95 @@ tr1/memory
 Eigen/Core
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/macros.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/macros.h
 float.h
 -
 math.h
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.h
 Eigen/Core
 -
 Eigen/Geometry
 -
 se3_ops.hpp
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.hpp
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.hpp
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.hpp
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.hpp
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3quat.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3quat.h
 se3_ops.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.h
 Eigen/Core
 -
 Eigen/Geometry
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/sim3.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/sim3.h
 se3_ops.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.h
 Eigen/Geometry
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.h
 ../core/base_vertex.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.h
 Eigen/Geometry
 -
 iostream
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h
 ../core/base_vertex.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.h
 ../core/base_binary_edge.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_binary_edge.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_binary_edge.h
 types_six_dof_expmap.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h
 sim3.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/sim3.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/sim3.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h
 ../core/base_vertex.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_vertex.h
 ../core/base_binary_edge.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_binary_edge.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_binary_edge.h
 ../core/base_unary_edge.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_unary_edge.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/core/base_unary_edge.h
 se3_ops.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3_ops.h
 se3quat.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3quat.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/se3quat.h
 types_sba.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.h
 Eigen/Geometry
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
 vector
 -
 MapPoint.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/MapPoint.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/MapPoint.h
 Thirdparty/DBoW2/DBoW2/BowVector.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/BowVector.h
 Thirdparty/DBoW2/DBoW2/FeatureVector.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 ORBVocabulary.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
 KeyFrame.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
 ORBextractor.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBextractor.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBextractor.h
 opencv2/opencv.hpp
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/FrameDrawer.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/FrameDrawer.h
 Tracking.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Tracking.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Tracking.h
 MapPoint.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/MapPoint.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/MapPoint.h
 Map.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
 opencv2/core/core.hpp
 -
 opencv2/features2d/features2d.hpp
@@ -356,31 +356,31 @@ opencv2/features2d/features2d.hpp
 mutex
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Initializer.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Initializer.h
 opencv2/opencv.hpp
 -
 Frame.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
 MapPoint.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/MapPoint.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/MapPoint.h
 Thirdparty/DBoW2/DBoW2/BowVector.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/BowVector.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/BowVector.h
 Thirdparty/DBoW2/DBoW2/FeatureVector.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/FeatureVector.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/FeatureVector.h
 ORBVocabulary.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
 ORBextractor.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBextractor.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBextractor.h
 Frame.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
 KeyFrameDatabase.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
 mutex
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
 vector
 -
 list
@@ -388,77 +388,77 @@ list
 set
 -
 KeyFrame.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
 Frame.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
 ORBVocabulary.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
 mutex
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LocalMapping.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LocalMapping.h
 KeyFrame.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
 Map.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
 LoopClosing.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LoopClosing.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LoopClosing.h
 Tracking.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Tracking.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Tracking.h
 KeyFrameDatabase.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
 mutex
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LoopClosing.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LoopClosing.h
 KeyFrame.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
 LocalMapping.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LocalMapping.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LocalMapping.h
 Map.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
 ORBVocabulary.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
 Tracking.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Tracking.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Tracking.h
 KeyFrameDatabase.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
 thread
 -
 mutex
 -
 Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
 MapPoint.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/MapPoint.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/MapPoint.h
 KeyFrame.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
 set
 -
 mutex
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/MapPoint.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/MapPoint.h
 KeyFrame.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrame.h
 Frame.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
 Map.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
 opencv2/core/core.hpp
 -
 mutex
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
 Thirdparty/DBoW2/DBoW2/FORB.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/FORB.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/FORB.h
 Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBextractor.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBextractor.h
 vector
 -
 list
@@ -466,7 +466,7 @@ list
 opencv/cv.h
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/System.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/System.h
 string
 -
 thread
@@ -476,49 +476,49 @@ unistd.h
 opencv2/core/core.hpp
 -
 Tracking.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Tracking.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Tracking.h
 FrameDrawer.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/FrameDrawer.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/FrameDrawer.h
 Map.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
 LocalMapping.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LocalMapping.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LocalMapping.h
 LoopClosing.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LoopClosing.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LoopClosing.h
 KeyFrameDatabase.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
 ORBVocabulary.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Tracking.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Tracking.h
 opencv2/core/core.hpp
 -
 opencv2/features2d/features2d.hpp
 -
 FrameDrawer.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/FrameDrawer.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/FrameDrawer.h
 Map.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Map.h
 LocalMapping.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LocalMapping.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LocalMapping.h
 LoopClosing.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LoopClosing.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/LoopClosing.h
 Frame.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Frame.h
 ORBVocabulary.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBVocabulary.h
 KeyFrameDatabase.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/KeyFrameDatabase.h
 ORBextractor.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBextractor.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/ORBextractor.h
 Initializer.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Initializer.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/Initializer.h
 System.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/System.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/include/System.h
 mutex
 -
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/include/MonoNode.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/include/MonoNode.h
 iostream
 -
 algorithm
@@ -540,11 +540,11 @@ opencv2/core/core.hpp
 tf/transform_broadcaster.h
 -
 System.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/include/System.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/include/System.h
 Node.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/include/Node.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/include/Node.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/include/Node.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/include/Node.h
 vector
 -
 ros/ros.h
@@ -574,15 +574,15 @@ sensor_msgs/image_encodings.h
 sensor_msgs/PointCloud2.h
 -
 System.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/include/System.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/include/System.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/src/MonoNode.cc
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/src/MonoNode.cc
 MonoNode.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/src/MonoNode.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/src/MonoNode.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/src/Node.cc
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/src/Node.cc
 Node.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/src/Node.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/ros/src/Node.h
 iostream
 -
 
@@ -3773,12 +3773,16 @@ time.h
 /usr/local/include/eigen3/Eigen/Cholesky
 Core
 /usr/local/include/eigen3/Eigen/Core
+Jacobi
+/usr/local/include/eigen3/Eigen/Jacobi
 src/Core/util/DisableStupidWarnings.h
 /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
 src/Cholesky/LLT.h
 /usr/local/include/eigen3/Eigen/src/Cholesky/LLT.h
 src/Cholesky/LDLT.h
 /usr/local/include/eigen3/Eigen/src/Cholesky/LDLT.h
+mkl_lapacke.h
+/usr/local/include/eigen3/Eigen/mkl_lapacke.h
 src/misc/lapacke.h
 /usr/local/include/eigen3/Eigen/src/misc/lapacke.h
 src/Cholesky/LLT_LAPACKE.h
@@ -3789,7 +3793,7 @@ src/Core/util/ReenableStupidWarnings.h
 /usr/local/include/eigen3/Eigen/Core
 src/Core/util/DisableStupidWarnings.h
 /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h
-math_functions.hpp
+cuda_runtime.h
 -
 new
 -
@@ -3885,6 +3889,8 @@ src/Core/GenericPacketMath.h
 /usr/local/include/eigen3/Eigen/src/Core/GenericPacketMath.h
 src/Core/MathFunctionsImpl.h
 /usr/local/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h
+src/Core/arch/Default/ConjHelper.h
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 src/Core/arch/SSE/PacketMath.h
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
 src/Core/arch/AVX/PacketMath.h
@@ -3907,6 +3913,8 @@ src/Core/arch/AVX/Complex.h
 /usr/local/include/eigen3/Eigen/src/Core/arch/AVX/Complex.h
 src/Core/arch/AVX/TypeCasting.h
 /usr/local/include/eigen3/Eigen/src/Core/arch/AVX/TypeCasting.h
+src/Core/arch/SSE/TypeCasting.h
+/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h
 src/Core/arch/SSE/PacketMath.h
 /usr/local/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h
 src/Core/arch/SSE/MathFunctions.h
@@ -3959,6 +3967,8 @@ src/Core/functors/AssignmentFunctors.h
 /usr/local/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h
 src/Core/arch/CUDA/Complex.h
 /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/Complex.h
+src/Core/IO.h
+/usr/local/include/eigen3/Eigen/src/Core/IO.h
 src/Core/DenseCoeffsBase.h
 /usr/local/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h
 src/Core/DenseBase.h
@@ -4035,8 +4045,6 @@ src/Core/Visitor.h
 /usr/local/include/eigen3/Eigen/src/Core/Visitor.h
 src/Core/Fuzzy.h
 /usr/local/include/eigen3/Eigen/src/Core/Fuzzy.h
-src/Core/IO.h
-/usr/local/include/eigen3/Eigen/src/Core/IO.h
 src/Core/Swap.h
 /usr/local/include/eigen3/Eigen/src/Core/Swap.h
 src/Core/CommaInitializer.h
@@ -4185,6 +4193,8 @@ src/Eigenvalues/GeneralizedEigenSolver.h
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
 src/Eigenvalues/MatrixBaseEigenvalues.h
 /usr/local/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+mkl_lapacke.h
+/usr/local/include/eigen3/Eigen/mkl_lapacke.h
 src/misc/lapacke.h
 /usr/local/include/eigen3/Eigen/src/misc/lapacke.h
 src/Eigenvalues/RealSchur_LAPACKE.h
@@ -4277,6 +4287,8 @@ src/LU/FullPivLU.h
 /usr/local/include/eigen3/Eigen/src/LU/FullPivLU.h
 src/LU/PartialPivLU.h
 /usr/local/include/eigen3/Eigen/src/LU/PartialPivLU.h
+mkl_lapacke.h
+/usr/local/include/eigen3/Eigen/mkl_lapacke.h
 src/misc/lapacke.h
 /usr/local/include/eigen3/Eigen/src/misc/lapacke.h
 src/LU/PartialPivLU_LAPACKE.h
@@ -4309,6 +4321,8 @@ src/QR/ColPivHouseholderQR.h
 /usr/local/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h
 src/QR/CompleteOrthogonalDecomposition.h
 /usr/local/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+mkl_lapacke.h
+/usr/local/include/eigen3/Eigen/mkl_lapacke.h
 src/misc/lapacke.h
 /usr/local/include/eigen3/Eigen/src/misc/lapacke.h
 src/QR/HouseholderQR_LAPACKE.h
@@ -4337,6 +4351,8 @@ src/SVD/JacobiSVD.h
 /usr/local/include/eigen3/Eigen/src/SVD/JacobiSVD.h
 src/SVD/BDCSVD.h
 /usr/local/include/eigen3/Eigen/src/SVD/BDCSVD.h
+mkl_lapacke.h
+/usr/local/include/eigen3/Eigen/mkl_lapacke.h
 src/misc/lapacke.h
 /usr/local/include/eigen3/Eigen/src/misc/lapacke.h
 src/SVD/JacobiSVD_LAPACKE.h
@@ -4541,6 +4557,8 @@ src/StlSupport/StdVector.h
 /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/TypeCasting.h
+
+/usr/local/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h
 
 /usr/local/include/eigen3/Eigen/src/Core/arch/Default/Settings.h
 

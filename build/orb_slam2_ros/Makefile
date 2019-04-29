@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/src
+CMAKE_SOURCE_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/build
+CMAKE_BINARY_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros/CMakeFiles/progress.marks
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles 0
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros/CMakeFiles/progress.marks
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/clean
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/preinstall
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/preinstall
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ orb_slam2_ros_mono: orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/rule
 
 # fast build rule for target.
 orb_slam2_ros_mono/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build
 .PHONY : orb_slam2_ros_mono/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ orb_slam2_ros: orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/rule
 
 # fast build rule for target.
 orb_slam2_ros/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build
 .PHONY : orb_slam2_ros/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/g2o.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/g2o.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/g2o.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/g2o.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ g2o: orb_slam2_ros/CMakeFiles/g2o.dir/rule
 
 # fast build rule for target.
 g2o/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/build
 .PHONY : g2o/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ dynamic_reconfigure_gencfg: orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ dynamic_reconfigure_generate_messages_py: orb_slam2_ros/CMakeFiles/dynamic_recon
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ dynamic_reconfigure_generate_messages_nodejs: orb_slam2_ros/CMakeFiles/dynamic_r
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ dynamic_reconfigure_generate_messages_lisp: orb_slam2_ros/CMakeFiles/dynamic_rec
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ dynamic_reconfigure_generate_messages_eus: orb_slam2_ros/CMakeFiles/dynamic_reco
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ sensor_msgs_generate_messages_lisp: orb_slam2_ros/CMakeFiles/sensor_msgs_generat
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ tf2_msgs_generate_messages_lisp: orb_slam2_ros/CMakeFiles/tf2_msgs_generate_mess
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ sensor_msgs_generate_messages_cpp: orb_slam2_ros/CMakeFiles/sensor_msgs_generate
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/DBoW2.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/DBoW2.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/DBoW2.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/DBoW2.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ DBoW2: orb_slam2_ros/CMakeFiles/DBoW2.dir/rule
 
 # fast build rule for target.
 DBoW2/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/build
 .PHONY : DBoW2/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -357,12 +357,12 @@ std_msgs_generate_messages_lisp: orb_slam2_ros/CMakeFiles/std_msgs_generate_mess
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -372,12 +372,12 @@ geometry_msgs_generate_messages_lisp: orb_slam2_ros/CMakeFiles/geometry_msgs_gen
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/orb_slam2_ros_gencfg.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/orb_slam2_ros_gencfg.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/orb_slam2_ros_gencfg.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/orb_slam2_ros_gencfg.dir/rule
 
 # Convenience name for target.
@@ -387,12 +387,12 @@ orb_slam2_ros_gencfg: orb_slam2_ros/CMakeFiles/orb_slam2_ros_gencfg.dir/rule
 
 # fast build rule for target.
 orb_slam2_ros_gencfg/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_gencfg.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_gencfg.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_gencfg.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_gencfg.dir/build
 .PHONY : orb_slam2_ros_gencfg/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ std_msgs_generate_messages_eus: orb_slam2_ros/CMakeFiles/std_msgs_generate_messa
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ roscpp_generate_messages_lisp: orb_slam2_ros/CMakeFiles/roscpp_generate_messages
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -432,12 +432,12 @@ roscpp_generate_messages_nodejs: orb_slam2_ros/CMakeFiles/roscpp_generate_messag
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -447,12 +447,12 @@ rosgraph_msgs_generate_messages_lisp: orb_slam2_ros/CMakeFiles/rosgraph_msgs_gen
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/tf_generate_messages_eus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf_generate_messages_eus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf_generate_messages_eus.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ tf_generate_messages_eus: orb_slam2_ros/CMakeFiles/tf_generate_messages_eus.dir/
 
 # fast build rule for target.
 tf_generate_messages_eus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/tf_generate_messages_eus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/tf_generate_messages_eus.dir/build
 .PHONY : tf_generate_messages_eus/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -477,12 +477,12 @@ roscpp_generate_messages_eus: orb_slam2_ros/CMakeFiles/roscpp_generate_messages_
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -492,12 +492,12 @@ dynamic_reconfigure_generate_messages_cpp: orb_slam2_ros/CMakeFiles/dynamic_reco
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -507,12 +507,12 @@ geometry_msgs_generate_messages_cpp: orb_slam2_ros/CMakeFiles/geometry_msgs_gene
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -522,12 +522,12 @@ sensor_msgs_generate_messages_nodejs: orb_slam2_ros/CMakeFiles/sensor_msgs_gener
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -537,12 +537,12 @@ rosgraph_msgs_generate_messages_cpp: orb_slam2_ros/CMakeFiles/rosgraph_msgs_gene
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -552,12 +552,12 @@ tf2_msgs_generate_messages_cpp: orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messa
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -567,12 +567,12 @@ roscpp_generate_messages_cpp: orb_slam2_ros/CMakeFiles/roscpp_generate_messages_
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -582,12 +582,12 @@ geometry_msgs_generate_messages_eus: orb_slam2_ros/CMakeFiles/geometry_msgs_gene
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -597,12 +597,12 @@ actionlib_msgs_generate_messages_py: orb_slam2_ros/CMakeFiles/actionlib_msgs_gen
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -612,12 +612,12 @@ rosgraph_msgs_generate_messages_nodejs: orb_slam2_ros/CMakeFiles/rosgraph_msgs_g
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -627,12 +627,12 @@ rosgraph_msgs_generate_messages_eus: orb_slam2_ros/CMakeFiles/rosgraph_msgs_gene
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf_generate_messages_cpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf_generate_messages_cpp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -642,12 +642,12 @@ tf_generate_messages_cpp: orb_slam2_ros/CMakeFiles/tf_generate_messages_cpp.dir/
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/tf_generate_messages_cpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -657,12 +657,12 @@ actionlib_generate_messages_eus: orb_slam2_ros/CMakeFiles/actionlib_generate_mes
 
 # fast build rule for target.
 actionlib_generate_messages_eus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_generate_messages_eus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -672,12 +672,12 @@ std_msgs_generate_messages_py: orb_slam2_ros/CMakeFiles/std_msgs_generate_messag
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -687,12 +687,12 @@ geometry_msgs_generate_messages_nodejs: orb_slam2_ros/CMakeFiles/geometry_msgs_g
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -702,12 +702,12 @@ std_msgs_generate_messages_nodejs: orb_slam2_ros/CMakeFiles/std_msgs_generate_me
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -717,12 +717,12 @@ geometry_msgs_generate_messages_py: orb_slam2_ros/CMakeFiles/geometry_msgs_gener
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -732,12 +732,12 @@ rosgraph_msgs_generate_messages_py: orb_slam2_ros/CMakeFiles/rosgraph_msgs_gener
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf_generate_messages_lisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf_generate_messages_lisp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -747,12 +747,12 @@ tf_generate_messages_lisp: orb_slam2_ros/CMakeFiles/tf_generate_messages_lisp.di
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/tf_generate_messages_lisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -762,12 +762,12 @@ tf2_msgs_generate_messages_nodejs: orb_slam2_ros/CMakeFiles/tf2_msgs_generate_me
 
 # fast build rule for target.
 tf2_msgs_generate_messages_nodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -777,12 +777,12 @@ roscpp_generate_messages_py: orb_slam2_ros/CMakeFiles/roscpp_generate_messages_p
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/roscpp_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/roscpp_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -792,12 +792,12 @@ tf_generate_messages_nodejs: orb_slam2_ros/CMakeFiles/tf_generate_messages_nodej
 
 # fast build rule for target.
 tf_generate_messages_nodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/tf_generate_messages_nodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/tf_generate_messages_nodejs.dir/build
 .PHONY : tf_generate_messages_nodejs/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf_generate_messages_py.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf_generate_messages_py.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -807,12 +807,12 @@ tf_generate_messages_py: orb_slam2_ros/CMakeFiles/tf_generate_messages_py.dir/ru
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/tf_generate_messages_py.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -822,12 +822,12 @@ sensor_msgs_generate_messages_py: orb_slam2_ros/CMakeFiles/sensor_msgs_generate_
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -837,12 +837,12 @@ actionlib_generate_messages_cpp: orb_slam2_ros/CMakeFiles/actionlib_generate_mes
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -852,12 +852,12 @@ sensor_msgs_generate_messages_eus: orb_slam2_ros/CMakeFiles/sensor_msgs_generate
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -867,12 +867,12 @@ std_msgs_generate_messages_cpp: orb_slam2_ros/CMakeFiles/std_msgs_generate_messa
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -882,12 +882,12 @@ actionlib_msgs_generate_messages_cpp: orb_slam2_ros/CMakeFiles/actionlib_msgs_ge
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -897,12 +897,12 @@ actionlib_generate_messages_nodejs: orb_slam2_ros/CMakeFiles/actionlib_generate_
 
 # fast build rule for target.
 actionlib_generate_messages_nodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -912,12 +912,12 @@ actionlib_generate_messages_py: orb_slam2_ros/CMakeFiles/actionlib_generate_mess
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_generate_messages_py.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -927,12 +927,12 @@ actionlib_generate_messages_lisp: orb_slam2_ros/CMakeFiles/actionlib_generate_me
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -942,12 +942,12 @@ actionlib_msgs_generate_messages_eus: orb_slam2_ros/CMakeFiles/actionlib_msgs_ge
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -957,12 +957,12 @@ actionlib_msgs_generate_messages_lisp: orb_slam2_ros/CMakeFiles/actionlib_msgs_g
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -972,12 +972,12 @@ tf2_msgs_generate_messages_eus: orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messa
 
 # fast build rule for target.
 tf2_msgs_generate_messages_eus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -987,12 +987,12 @@ actionlib_msgs_generate_messages_nodejs: orb_slam2_ros/CMakeFiles/actionlib_msgs
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make orb_slam2_ros/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 .PHONY : orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1002,7 +1002,7 @@ tf2_msgs_generate_messages_py: orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messag
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make orb_slam2_ros/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.o: orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o
@@ -1011,7 +1011,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.o: orb_slam2/Thirdparty/DBoW2/DBoW2/B
 
 # target to build an object file
 orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.i: orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.i
@@ -1020,7 +1020,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.i: orb_slam2/Thirdparty/DBoW2/DBoW2/B
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.i
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.i
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.s: orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.s
@@ -1029,7 +1029,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.s: orb_slam2/Thirdparty/DBoW2/DBoW2/B
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.s
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.s
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.o: orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o
@@ -1038,7 +1038,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.o: orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.c
 
 # target to build an object file
 orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.i: orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.i
@@ -1047,7 +1047,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.i: orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.c
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.i
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.i
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.s: orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.s
@@ -1056,7 +1056,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.s: orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.c
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.s
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.s
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.o: orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o
@@ -1065,7 +1065,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.o: orb_slam2/Thirdparty/DBoW2/DBo
 
 # target to build an object file
 orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.i: orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.i
@@ -1074,7 +1074,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.i: orb_slam2/Thirdparty/DBoW2/DBo
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.i
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.i
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.s: orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.s
@@ -1083,7 +1083,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.s: orb_slam2/Thirdparty/DBoW2/DBo
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.s
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.s
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.o: orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o
@@ -1092,7 +1092,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.o: orb_slam2/Thirdparty/DBoW2/DBo
 
 # target to build an object file
 orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.i: orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.i
@@ -1101,7 +1101,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.i: orb_slam2/Thirdparty/DBoW2/DBo
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.i
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.i
 
 orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.s: orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.s
@@ -1110,7 +1110,7 @@ orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.s: orb_slam2/Thirdparty/DBoW2/DBo
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.s
 .PHONY : orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.s
 
 orb_slam2/Thirdparty/DBoW2/DUtils/Random.o: orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o
@@ -1119,7 +1119,7 @@ orb_slam2/Thirdparty/DBoW2/DUtils/Random.o: orb_slam2/Thirdparty/DBoW2/DUtils/Ra
 
 # target to build an object file
 orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o
 .PHONY : orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o
 
 orb_slam2/Thirdparty/DBoW2/DUtils/Random.i: orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.i
@@ -1128,7 +1128,7 @@ orb_slam2/Thirdparty/DBoW2/DUtils/Random.i: orb_slam2/Thirdparty/DBoW2/DUtils/Ra
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.i
 .PHONY : orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.i
 
 orb_slam2/Thirdparty/DBoW2/DUtils/Random.s: orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.s
@@ -1137,7 +1137,7 @@ orb_slam2/Thirdparty/DBoW2/DUtils/Random.s: orb_slam2/Thirdparty/DBoW2/DUtils/Ra
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.s
 .PHONY : orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.s
 
 orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.o: orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o
@@ -1146,7 +1146,7 @@ orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.o: orb_slam2/Thirdparty/DBoW2/DUtils
 
 # target to build an object file
 orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o
 .PHONY : orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o
 
 orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.i: orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.i
@@ -1155,7 +1155,7 @@ orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.i: orb_slam2/Thirdparty/DBoW2/DUtils
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.i
 .PHONY : orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.i
 
 orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.s: orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.s
@@ -1164,7 +1164,7 @@ orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.s: orb_slam2/Thirdparty/DBoW2/DUtils
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.s
 .PHONY : orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.o: orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.o
@@ -1173,7 +1173,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.o: orb_slam2/Thirdparty/g2o/g2o/co
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.i: orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.i
@@ -1182,7 +1182,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.i: orb_slam2/Thirdparty/g2o/g2o/co
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.s: orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.s
@@ -1191,7 +1191,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.s: orb_slam2/Thirdparty/g2o/g2o/co
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/cache.o: orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.o
@@ -1200,7 +1200,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/cache.o: orb_slam2/Thirdparty/g2o/g2o/core/cac
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/cache.i: orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.i
@@ -1209,7 +1209,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/cache.i: orb_slam2/Thirdparty/g2o/g2o/core/cac
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/cache.s: orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.s
@@ -1218,7 +1218,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/cache.s: orb_slam2/Thirdparty/g2o/g2o/core/cac
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.o: orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.o
@@ -1227,7 +1227,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.o: orb_slam2/Thirdparty/g2
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.i: orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.i
@@ -1236,7 +1236,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.i: orb_slam2/Thirdparty/g2
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.s: orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.s
@@ -1245,7 +1245,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.s: orb_slam2/Thirdparty/g2
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/factory.o: orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.o
@@ -1254,7 +1254,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/factory.o: orb_slam2/Thirdparty/g2o/g2o/core/f
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/factory.i: orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.i
@@ -1263,7 +1263,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/factory.i: orb_slam2/Thirdparty/g2o/g2o/core/f
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/factory.s: orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.s
@@ -1272,7 +1272,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/factory.s: orb_slam2/Thirdparty/g2o/g2o/core/f
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.o: orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.o
@@ -1281,7 +1281,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.o: orb_slam2/Thirdparty/g2o/g2o
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.i: orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.i
@@ -1290,7 +1290,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.i: orb_slam2/Thirdparty/g2o/g2o
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.s: orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.s
@@ -1299,7 +1299,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.s: orb_slam2/Thirdparty/g2o/g2o
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.o: orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.o
@@ -1308,7 +1308,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.o: orb_slam2/Thirdparty/g2o/g2o/co
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.i: orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.i
@@ -1317,7 +1317,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.i: orb_slam2/Thirdparty/g2o/g2o/co
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.s: orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.s
@@ -1326,7 +1326,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.s: orb_slam2/Thirdparty/g2o/g2o/co
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.o: orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.o
@@ -1335,7 +1335,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.o: orb_slam2/Thirdparty/g2o
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.i: orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.i
@@ -1344,7 +1344,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.i: orb_slam2/Thirdparty/g2o
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.s: orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.s
@@ -1353,7 +1353,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.s: orb_slam2/Thirdparty/g2o
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.o: orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.o
@@ -1362,7 +1362,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.o: orb_slam2/Thirdparty/g2o
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.i: orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.i
@@ -1371,7 +1371,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.i: orb_slam2/Thirdparty/g2o
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.s: orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.s
@@ -1380,7 +1380,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.s: orb_slam2/Thirdparty/g2o
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.o: orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.o
@@ -1389,7 +1389,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.o: orb_slam2/Thir
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.i: orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.i
@@ -1398,7 +1398,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.i: orb_slam2/Thir
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.s: orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.s
@@ -1407,7 +1407,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.s: orb_slam2/Thir
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.o: orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.o
@@ -1416,7 +1416,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.o: orb_slam2/Thirdparty/g2o/g
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.i: orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.i
@@ -1425,7 +1425,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.i: orb_slam2/Thirdparty/g2o/g
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.s: orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.s
@@ -1434,7 +1434,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.s: orb_slam2/Thirdparty/g2o/g
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.o: orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.o
@@ -1443,7 +1443,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.o: orb_slam2/Thirdparty/g2o/
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.i: orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.i
@@ -1452,7 +1452,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.i: orb_slam2/Thirdparty/g2o/
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.s: orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.s
@@ -1461,7 +1461,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.s: orb_slam2/Thirdparty/g2o/
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.o: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.o
@@ -1470,7 +1470,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.o: orb_slam2/Thirdparty
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.i: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.i
@@ -1479,7 +1479,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.i: orb_slam2/Thirdparty
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.s: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.s
@@ -1488,7 +1488,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.s: orb_slam2/Thirdparty
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.o: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.o
@@ -1497,7 +1497,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.o: orb_slam2/Th
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.i: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.i
@@ -1506,7 +1506,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.i: orb_slam2/Th
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.s: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.s
@@ -1515,7 +1515,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.s: orb_slam2/Th
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.o: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.o
@@ -1524,7 +1524,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.o: orb_slam2/
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.i: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.i
@@ -1533,7 +1533,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.i: orb_slam2/
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.s: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.s
@@ -1542,7 +1542,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.s: orb_slam2/
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.o: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.o
@@ -1551,7 +1551,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.o: orb_sla
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.i: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.i
@@ -1560,7 +1560,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.i: orb_sla
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.s: orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.s
@@ -1569,7 +1569,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.s: orb_sla
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/parameter.o: orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.o
@@ -1578,7 +1578,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/parameter.o: orb_slam2/Thirdparty/g2o/g2o/core
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/parameter.i: orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.i
@@ -1587,7 +1587,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/parameter.i: orb_slam2/Thirdparty/g2o/g2o/core
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/parameter.s: orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.s
@@ -1596,7 +1596,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/parameter.s: orb_slam2/Thirdparty/g2o/g2o/core
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.o: orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.o
@@ -1605,7 +1605,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.o: orb_slam2/Thirdparty/g2
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.i: orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.i
@@ -1614,7 +1614,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.i: orb_slam2/Thirdparty/g2
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.s: orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.s
@@ -1623,7 +1623,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.s: orb_slam2/Thirdparty/g2
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.o: orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.o
@@ -1632,7 +1632,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.o: orb_slam2/Thirdparty/g2o/g2o/
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.i: orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.i
@@ -1641,7 +1641,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.i: orb_slam2/Thirdparty/g2o/g2o/
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.s: orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.s
@@ -1650,7 +1650,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.s: orb_slam2/Thirdparty/g2o/g2o/
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.o: orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.o
@@ -1659,7 +1659,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.o: orb_slam2/Thirdparty/
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.i: orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.i
@@ -1668,7 +1668,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.i: orb_slam2/Thirdparty/
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.s: orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.s
@@ -1677,7 +1677,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.s: orb_slam2/Thirdparty/
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.o: orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.o
@@ -1686,7 +1686,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.o: orb_slam2/Thirdparty/g2o
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.i: orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.i
@@ -1695,7 +1695,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.i: orb_slam2/Thirdparty/g2o
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.s: orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.s
@@ -1704,7 +1704,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.s: orb_slam2/Thirdparty/g2o
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/solver.o: orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.o
@@ -1713,7 +1713,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/solver.o: orb_slam2/Thirdparty/g2o/g2o/core/so
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/solver.i: orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.i
@@ -1722,7 +1722,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/solver.i: orb_slam2/Thirdparty/g2o/g2o/core/so
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/solver.s: orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.s
@@ -1731,7 +1731,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/solver.s: orb_slam2/Thirdparty/g2o/g2o/core/so
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.o: orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.o
@@ -1740,7 +1740,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.o: orb_slam2/Thirdparty/g2o/g
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.i: orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.i
@@ -1749,7 +1749,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.i: orb_slam2/Thirdparty/g2o/g
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.s: orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.s
@@ -1758,7 +1758,7 @@ orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.s: orb_slam2/Thirdparty/g2o/g
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.o: orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.o
@@ -1767,7 +1767,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.o: orb_slam2/Thirdparty/g2o/g2o/s
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.o
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.i: orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.i
@@ -1776,7 +1776,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.i: orb_slam2/Thirdparty/g2o/g2o/s
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.i
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.s: orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.s
@@ -1785,7 +1785,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.s: orb_slam2/Thirdparty/g2o/g2o/s
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.s
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/property.o: orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.o
@@ -1794,7 +1794,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/property.o: orb_slam2/Thirdparty/g2o/g2o/stuf
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/property.i: orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.i
@@ -1803,7 +1803,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/property.i: orb_slam2/Thirdparty/g2o/g2o/stuf
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/property.s: orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.s
@@ -1812,7 +1812,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/property.s: orb_slam2/Thirdparty/g2o/g2o/stuf
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.o: orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.o
@@ -1821,7 +1821,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.o: orb_slam2/Thirdparty/g2o/g2o/
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.i: orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.i
@@ -1830,7 +1830,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.i: orb_slam2/Thirdparty/g2o/g2o/
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.s: orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.s
@@ -1839,7 +1839,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.s: orb_slam2/Thirdparty/g2o/g2o/
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.o: orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.o
@@ -1848,7 +1848,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.o: orb_slam2/Thirdparty/g2o/g2o/stuf
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.i: orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.i
@@ -1857,7 +1857,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.i: orb_slam2/Thirdparty/g2o/g2o/stuf
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.s: orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.s
@@ -1866,7 +1866,7 @@ orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.s: orb_slam2/Thirdparty/g2o/g2o/stuf
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/types/types_sba.o: orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.o
@@ -1875,7 +1875,7 @@ orb_slam2/Thirdparty/g2o/g2o/types/types_sba.o: orb_slam2/Thirdparty/g2o/g2o/typ
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/types/types_sba.i: orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.i
@@ -1884,7 +1884,7 @@ orb_slam2/Thirdparty/g2o/g2o/types/types_sba.i: orb_slam2/Thirdparty/g2o/g2o/typ
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/types/types_sba.s: orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.s
@@ -1893,7 +1893,7 @@ orb_slam2/Thirdparty/g2o/g2o/types/types_sba.s: orb_slam2/Thirdparty/g2o/g2o/typ
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.o: orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.o
@@ -1902,7 +1902,7 @@ orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.o: orb_slam2/Thirdpart
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.i: orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.i
@@ -1911,7 +1911,7 @@ orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.i: orb_slam2/Thirdpart
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.s: orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.s
@@ -1920,7 +1920,7 @@ orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.s: orb_slam2/Thirdpart
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.s
 
 orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.o: orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.o
@@ -1929,7 +1929,7 @@ orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.o: orb_slam2/Thirdparty/
 
 # target to build an object file
 orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.o
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.o
 
 orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.i: orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.i
@@ -1938,7 +1938,7 @@ orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.i: orb_slam2/Thirdparty/
 
 # target to preprocess a source file
 orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.i
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.i
 
 orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.s: orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.s
@@ -1947,7 +1947,7 @@ orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.s: orb_slam2/Thirdparty/
 
 # target to generate assembly for a file
 orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/g2o.dir/build.make orb_slam2_ros/CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.s
 .PHONY : orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.s
 
 orb_slam2/src/Converter.o: orb_slam2/src/Converter.cc.o
@@ -1956,7 +1956,7 @@ orb_slam2/src/Converter.o: orb_slam2/src/Converter.cc.o
 
 # target to build an object file
 orb_slam2/src/Converter.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Converter.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Converter.cc.o
 .PHONY : orb_slam2/src/Converter.cc.o
 
 orb_slam2/src/Converter.i: orb_slam2/src/Converter.cc.i
@@ -1965,7 +1965,7 @@ orb_slam2/src/Converter.i: orb_slam2/src/Converter.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/Converter.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Converter.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Converter.cc.i
 .PHONY : orb_slam2/src/Converter.cc.i
 
 orb_slam2/src/Converter.s: orb_slam2/src/Converter.cc.s
@@ -1974,7 +1974,7 @@ orb_slam2/src/Converter.s: orb_slam2/src/Converter.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/Converter.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Converter.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Converter.cc.s
 .PHONY : orb_slam2/src/Converter.cc.s
 
 orb_slam2/src/Frame.o: orb_slam2/src/Frame.cc.o
@@ -1983,7 +1983,7 @@ orb_slam2/src/Frame.o: orb_slam2/src/Frame.cc.o
 
 # target to build an object file
 orb_slam2/src/Frame.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Frame.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Frame.cc.o
 .PHONY : orb_slam2/src/Frame.cc.o
 
 orb_slam2/src/Frame.i: orb_slam2/src/Frame.cc.i
@@ -1992,7 +1992,7 @@ orb_slam2/src/Frame.i: orb_slam2/src/Frame.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/Frame.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Frame.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Frame.cc.i
 .PHONY : orb_slam2/src/Frame.cc.i
 
 orb_slam2/src/Frame.s: orb_slam2/src/Frame.cc.s
@@ -2001,7 +2001,7 @@ orb_slam2/src/Frame.s: orb_slam2/src/Frame.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/Frame.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Frame.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Frame.cc.s
 .PHONY : orb_slam2/src/Frame.cc.s
 
 orb_slam2/src/FrameDrawer.o: orb_slam2/src/FrameDrawer.cc.o
@@ -2010,7 +2010,7 @@ orb_slam2/src/FrameDrawer.o: orb_slam2/src/FrameDrawer.cc.o
 
 # target to build an object file
 orb_slam2/src/FrameDrawer.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/FrameDrawer.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/FrameDrawer.cc.o
 .PHONY : orb_slam2/src/FrameDrawer.cc.o
 
 orb_slam2/src/FrameDrawer.i: orb_slam2/src/FrameDrawer.cc.i
@@ -2019,7 +2019,7 @@ orb_slam2/src/FrameDrawer.i: orb_slam2/src/FrameDrawer.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/FrameDrawer.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/FrameDrawer.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/FrameDrawer.cc.i
 .PHONY : orb_slam2/src/FrameDrawer.cc.i
 
 orb_slam2/src/FrameDrawer.s: orb_slam2/src/FrameDrawer.cc.s
@@ -2028,7 +2028,7 @@ orb_slam2/src/FrameDrawer.s: orb_slam2/src/FrameDrawer.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/FrameDrawer.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/FrameDrawer.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/FrameDrawer.cc.s
 .PHONY : orb_slam2/src/FrameDrawer.cc.s
 
 orb_slam2/src/Initializer.o: orb_slam2/src/Initializer.cc.o
@@ -2037,7 +2037,7 @@ orb_slam2/src/Initializer.o: orb_slam2/src/Initializer.cc.o
 
 # target to build an object file
 orb_slam2/src/Initializer.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Initializer.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Initializer.cc.o
 .PHONY : orb_slam2/src/Initializer.cc.o
 
 orb_slam2/src/Initializer.i: orb_slam2/src/Initializer.cc.i
@@ -2046,7 +2046,7 @@ orb_slam2/src/Initializer.i: orb_slam2/src/Initializer.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/Initializer.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Initializer.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Initializer.cc.i
 .PHONY : orb_slam2/src/Initializer.cc.i
 
 orb_slam2/src/Initializer.s: orb_slam2/src/Initializer.cc.s
@@ -2055,7 +2055,7 @@ orb_slam2/src/Initializer.s: orb_slam2/src/Initializer.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/Initializer.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Initializer.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Initializer.cc.s
 .PHONY : orb_slam2/src/Initializer.cc.s
 
 orb_slam2/src/KeyFrame.o: orb_slam2/src/KeyFrame.cc.o
@@ -2064,7 +2064,7 @@ orb_slam2/src/KeyFrame.o: orb_slam2/src/KeyFrame.cc.o
 
 # target to build an object file
 orb_slam2/src/KeyFrame.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrame.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrame.cc.o
 .PHONY : orb_slam2/src/KeyFrame.cc.o
 
 orb_slam2/src/KeyFrame.i: orb_slam2/src/KeyFrame.cc.i
@@ -2073,7 +2073,7 @@ orb_slam2/src/KeyFrame.i: orb_slam2/src/KeyFrame.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/KeyFrame.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrame.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrame.cc.i
 .PHONY : orb_slam2/src/KeyFrame.cc.i
 
 orb_slam2/src/KeyFrame.s: orb_slam2/src/KeyFrame.cc.s
@@ -2082,7 +2082,7 @@ orb_slam2/src/KeyFrame.s: orb_slam2/src/KeyFrame.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/KeyFrame.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrame.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrame.cc.s
 .PHONY : orb_slam2/src/KeyFrame.cc.s
 
 orb_slam2/src/KeyFrameDatabase.o: orb_slam2/src/KeyFrameDatabase.cc.o
@@ -2091,7 +2091,7 @@ orb_slam2/src/KeyFrameDatabase.o: orb_slam2/src/KeyFrameDatabase.cc.o
 
 # target to build an object file
 orb_slam2/src/KeyFrameDatabase.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrameDatabase.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrameDatabase.cc.o
 .PHONY : orb_slam2/src/KeyFrameDatabase.cc.o
 
 orb_slam2/src/KeyFrameDatabase.i: orb_slam2/src/KeyFrameDatabase.cc.i
@@ -2100,7 +2100,7 @@ orb_slam2/src/KeyFrameDatabase.i: orb_slam2/src/KeyFrameDatabase.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/KeyFrameDatabase.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrameDatabase.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrameDatabase.cc.i
 .PHONY : orb_slam2/src/KeyFrameDatabase.cc.i
 
 orb_slam2/src/KeyFrameDatabase.s: orb_slam2/src/KeyFrameDatabase.cc.s
@@ -2109,7 +2109,7 @@ orb_slam2/src/KeyFrameDatabase.s: orb_slam2/src/KeyFrameDatabase.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/KeyFrameDatabase.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrameDatabase.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/KeyFrameDatabase.cc.s
 .PHONY : orb_slam2/src/KeyFrameDatabase.cc.s
 
 orb_slam2/src/LocalMapping.o: orb_slam2/src/LocalMapping.cc.o
@@ -2118,7 +2118,7 @@ orb_slam2/src/LocalMapping.o: orb_slam2/src/LocalMapping.cc.o
 
 # target to build an object file
 orb_slam2/src/LocalMapping.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LocalMapping.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LocalMapping.cc.o
 .PHONY : orb_slam2/src/LocalMapping.cc.o
 
 orb_slam2/src/LocalMapping.i: orb_slam2/src/LocalMapping.cc.i
@@ -2127,7 +2127,7 @@ orb_slam2/src/LocalMapping.i: orb_slam2/src/LocalMapping.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/LocalMapping.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LocalMapping.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LocalMapping.cc.i
 .PHONY : orb_slam2/src/LocalMapping.cc.i
 
 orb_slam2/src/LocalMapping.s: orb_slam2/src/LocalMapping.cc.s
@@ -2136,7 +2136,7 @@ orb_slam2/src/LocalMapping.s: orb_slam2/src/LocalMapping.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/LocalMapping.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LocalMapping.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LocalMapping.cc.s
 .PHONY : orb_slam2/src/LocalMapping.cc.s
 
 orb_slam2/src/LoopClosing.o: orb_slam2/src/LoopClosing.cc.o
@@ -2145,7 +2145,7 @@ orb_slam2/src/LoopClosing.o: orb_slam2/src/LoopClosing.cc.o
 
 # target to build an object file
 orb_slam2/src/LoopClosing.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LoopClosing.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LoopClosing.cc.o
 .PHONY : orb_slam2/src/LoopClosing.cc.o
 
 orb_slam2/src/LoopClosing.i: orb_slam2/src/LoopClosing.cc.i
@@ -2154,7 +2154,7 @@ orb_slam2/src/LoopClosing.i: orb_slam2/src/LoopClosing.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/LoopClosing.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LoopClosing.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LoopClosing.cc.i
 .PHONY : orb_slam2/src/LoopClosing.cc.i
 
 orb_slam2/src/LoopClosing.s: orb_slam2/src/LoopClosing.cc.s
@@ -2163,7 +2163,7 @@ orb_slam2/src/LoopClosing.s: orb_slam2/src/LoopClosing.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/LoopClosing.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LoopClosing.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/LoopClosing.cc.s
 .PHONY : orb_slam2/src/LoopClosing.cc.s
 
 orb_slam2/src/Map.o: orb_slam2/src/Map.cc.o
@@ -2172,7 +2172,7 @@ orb_slam2/src/Map.o: orb_slam2/src/Map.cc.o
 
 # target to build an object file
 orb_slam2/src/Map.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Map.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Map.cc.o
 .PHONY : orb_slam2/src/Map.cc.o
 
 orb_slam2/src/Map.i: orb_slam2/src/Map.cc.i
@@ -2181,7 +2181,7 @@ orb_slam2/src/Map.i: orb_slam2/src/Map.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/Map.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Map.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Map.cc.i
 .PHONY : orb_slam2/src/Map.cc.i
 
 orb_slam2/src/Map.s: orb_slam2/src/Map.cc.s
@@ -2190,7 +2190,7 @@ orb_slam2/src/Map.s: orb_slam2/src/Map.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/Map.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Map.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Map.cc.s
 .PHONY : orb_slam2/src/Map.cc.s
 
 orb_slam2/src/MapPoint.o: orb_slam2/src/MapPoint.cc.o
@@ -2199,7 +2199,7 @@ orb_slam2/src/MapPoint.o: orb_slam2/src/MapPoint.cc.o
 
 # target to build an object file
 orb_slam2/src/MapPoint.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/MapPoint.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/MapPoint.cc.o
 .PHONY : orb_slam2/src/MapPoint.cc.o
 
 orb_slam2/src/MapPoint.i: orb_slam2/src/MapPoint.cc.i
@@ -2208,7 +2208,7 @@ orb_slam2/src/MapPoint.i: orb_slam2/src/MapPoint.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/MapPoint.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/MapPoint.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/MapPoint.cc.i
 .PHONY : orb_slam2/src/MapPoint.cc.i
 
 orb_slam2/src/MapPoint.s: orb_slam2/src/MapPoint.cc.s
@@ -2217,7 +2217,7 @@ orb_slam2/src/MapPoint.s: orb_slam2/src/MapPoint.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/MapPoint.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/MapPoint.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/MapPoint.cc.s
 .PHONY : orb_slam2/src/MapPoint.cc.s
 
 orb_slam2/src/ORBextractor.o: orb_slam2/src/ORBextractor.cc.o
@@ -2226,7 +2226,7 @@ orb_slam2/src/ORBextractor.o: orb_slam2/src/ORBextractor.cc.o
 
 # target to build an object file
 orb_slam2/src/ORBextractor.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBextractor.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBextractor.cc.o
 .PHONY : orb_slam2/src/ORBextractor.cc.o
 
 orb_slam2/src/ORBextractor.i: orb_slam2/src/ORBextractor.cc.i
@@ -2235,7 +2235,7 @@ orb_slam2/src/ORBextractor.i: orb_slam2/src/ORBextractor.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/ORBextractor.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBextractor.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBextractor.cc.i
 .PHONY : orb_slam2/src/ORBextractor.cc.i
 
 orb_slam2/src/ORBextractor.s: orb_slam2/src/ORBextractor.cc.s
@@ -2244,7 +2244,7 @@ orb_slam2/src/ORBextractor.s: orb_slam2/src/ORBextractor.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/ORBextractor.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBextractor.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBextractor.cc.s
 .PHONY : orb_slam2/src/ORBextractor.cc.s
 
 orb_slam2/src/ORBmatcher.o: orb_slam2/src/ORBmatcher.cc.o
@@ -2253,7 +2253,7 @@ orb_slam2/src/ORBmatcher.o: orb_slam2/src/ORBmatcher.cc.o
 
 # target to build an object file
 orb_slam2/src/ORBmatcher.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBmatcher.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBmatcher.cc.o
 .PHONY : orb_slam2/src/ORBmatcher.cc.o
 
 orb_slam2/src/ORBmatcher.i: orb_slam2/src/ORBmatcher.cc.i
@@ -2262,7 +2262,7 @@ orb_slam2/src/ORBmatcher.i: orb_slam2/src/ORBmatcher.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/ORBmatcher.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBmatcher.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBmatcher.cc.i
 .PHONY : orb_slam2/src/ORBmatcher.cc.i
 
 orb_slam2/src/ORBmatcher.s: orb_slam2/src/ORBmatcher.cc.s
@@ -2271,7 +2271,7 @@ orb_slam2/src/ORBmatcher.s: orb_slam2/src/ORBmatcher.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/ORBmatcher.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBmatcher.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/ORBmatcher.cc.s
 .PHONY : orb_slam2/src/ORBmatcher.cc.s
 
 orb_slam2/src/Optimizer.o: orb_slam2/src/Optimizer.cc.o
@@ -2280,7 +2280,7 @@ orb_slam2/src/Optimizer.o: orb_slam2/src/Optimizer.cc.o
 
 # target to build an object file
 orb_slam2/src/Optimizer.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Optimizer.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Optimizer.cc.o
 .PHONY : orb_slam2/src/Optimizer.cc.o
 
 orb_slam2/src/Optimizer.i: orb_slam2/src/Optimizer.cc.i
@@ -2289,7 +2289,7 @@ orb_slam2/src/Optimizer.i: orb_slam2/src/Optimizer.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/Optimizer.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Optimizer.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Optimizer.cc.i
 .PHONY : orb_slam2/src/Optimizer.cc.i
 
 orb_slam2/src/Optimizer.s: orb_slam2/src/Optimizer.cc.s
@@ -2298,7 +2298,7 @@ orb_slam2/src/Optimizer.s: orb_slam2/src/Optimizer.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/Optimizer.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Optimizer.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Optimizer.cc.s
 .PHONY : orb_slam2/src/Optimizer.cc.s
 
 orb_slam2/src/PnPsolver.o: orb_slam2/src/PnPsolver.cc.o
@@ -2307,7 +2307,7 @@ orb_slam2/src/PnPsolver.o: orb_slam2/src/PnPsolver.cc.o
 
 # target to build an object file
 orb_slam2/src/PnPsolver.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/PnPsolver.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/PnPsolver.cc.o
 .PHONY : orb_slam2/src/PnPsolver.cc.o
 
 orb_slam2/src/PnPsolver.i: orb_slam2/src/PnPsolver.cc.i
@@ -2316,7 +2316,7 @@ orb_slam2/src/PnPsolver.i: orb_slam2/src/PnPsolver.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/PnPsolver.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/PnPsolver.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/PnPsolver.cc.i
 .PHONY : orb_slam2/src/PnPsolver.cc.i
 
 orb_slam2/src/PnPsolver.s: orb_slam2/src/PnPsolver.cc.s
@@ -2325,7 +2325,7 @@ orb_slam2/src/PnPsolver.s: orb_slam2/src/PnPsolver.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/PnPsolver.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/PnPsolver.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/PnPsolver.cc.s
 .PHONY : orb_slam2/src/PnPsolver.cc.s
 
 orb_slam2/src/Sim3Solver.o: orb_slam2/src/Sim3Solver.cc.o
@@ -2334,7 +2334,7 @@ orb_slam2/src/Sim3Solver.o: orb_slam2/src/Sim3Solver.cc.o
 
 # target to build an object file
 orb_slam2/src/Sim3Solver.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Sim3Solver.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Sim3Solver.cc.o
 .PHONY : orb_slam2/src/Sim3Solver.cc.o
 
 orb_slam2/src/Sim3Solver.i: orb_slam2/src/Sim3Solver.cc.i
@@ -2343,7 +2343,7 @@ orb_slam2/src/Sim3Solver.i: orb_slam2/src/Sim3Solver.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/Sim3Solver.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Sim3Solver.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Sim3Solver.cc.i
 .PHONY : orb_slam2/src/Sim3Solver.cc.i
 
 orb_slam2/src/Sim3Solver.s: orb_slam2/src/Sim3Solver.cc.s
@@ -2352,7 +2352,7 @@ orb_slam2/src/Sim3Solver.s: orb_slam2/src/Sim3Solver.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/Sim3Solver.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Sim3Solver.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Sim3Solver.cc.s
 .PHONY : orb_slam2/src/Sim3Solver.cc.s
 
 orb_slam2/src/System.o: orb_slam2/src/System.cc.o
@@ -2361,7 +2361,7 @@ orb_slam2/src/System.o: orb_slam2/src/System.cc.o
 
 # target to build an object file
 orb_slam2/src/System.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/System.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/System.cc.o
 .PHONY : orb_slam2/src/System.cc.o
 
 orb_slam2/src/System.i: orb_slam2/src/System.cc.i
@@ -2370,7 +2370,7 @@ orb_slam2/src/System.i: orb_slam2/src/System.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/System.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/System.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/System.cc.i
 .PHONY : orb_slam2/src/System.cc.i
 
 orb_slam2/src/System.s: orb_slam2/src/System.cc.s
@@ -2379,7 +2379,7 @@ orb_slam2/src/System.s: orb_slam2/src/System.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/System.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/System.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/System.cc.s
 .PHONY : orb_slam2/src/System.cc.s
 
 orb_slam2/src/Tracking.o: orb_slam2/src/Tracking.cc.o
@@ -2388,7 +2388,7 @@ orb_slam2/src/Tracking.o: orb_slam2/src/Tracking.cc.o
 
 # target to build an object file
 orb_slam2/src/Tracking.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Tracking.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Tracking.cc.o
 .PHONY : orb_slam2/src/Tracking.cc.o
 
 orb_slam2/src/Tracking.i: orb_slam2/src/Tracking.cc.i
@@ -2397,7 +2397,7 @@ orb_slam2/src/Tracking.i: orb_slam2/src/Tracking.cc.i
 
 # target to preprocess a source file
 orb_slam2/src/Tracking.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Tracking.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Tracking.cc.i
 .PHONY : orb_slam2/src/Tracking.cc.i
 
 orb_slam2/src/Tracking.s: orb_slam2/src/Tracking.cc.s
@@ -2406,7 +2406,7 @@ orb_slam2/src/Tracking.s: orb_slam2/src/Tracking.cc.s
 
 # target to generate assembly for a file
 orb_slam2/src/Tracking.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Tracking.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros.dir/orb_slam2/src/Tracking.cc.s
 .PHONY : orb_slam2/src/Tracking.cc.s
 
 ros/src/MonoNode.o: ros/src/MonoNode.cc.o
@@ -2415,7 +2415,7 @@ ros/src/MonoNode.o: ros/src/MonoNode.cc.o
 
 # target to build an object file
 ros/src/MonoNode.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/MonoNode.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/MonoNode.cc.o
 .PHONY : ros/src/MonoNode.cc.o
 
 ros/src/MonoNode.i: ros/src/MonoNode.cc.i
@@ -2424,7 +2424,7 @@ ros/src/MonoNode.i: ros/src/MonoNode.cc.i
 
 # target to preprocess a source file
 ros/src/MonoNode.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/MonoNode.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/MonoNode.cc.i
 .PHONY : ros/src/MonoNode.cc.i
 
 ros/src/MonoNode.s: ros/src/MonoNode.cc.s
@@ -2433,7 +2433,7 @@ ros/src/MonoNode.s: ros/src/MonoNode.cc.s
 
 # target to generate assembly for a file
 ros/src/MonoNode.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/MonoNode.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/MonoNode.cc.s
 .PHONY : ros/src/MonoNode.cc.s
 
 ros/src/Node.o: ros/src/Node.cc.o
@@ -2442,7 +2442,7 @@ ros/src/Node.o: ros/src/Node.cc.o
 
 # target to build an object file
 ros/src/Node.cc.o:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/Node.cc.o
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/Node.cc.o
 .PHONY : ros/src/Node.cc.o
 
 ros/src/Node.i: ros/src/Node.cc.i
@@ -2451,7 +2451,7 @@ ros/src/Node.i: ros/src/Node.cc.i
 
 # target to preprocess a source file
 ros/src/Node.cc.i:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/Node.cc.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/Node.cc.i
 .PHONY : ros/src/Node.cc.i
 
 ros/src/Node.s: ros/src/Node.cc.s
@@ -2460,7 +2460,7 @@ ros/src/Node.s: ros/src/Node.cc.s
 
 # target to generate assembly for a file
 ros/src/Node.cc.s:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/Node.cc.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/build.make orb_slam2_ros/CMakeFiles/orb_slam2_ros_mono.dir/ros/src/Node.cc.s
 .PHONY : ros/src/Node.cc.s
 
 # Help Target
@@ -2705,6 +2705,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

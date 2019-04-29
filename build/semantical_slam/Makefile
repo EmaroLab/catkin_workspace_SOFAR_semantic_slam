@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/src
+CMAKE_SOURCE_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/build
+CMAKE_BINARY_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/CMakeFiles/progress.marks
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles 0
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/CMakeFiles/progress.marks
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/clean
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/preinstall
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/preinstall
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/rule
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ semantical_slam_generate_messages_py: semantical_slam/CMakeFiles/semantical_slam
 
 # fast build rule for target.
 semantical_slam_generate_messages_py/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages_py.dir/build
 .PHONY : semantical_slam_generate_messages_py/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/semantical_slam_gennodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_gennodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_gennodejs.dir/rule
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ semantical_slam_gennodejs: semantical_slam/CMakeFiles/semantical_slam_gennodejs.
 
 # fast build rule for target.
 semantical_slam_gennodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_gennodejs.dir/build.make semantical_slam/CMakeFiles/semantical_slam_gennodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_gennodejs.dir/build.make semantical_slam/CMakeFiles/semantical_slam_gennodejs.dir/build
 .PHONY : semantical_slam_gennodejs/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/rule
 .PHONY : semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ _semantical_slam_generate_messages_check_deps_SemanticalPoint: semantical_slam/C
 
 # fast build rule for target.
 _semantical_slam_generate_messages_check_deps_SemanticalPoint/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/build.make semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/build.make semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/build
 .PHONY : _semantical_slam_generate_messages_check_deps_SemanticalPoint/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_CreateSemMsg.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_CreateSemMsg.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_CreateSemMsg.dir/rule
 .PHONY : semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_CreateSemMsg.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ _semantical_slam_generate_messages_check_deps_CreateSemMsg: semantical_slam/CMak
 
 # fast build rule for target.
 _semantical_slam_generate_messages_check_deps_CreateSemMsg/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_CreateSemMsg.dir/build.make semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_CreateSemMsg.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_CreateSemMsg.dir/build.make semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_CreateSemMsg.dir/build
 .PHONY : _semantical_slam_generate_messages_check_deps_CreateSemMsg/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/semantical_slam_generate_messages.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages.dir/rule
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ semantical_slam_generate_messages: semantical_slam/CMakeFiles/semantical_slam_ge
 
 # fast build rule for target.
 semantical_slam_generate_messages/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages.dir/build
 .PHONY : semantical_slam_generate_messages/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/rule
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ semantical_slam_generate_messages_cpp: semantical_slam/CMakeFiles/semantical_sla
 
 # fast build rule for target.
 semantical_slam_generate_messages_cpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/build
 .PHONY : semantical_slam_generate_messages_cpp/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/semantical_slam_gencpp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_gencpp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_gencpp.dir/rule
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_gencpp.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ semantical_slam_gencpp: semantical_slam/CMakeFiles/semantical_slam_gencpp.dir/ru
 
 # fast build rule for target.
 semantical_slam_gencpp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_gencpp.dir/build.make semantical_slam/CMakeFiles/semantical_slam_gencpp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_gencpp.dir/build.make semantical_slam/CMakeFiles/semantical_slam_gencpp.dir/build
 .PHONY : semantical_slam_gencpp/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/semantical_slam_generate_messages_lisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages_lisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages_lisp.dir/rule
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ semantical_slam_generate_messages_lisp: semantical_slam/CMakeFiles/semantical_sl
 
 # fast build rule for target.
 semantical_slam_generate_messages_lisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages_lisp.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages_lisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages_lisp.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages_lisp.dir/build
 .PHONY : semantical_slam_generate_messages_lisp/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/semantical_slam_generate_messages_eus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages_eus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages_eus.dir/rule
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ semantical_slam_generate_messages_eus: semantical_slam/CMakeFiles/semantical_sla
 
 # fast build rule for target.
 semantical_slam_generate_messages_eus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages_eus.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages_eus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages_eus.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages_eus.dir/build
 .PHONY : semantical_slam_generate_messages_eus/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/semantical_slam_geneus.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_geneus.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_geneus.dir/rule
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_geneus.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ semantical_slam_geneus: semantical_slam/CMakeFiles/semantical_slam_geneus.dir/ru
 
 # fast build rule for target.
 semantical_slam_geneus/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_geneus.dir/build.make semantical_slam/CMakeFiles/semantical_slam_geneus.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_geneus.dir/build.make semantical_slam/CMakeFiles/semantical_slam_geneus.dir/build
 .PHONY : semantical_slam_geneus/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/semantical_slam_genpy.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_genpy.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_genpy.dir/rule
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_genpy.dir/rule
 
 # Convenience name for target.
@@ -327,12 +327,12 @@ semantical_slam_genpy: semantical_slam/CMakeFiles/semantical_slam_genpy.dir/rule
 
 # fast build rule for target.
 semantical_slam_genpy/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_genpy.dir/build.make semantical_slam/CMakeFiles/semantical_slam_genpy.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_genpy.dir/build.make semantical_slam/CMakeFiles/semantical_slam_genpy.dir/build
 .PHONY : semantical_slam_genpy/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/semantical_slam_genlisp.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_genlisp.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_genlisp.dir/rule
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_genlisp.dir/rule
 
 # Convenience name for target.
@@ -342,12 +342,12 @@ semantical_slam_genlisp: semantical_slam/CMakeFiles/semantical_slam_genlisp.dir/
 
 # fast build rule for target.
 semantical_slam_genlisp/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_genlisp.dir/build.make semantical_slam/CMakeFiles/semantical_slam_genlisp.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_genlisp.dir/build.make semantical_slam/CMakeFiles/semantical_slam_genlisp.dir/build
 .PHONY : semantical_slam_genlisp/fast
 
 # Convenience name for target.
 semantical_slam/CMakeFiles/semantical_slam_generate_messages_nodejs.dir/rule:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages_nodejs.dir/rule
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f CMakeFiles/Makefile2 semantical_slam/CMakeFiles/semantical_slam_generate_messages_nodejs.dir/rule
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -357,7 +357,7 @@ semantical_slam_generate_messages_nodejs: semantical_slam/CMakeFiles/semantical_
 
 # fast build rule for target.
 semantical_slam_generate_messages_nodejs/fast:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages_nodejs.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages_nodejs.dir/build
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(MAKE) -f semantical_slam/CMakeFiles/semantical_slam_generate_messages_nodejs.dir/build.make semantical_slam/CMakeFiles/semantical_slam_generate_messages_nodejs.dir/build
 .PHONY : semantical_slam_generate_messages_nodejs/fast
 
 # Help Target
@@ -397,6 +397,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

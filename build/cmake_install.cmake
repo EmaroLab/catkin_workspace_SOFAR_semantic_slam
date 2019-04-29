@@ -1,8 +1,8 @@
-# Install script for directory: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src
+# Install script for directory: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,81 +44,81 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install/_setup_util.py")
+   "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install" TYPE PROGRAM FILES "/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install" TYPE PROGRAM FILES "/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install/env.sh")
+   "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install" TYPE PROGRAM FILES "/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install" TYPE PROGRAM FILES "/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install/setup.bash")
+   "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install" TYPE FILE FILES "/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install" TYPE FILE FILES "/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install/setup.sh")
+   "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install" TYPE FILE FILES "/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install" TYPE FILE FILES "/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install/setup.zsh")
+   "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install" TYPE FILE FILES "/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install" TYPE FILE FILES "/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install/.rosinstall")
+   "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install" TYPE FILE FILES "/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install" TYPE FILE FILES "/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/gtest/cmake_install.cmake")
-  include("/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros/cmake_install.cmake")
-  include("/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/cmake_install.cmake")
+  include("/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/gtest/cmake_install.cmake")
+  include("/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros/cmake_install.cmake")
+  include("/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/cmake_install.cmake")
 
 endif()
 
@@ -130,5 +130,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

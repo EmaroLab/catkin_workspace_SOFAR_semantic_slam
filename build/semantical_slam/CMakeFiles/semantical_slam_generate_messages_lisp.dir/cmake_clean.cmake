@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/semantical_slam_generate_messages_lisp"
-  "/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/share/common-lisp/ros/semantical_slam/msg/SemanticalPoint.lisp"
-  "/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/share/common-lisp/ros/semantical_slam/srv/CreateSemMsg.lisp"
+  "/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/share/common-lisp/ros/semantical_slam/msg/SemanticalPoint.lisp"
+  "/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/share/common-lisp/ros/semantical_slam/srv/CreateSemMsg.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

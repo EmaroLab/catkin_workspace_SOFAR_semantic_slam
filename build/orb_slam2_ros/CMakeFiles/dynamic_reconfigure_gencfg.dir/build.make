@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/src
+CMAKE_SOURCE_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/build
+CMAKE_BINARY_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/build
 
 # Utility rule file for dynamic_reconfigure_gencfg.
 
@@ -63,10 +63,10 @@ orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/build: dynamic_reconfigu
 .PHONY : orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 
 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_gencfg.dir/cmake_clean.cmake
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_gencfg.dir/cmake_clean.cmake
 .PHONY : orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
 
 orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sofar/catkin_workspace_SOFAR_semantic_slam/src /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros /home/sofar/catkin_workspace_SOFAR_semantic_slam/build /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tommi/catkin_workspace_SOFAR_semantic_slam/src /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros /home/tommi/catkin_workspace_SOFAR_semantic_slam/build /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : orb_slam2_ros/CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
 

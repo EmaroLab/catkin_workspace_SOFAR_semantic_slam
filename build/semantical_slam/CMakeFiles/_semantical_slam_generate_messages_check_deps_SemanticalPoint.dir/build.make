@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/src
+CMAKE_SOURCE_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/build
+CMAKE_BINARY_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/build
 
 # Utility rule file for _semantical_slam_generate_messages_check_deps_SemanticalPoint.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/build
 include semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/progress.make
 
 semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py semantical_slam /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg 
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py semantical_slam /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg 
 
 _semantical_slam_generate_messages_check_deps_SemanticalPoint: semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint
 _semantical_slam_generate_messages_check_deps_SemanticalPoint: semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/build.make
@@ -67,10 +67,10 @@ semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_Semanti
 .PHONY : semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/build
 
 semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/clean:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && $(CMAKE_COMMAND) -P CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/cmake_clean.cmake
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && $(CMAKE_COMMAND) -P CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/cmake_clean.cmake
 .PHONY : semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/clean
 
 semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/depend:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sofar/catkin_workspace_SOFAR_semantic_slam/src /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam /home/sofar/catkin_workspace_SOFAR_semantic_slam/build /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tommi/catkin_workspace_SOFAR_semantic_slam/src /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam /home/tommi/catkin_workspace_SOFAR_semantic_slam/build /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : semantical_slam/CMakeFiles/_semantical_slam_generate_messages_check_deps_SemanticalPoint.dir/depend
 

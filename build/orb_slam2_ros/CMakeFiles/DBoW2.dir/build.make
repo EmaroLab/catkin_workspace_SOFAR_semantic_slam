@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/src
+CMAKE_SOURCE_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/build
+CMAKE_BINARY_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/build
 
 # Include any dependencies generated for this target.
 include orb_slam2_ros/CMakeFiles/DBoW2.dir/depend.make
@@ -58,17 +58,17 @@ include orb_slam2_ros/CMakeFiles/DBoW2.dir/progress.make
 include orb_slam2_ros/CMakeFiles/DBoW2.dir/flags.make
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o: orb_slam2_ros/CMakeFiles/DBoW2.dir/flags.make
-orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o -c /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp
+orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o -c /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.i"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.i
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.s"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.s
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o.requires:
 
@@ -82,17 +82,17 @@ orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cp
 
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o: orb_slam2_ros/CMakeFiles/DBoW2.dir/flags.make
-orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o -c /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp
+orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o -c /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.i"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.i
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.s"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.s
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o.requires:
 
@@ -106,17 +106,17 @@ orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o.p
 
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o: orb_slam2_ros/CMakeFiles/DBoW2.dir/flags.make
-orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o -c /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp
+orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o -c /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.i"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.i
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.s"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.s
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o.requires:
 
@@ -130,17 +130,17 @@ orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVecto
 
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o: orb_slam2_ros/CMakeFiles/DBoW2.dir/flags.make
-orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o -c /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp
+orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o -c /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.i"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.i
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.s"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.s
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o.requires:
 
@@ -154,17 +154,17 @@ orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObjec
 
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o: orb_slam2_ros/CMakeFiles/DBoW2.dir/flags.make
-orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o -c /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp
+orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o -c /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.i"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.i
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.s"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.s
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o.requires:
 
@@ -178,17 +178,17 @@ orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.
 
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o: orb_slam2_ros/CMakeFiles/DBoW2.dir/flags.make
-orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o -c /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp
+orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o -c /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.i"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.i
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp > CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.i
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.s"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.s
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp -o CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.s
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o.requires:
 
@@ -213,64 +213,64 @@ DBoW2_OBJECTS = \
 # External object files for target DBoW2
 DBoW2_EXTERNAL_OBJECTS =
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DBoW2.dir/link.txt --verbose=$(VERBOSE)
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/build.make
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so: orb_slam2_ros/CMakeFiles/DBoW2.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX shared library /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DBoW2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-orb_slam2_ros/CMakeFiles/DBoW2.dir/build: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so
+orb_slam2_ros/CMakeFiles/DBoW2.dir/build: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so
 
 .PHONY : orb_slam2_ros/CMakeFiles/DBoW2.dir/build
 
@@ -284,10 +284,10 @@ orb_slam2_ros/CMakeFiles/DBoW2.dir/requires: orb_slam2_ros/CMakeFiles/DBoW2.dir/
 .PHONY : orb_slam2_ros/CMakeFiles/DBoW2.dir/requires
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/clean:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && $(CMAKE_COMMAND) -P CMakeFiles/DBoW2.dir/cmake_clean.cmake
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros && $(CMAKE_COMMAND) -P CMakeFiles/DBoW2.dir/cmake_clean.cmake
 .PHONY : orb_slam2_ros/CMakeFiles/DBoW2.dir/clean
 
 orb_slam2_ros/CMakeFiles/DBoW2.dir/depend:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sofar/catkin_workspace_SOFAR_semantic_slam/src /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros /home/sofar/catkin_workspace_SOFAR_semantic_slam/build /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros/CMakeFiles/DBoW2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tommi/catkin_workspace_SOFAR_semantic_slam/src /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros /home/tommi/catkin_workspace_SOFAR_semantic_slam/build /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/orb_slam2_ros/CMakeFiles/DBoW2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : orb_slam2_ros/CMakeFiles/DBoW2.dir/depend
 

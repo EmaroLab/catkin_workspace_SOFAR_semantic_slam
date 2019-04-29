@@ -43,40 +43,40 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/src
+CMAKE_SOURCE_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sofar/catkin_workspace_SOFAR_semantic_slam/build
+CMAKE_BINARY_DIR = /home/tommi/catkin_workspace_SOFAR_semantic_slam/build
 
 # Utility rule file for semantical_slam_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/progress.make
 
-semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/SemanticalPoint.h
-semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h
+semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/SemanticalPoint.h
+semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h
 
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/SemanticalPoint.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/SemanticalPoint.h: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/SemanticalPoint.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from semantical_slam/SemanticalPoint.msg"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam && /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg -Isemantical_slam:/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Itf:/opt/ros/kinetic/share/tf/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p semantical_slam -o /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/SemanticalPoint.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/SemanticalPoint.h: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/SemanticalPoint.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from semantical_slam/SemanticalPoint.msg"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam && /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg -Isemantical_slam:/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Itf:/opt/ros/kinetic/share/tf/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p semantical_slam -o /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/srv/CreateSemMsg.srv
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sofar/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from semantical_slam/CreateSemMsg.srv"
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam && /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/srv/CreateSemMsg.srv -Isemantical_slam:/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Itf:/opt/ros/kinetic/share/tf/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p semantical_slam -o /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/srv/CreateSemMsg.srv
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg/SemanticalPoint.msg
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tommi/catkin_workspace_SOFAR_semantic_slam/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from semantical_slam/CreateSemMsg.srv"
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam && /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/srv/CreateSemMsg.srv -Isemantical_slam:/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Itf:/opt/ros/kinetic/share/tf/cmake/../msg -Isensor_msgs:/opt/ros/kinetic/share/sensor_msgs/cmake/../msg -p semantical_slam -o /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 semantical_slam_generate_messages_cpp: semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp
-semantical_slam_generate_messages_cpp: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/SemanticalPoint.h
-semantical_slam_generate_messages_cpp: /home/sofar/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h
+semantical_slam_generate_messages_cpp: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/SemanticalPoint.h
+semantical_slam_generate_messages_cpp: /home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/include/semantical_slam/CreateSemMsg.h
 semantical_slam_generate_messages_cpp: semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/build.make
 
 .PHONY : semantical_slam_generate_messages_cpp
@@ -87,10 +87,10 @@ semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/build: sema
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/build
 
 semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/clean:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && $(CMAKE_COMMAND) -P CMakeFiles/semantical_slam_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam && $(CMAKE_COMMAND) -P CMakeFiles/semantical_slam_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/clean
 
 semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/depend:
-	cd /home/sofar/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sofar/catkin_workspace_SOFAR_semantic_slam/src /home/sofar/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam /home/sofar/catkin_workspace_SOFAR_semantic_slam/build /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam /home/sofar/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tommi/catkin_workspace_SOFAR_semantic_slam/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tommi/catkin_workspace_SOFAR_semantic_slam/src /home/tommi/catkin_workspace_SOFAR_semantic_slam/src/semantical_slam /home/tommi/catkin_workspace_SOFAR_semantic_slam/build /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam /home/tommi/catkin_workspace_SOFAR_semantic_slam/build/semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : semantical_slam/CMakeFiles/semantical_slam_generate_messages_cpp.dir/depend
 

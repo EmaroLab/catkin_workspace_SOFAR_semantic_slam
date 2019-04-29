@@ -22,8 +22,9 @@ def main():
 	rate = rospy.Rate(10.0)
 	while not rospy.is_shutdown():
         	try:	
-			waitForTransform(target_frame, source_frame, time, timeout, polling_sleep_duration = rospy.Duration(0.01))
-            		adapted_pose_stamped = listener.transformPose('wordl',miro_pose_stamp)
+			now = rospy.Time.now()
+			listener.waitForTransform('map', 'camera_link', now, rospy.Duration(4.0))
+            		adapted_pose_stamped = listener.transformPose('map', miro_pose_stamp)
 			pub.publish(adapted_pose_stamped.pose)
         	except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
         		continue

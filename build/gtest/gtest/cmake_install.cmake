@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sofar/catkin_workspace_SOFAR_semantic_slam/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tommi/catkin_workspace_SOFAR_semantic_slam/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

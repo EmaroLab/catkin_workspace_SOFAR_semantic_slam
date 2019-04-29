@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c
 os_specific.h
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.h
 
-/home/sofar/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.h
+/home/tommi/catkin_workspace_SOFAR_semantic_slam/src/orb_slam2_ros/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.h
 stdio.h
 -
 stdlib.h
