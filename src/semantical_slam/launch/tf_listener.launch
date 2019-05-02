@@ -1,6 +1,0 @@
-<launch>
- 
- <node name="tf_to_pose_adapter" pkg="semantical_slam"
-	type="tf_to_pose_adapter.py" args=""/>
-
-</launch>

@@ -3,7 +3,7 @@
   <node name="semantical_map_generator" pkg="semantical_slam"
 	type="semantical_map_generator.py" args=""/>
 
- <node name="controller" pkg="semantical_slam"
-	type="controller.py" args=""/>
+<node name="tf_to_pose_adapter" pkg="semantical_slam"
+	type="tf_to_pose_adapter.py" args=""/>
 
 </launch>
