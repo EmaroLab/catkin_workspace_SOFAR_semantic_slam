@@ -63,7 +63,7 @@
   <build_export_depend>roslaunch</build_export_depend>
   <build_export_depend>message_generation</build_export_depend>
   <build_export_depend>tf</build_export_depend>
-  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>tf2_geometry_msgs</build_export_depend>
   
   <exec_depend>roscpp</exec_depend>
   <exec_depend>rospy</exec_depend>

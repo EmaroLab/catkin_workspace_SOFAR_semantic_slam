@@ -13,6 +13,10 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
   geometry_msgs
   tf
+  #tf2
+  #tf2_ros
+  #tf2_geometry_msgs
+  sensor_msgs
   sensor_msgs
   roslaunch
 )
@@ -75,6 +79,9 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   geometry_msgs
   tf
+  #tf2
+  #tf2_ros
+  #tf2_geometry_msgs
   sensor_msgs
   )  # Or other packages containing msgs
 
