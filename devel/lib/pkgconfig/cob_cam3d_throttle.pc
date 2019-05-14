@@ -1,8 +1,0 @@
-prefix=/home/filippo/catkin_workspace_SOFAR_semantic_slam/devel
-
-Name: cob_cam3d_throttle
-Description: Description of cob_cam3d_throttle
-Version: 0.6.11
-Cflags: 
-Libs: -L/home/filippo/catkin_workspace_SOFAR_semantic_slam/devel/lib -lcam3d_throttle
-Requires: message_filters nodelet pluginlib roscpp sensor_msgs

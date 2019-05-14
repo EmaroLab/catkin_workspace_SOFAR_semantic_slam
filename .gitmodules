@@ -1,0 +1,9 @@
+[submodule "src/ros_people_object_detection_tensorflow"]
+	path = src/ros_people_object_detection_tensorflow
+	url = https://github.com/EmaroLab/ros_people_object_detection_tensorflow.git
+[submodule "src/module3/ros_people_object_detection_tensorflow"]
+	path = src/module3/ros_people_object_detection_tensorflow
+	url = https://github.com/EmaroLab/ros_people_object_detection_tensorflow.git
+[submodule "src/module3/cob_perception_common"]
+	path = src/module3/cob_perception_common
+	url = https://github.com/cagbal/cob_perception_common.git

@@ -1,8 +1,0 @@
-prefix=/home/filippo/catkin_workspace_SOFAR_semantic_slam/install
-
-Name: cob_perception_msgs
-Description: Description of cob_perception_msgs
-Version: 0.6.11
-Cflags: -I/home/filippo/catkin_workspace_SOFAR_semantic_slam/install/include
-Libs: -L/home/filippo/catkin_workspace_SOFAR_semantic_slam/install/lib 
-Requires: geometry_msgs message_runtime sensor_msgs std_msgs
