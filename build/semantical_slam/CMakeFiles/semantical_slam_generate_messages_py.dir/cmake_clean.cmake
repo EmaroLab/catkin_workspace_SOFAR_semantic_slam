@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/semantical_slam_generate_messages_py"
-  "/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py"
-  "/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py"
-  "/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py"
-  "/home/tommi/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py"
+  "/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/_SemanticalPoint.py"
+  "/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/_CreateSemMsg.py"
+  "/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/msg/__init__.py"
+  "/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages/semantical_slam/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-prefix=/home/tommi/finalMiro/catkin_workspace_SOFAR_semantic_slam/devel
+prefix=/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel
 
 Name: semantical_slam
 Description: Description of semantical_slam
 Version: 0.0.0
-Cflags: -I/home/tommi/finalMiro/catkin_workspace_SOFAR_semantic_slam/devel/include
-Libs: -L/home/tommi/finalMiro/catkin_workspace_SOFAR_semantic_slam/devel/lib 
+Cflags: -I/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel/include
+Libs: -L/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel/lib 
 Requires: roscpp rospy message_runtime tf sensor_msgs roslaunch

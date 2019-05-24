@@ -7,7 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export PATH="/opt/ros/kinetic/bin:/home/tommi/dependences/Or/bin:/home/tommi/anaconda3/bin:/home/tommi/anaconda3/bin:/home/tommi/bin:/home/tommi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-export PWD="/home/tommi/finalMiro/catkin_workspace_SOFAR_semantic_slam/build"
-export PYTHONPATH="/home/tommi/finalMiro/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages:/home/tommi/mdk/share:/home/tommi/mdk/share"
-export ROS_PACKAGE_PATH="/home/sofar/catkin_workspace_SOFAR_semantic_slam/src:/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/src:/home/tommi/catkin_workspace_SOFAR_semantic_slam/src:/home/tommi/finalMiro/catkin_workspace_SOFAR_semantic_slam/src:/opt/ros/kinetic/share"
+export CMAKE_PREFIX_PATH="/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/giovanni/catkin_workspace_SOFAR_semantic_slam/build"
+export PYTHONPATH="/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/giovanni/catkin_workspace_SOFAR_semantic_slam/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/sofar/catkin_workspace_SOFAR_semantic_slam/src:/home/giovanni/Robotics_Repos/catkin_workspace_SOFAR_semantic_slam/src:/home/tommi/catkin_workspace_SOFAR_semantic_slam/src:/home/tommi/finalMiro/catkin_workspace_SOFAR_semantic_slam/src:/home/giovanni/catkin_workspace_SOFAR_semantic_slam/src:$ROS_PACKAGE_PATH"
