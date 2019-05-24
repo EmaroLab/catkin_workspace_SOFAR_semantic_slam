@@ -1,0 +1,9 @@
+<launch>
+
+  <node name="semantical_map_generator" pkg="semantical_slam"
+	type="semantical_map_generator.py" args=""/>
+
+<node name="pose_adapter" pkg="semantical_slam"
+	type="pose_adapter.py" args=""/>
+
+</launch>
