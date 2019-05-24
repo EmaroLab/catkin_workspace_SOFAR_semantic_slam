@@ -44,7 +44,7 @@ def main():
 	
 	#subscribe both to string and to pose topics
 	sub1=rospy.Subscriber('/adapted_message', String, callback0,(actual_pose))
-	sub2=rospy.Subscriber('/adapted_pose',Pose,callback1)#world pose
+	sub2=rospy.Subscriber('/publish_pose',Pose,callback1)#world pose
 
 	rospy.spin()
 

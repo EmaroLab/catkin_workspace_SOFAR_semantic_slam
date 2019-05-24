@@ -9,9 +9,9 @@ from geometry_msgs.msg import PoseStamped, Pose2D
 
 #callback
 def callback(msg):
-    adapted_pose = Pose2D()
-    adapted_pose.x = msg.pose.position.x
-    adapted_pose.y = msg.pose.position.y
+    adapted_pose2D = Pose2D()
+    adapted_pose2D.x = msg.pose.position.x
+    adapted_pose2D.y = msg.pose.position.y
 
     x = msg.pose.orientation.x
     y = msg.pose.orientation.y
@@ -27,9 +27,9 @@ def callback(msg):
 def main():
     rospy.init_node('pose_adapter')
     sub = rospy.Subscriber('/publish_pose', PoseStamped, callback)
-    pub = rospy.Publisher('/adapted_pose', Pose2D)
+    pub = rospy.Publisher('/adapted_pose2D', Pose2D)
     rospy.spin()
 
 
-if _name == "main_":
+if __name__ == "__main__":
     main()

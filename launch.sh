@@ -16,8 +16,8 @@ create)
 	echo    
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then
-   		rm -rf src/orb_slam2_ros/ros/Bagfile
-		mkdir src/orb_slam2_ros/ros/Bagfile
+   		rm -rf src/orb_slam_2_ros/ros/Bagfile
+		mkdir src/orb_slam_2_ros/ros/Bagfile
 		
 		roslaunch orb_slam2_ros orb_slam2_mono.launch &
 		roslaunch semantical_slam semantical_slam.launch &
