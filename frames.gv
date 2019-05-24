@@ -1,0 +1,7 @@
+digraph G {
+"map" -> "camera_link"[label="Broadcaster: /orb_slam2_ros_mono\nAverage rate: 4.296 Hz\nMost recent transform: 8469.992 ( 1557318158.988 sec old)\nBuffer length: 4.888 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1557326628.980"[ shape=plaintext ] ;
+ }->"map";
+}
