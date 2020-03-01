@@ -53,6 +53,7 @@ $ source /opt/ros/kinetic/setup.bash
 ### Build the package:
 ```
 $ catkin_make
+```
 
 ##Connect your local machine to MIRO
 Enter in MIRO via ssh.
