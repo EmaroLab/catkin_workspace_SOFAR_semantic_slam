@@ -101,4 +101,6 @@ Launch the ORB-SLAM node:
 ./launch.sh
 ```
 
-Once this is done the robot starts to build an ORB-SLAM map also incorporating the semantical information coming from other modules and so constructing a semantical map.
+Once this is done the user can choose one of the two possible modalities by typing:
+ - create : the robot starts to build an ORB-SLAM map also incorporating the semantical information coming from other modules and consequntly constructing a semantical map
+ - load : a previously constructed map will be loaded and used by the robot
