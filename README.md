@@ -64,7 +64,7 @@ $ source /opt/ros/kinetic/setup.bash
 $ catkin_make
 ```
 
-##Connect your local machine to MIRO
+### Connect your local machine to MIRO
 
 Enter in MIRO via ssh.
 Be sure you are under the same Network of MIRO.
@@ -78,7 +78,7 @@ Insert your local machine IP address in the file that will be opened once digite
 $ sudo nano .profile
 ```
 
-##Run ORB-SLAM node
+### Run ORB-SLAM node
 
 In a sourced terminal start roscore by digiting:
 ```
@@ -95,7 +95,7 @@ Then acces the following folder:
 $ cd /home/catkin_workspace_SOFAR_semantic_slam/mdk/bin/shared
 ```
 
-Run the GUI provided:
+### Run the GUI provided:
 ```
 $ ./miro_ros_client_gui.py robot=rob01
 ```
@@ -107,7 +107,7 @@ Access in the workspace in a new terminal with the following:
 $ cd /home/catkin_workspace_SOFAR_semantic_slam
 ```
 
-Launch the ORB-SLAM node:
+### Launch the ORB-SLAM node:
 ```
 ./launch.sh
 ```
@@ -116,12 +116,14 @@ Once this is done the user can choose one of the two possible modalities by typi
  - create : the robot starts to build an ORB-SLAM map also incorporating the semantical information coming from other modules and consequntly constructing a semantical map
  - load : a previously constructed map will be loaded and used by the robot
 
-### Results
+## Results
 
 https://drive.google.com/file/d/1MqDD6yV4xwxxG13IxMib2SQmUz7HF57w/view?usp=sharing
 
-### Team:
+## Team:
 
 Andrea Arlotta:  rltt.ndr@gmail.com
+
 Giovanni Battista Borre':  giovaborr@gmail.com
+
 Tommaso Gruppi:  tommygruppi@gmail.com
