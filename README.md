@@ -11,8 +11,8 @@ This project has been developed for the Software Architecture course of the mast
 
 ## CODE ARCHITECTURE
 
-The main task of this module is merging data from the monocular view, the SLAM, and from other moddules which provide the semantical information (from Module 3 and 4 a string message is received), this can be done thanks to the adapters present in the repository.
-Once a message from these modules is received, this module calls a service that extracts the actual 2D position of the robot in the environment, merges it  stores it with the label received in a new customized message in a rosbag.
+The main task of this module is merging data from the monocular view, the SLAM, and from other modules which provide the semantical information (e.g. from Module 3 and 4 a string message is received), this can be done thanks to the adapters present in the repository.
+Once a message from these modules is received, this module calls a service that extracts the actual 2D position of the robot in the environment, merges and stores it with the label received in a new customized message in a rosbag.
 
 Our code architecture can be summarized with different nodes which exchange different data between them as shown in the following figure:
 
@@ -20,7 +20,7 @@ Our code architecture can be summarized with different nodes which exchange diff
  <img src="Images/rosgraph.png"/>
 </p>
 
-From this Figure it can be noted that MiRo platform publishes and is subscribed to many different topics. The node related to the  ORB SLAM 2 algorithm read the images from the topic on which they are pusblished by the robot. Its outputs are both a map of the environment, in the form of a PointCloud2 datum, and the pose (Pose3D) of the camera with respect to the world reference frame. After that a node called pose_adapter reads the pose published and extracts the x and y coordinates in order to sent them to Module 1
+From this Figure it can be noted that MiRo platform publishes and is subscribed to many different topics. The node related to the  ORB SLAM 2 algorithm read the images from the topic on which they are pusblished by the robot. Its outputs are both a map of the environment, in the form of a PointCloud2 datum, and the pose (Pose3D) of the camera with respect to the world reference frame. After that a node called pose_adapter reads the pose published and extracts the x and y coordinates in order to sent it to Module 1.
 
 ## THE ROBOT: Miro
 
