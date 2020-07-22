@@ -4,7 +4,7 @@
 The goal of this module is to build a semantic ORB-SLAM map by navigating in an environment with Miro. It is also possible to load a previously constructed map and use it to reach specific position by taking advantage of the other modules developed in this project and as shown in Figure.
 
 <p align="center">
- <img src="Images/SOFAR(1)"/>
+ <img src="Images/SOFAR(1).pdf"/>
 </p>
 
 This project has been developed for the Software Architecture course of the master degree program in Robotics Engineering at University of Genoa.
