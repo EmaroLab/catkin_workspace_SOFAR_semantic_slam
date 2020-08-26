@@ -10,6 +10,9 @@ This is the ROS implementation of the ORB-SLAM2 real-time SLAM library for **Mon
 - Data I/O via ROS topics
 - Parameters can be set with the rqt_reconfigure gui during runtime
 - Very quick startup through considerably sped up vocab file loading
+- Full Map save and load functionality based on [this PR](https://github.com/raulmur/ORB_SLAM2/pull/381).
+- Loading of all parameters via launch file
+- Supports loading cam parameters from cam_info topic
 
 ### Related Publications:
 [Monocular] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. **ORB-SLAM: A Versatile and Accurate Monocular SLAM System**. *IEEE Transactions on Robotics,* vol. 31, no. 5, pp. 1147-1163, 2015. (**2015 IEEE Transactions on Robotics Best Paper Award**). **[PDF](http://webdiis.unizar.es/~raulmur/MurMontielTardosTRO15.pdf)**.
@@ -85,18 +88,25 @@ catkin build
 in your catkin folder.
 
 # 3. Configuration
-## Config file
-To run the algorithm expects both a vocabulary file (see the paper) and a **config file with the camera- and some hyper parameters**. The vocab file ships with this repository, together with config files for the Intel RealSense r200 camera. If you want to use any other camera you need to adjust the file (you can use one of the provided ones as a template). They are at orb_slam2/config.
+## Vocab file
+To run the algorithm expects both a vocabulary file (see the paper) which ships with this repository.
 
-## ROS parameters and topics
+# Config
+The config files for camera calibration and tracking hyper paramters from the original implementation are replaced with ros paramters which get set from a launch file.
+
+## ROS parameters, topics and services
 ### Parameters
-There are three types of parameters right now: static- and dynamic ros parameters and camera settings from the config file.
+There are three types of parameters right now: static- and dynamic ros parameters and camera settings.
 The static parameters are send to the ROS parameter server at startup and are not supposed to change. They are set in the launch files which are located at ros/launch. The parameters are:
 
+- **load_map**: Bool. If set to true, the node will try to load the map provided with map_file at startup.
+- **map_file**: String. The name of the file the map is loaded from.
+- **voc_file**: String. The location of config vocanulary file mentioned above.
 - **publish_pointcloud**: Bool. If the pointcloud containing all key points (the map) should be published.
 - **publish_pose**: Bool. If a PoseStamped message should be published. Even if this is false the tf will still be published.
 - **pointcloud_frame_id**: String. The Frame id of the Pointcloud/map.
 - **camera_frame_id**: String. The Frame id of the camera position.
+- **load_calibration_from_cam**: Bool. If true, camera calibration is read from a `camera_info` topic. Otherwise it is read from launch file params.
 
 Dynamic parameters can be changed at runtime. Either by updating them directly via the command line or by using [rqt_reconfigure](http://wiki.ros.org/rqt_reconfigure) which is the recommended way.
 The parameters are:
@@ -116,15 +126,32 @@ The following topics are being published and subscribed to by the nodes:
 - A **tf** from the pointcloud frame id to the camera frame id (the position).
 
 ### Subscribed topics
-- The mono node subscribes to **/camera/image_raw** for the input image.
+- The mono node subscribes to:
+    - **/camera/image_raw** for the input image
+    - **/camera/camera_info** for camera calibration (if `load_calibration_from_cam`) is `true`
 
-- The RGBD node subscribes to **/camera/rgb/image_raw** for the RGB image and
-- **/camera/depth_registered/image_raw** for the depth information.
+- The RGBD node subscribes to:
+    - **/camera/rgb/image_raw** for the RGB image
+    - **/camera/depth_registered/image_raw** for the depth information
+    - **/camera/rgb/camera_info** for camera calibration (if `load_calibration_from_cam`) is `true`
 
-- The stereo node subscribes to **image_left/image_color_rect** and
-- **image_right/image_color_rect** for corresponding images.
+- The stereo node subscribes to:
+    - **image_left/image_color_rect** and
+    - **image_right/image_color_rect** for corresponding images
+    - **image_left/camera_info** for camera calibration (if `load_calibration_from_cam`) is `true`
 
-# 4. Run
+# 4. Services
+All nodes offer the possibility to save the map via the service node_type/save_map.
+So the save_map services are:
+- **/orb_slam2_rgbd/save_map**
+- **/orb_slam2_mono/save_map**
+- **/orb_slam2_stereo/save_map**
+
+The save_map service expects the name of the file the map should be saved at as input.
+
+At the moment, while the save to file takes place, the SLAM is inactive.
+
+# 5. Run
 After sourcing your setup bash using
 ```
 source devel/setup.bash
@@ -138,13 +165,30 @@ source devel/setup.bash
 
 Use the command from the corresponding cell for your camera to launch orb_slam2_ros with the right parameters for your setup.
 
-# 5. FAQ
+# 6. Docker
+An easy way is to use orb_slam2_ros with Docker. This repository ships with a Dockerfile based on ROS kinetic.
+The container includes orb_slam2_ros as well as the Intel RealSense package for quick testing and data collection.
+
+# 7. FAQ
 Here are some answers to frequently asked questions.
+### How to save the map
+To save the map with a simple command line command run one the commands (matching to your node running):
+```
+rosservice call /orb_slam2_rgbd/save_map map.bin
+rosservice call /orb_slam2_stereo/save_map map.bin
+rosservice call /orb_slam2_mono/save_map map.bin
+```
+You can replace "map.bin" with any file name you want.
+The file will be saved at ROS_HOME which is by default ~/.ros
+
+**Note** that you need to source your catkin workspace in your terminal in order for the services to become available.
+
 ### Using a new / different camera
 You can use this SLAM with almost any mono, stereo or RGBD cam you want.
-There are two files which need to be adjusted for a new camera:
-1) **The yaml config file** at orb_slam2/config for the camera intrinsics and some configurations. [Here](https://docs.opencv.org/3.1.0/dc/dbb/tutorial_py_calibration.html) you can read about what the calibration parameters mean. Use [this](http://wiki.ros.org/camera_calibration) ros node to obtain them for your camera. If you use a stereo or RGBD cam in addition to the calibration and resolution you need to adjust the other parameters such as Camera.bf, ThDepth and DepthMapFactor.
+In order to use this with a different camera you need to supply a set of paramters to the algorithm. They are loaded from a launch file from the ros/launch folder.
+1) You need the **camera intrinsics and some configurations**. [Here](https://docs.opencv.org/3.1.0/dc/dbb/tutorial_py_calibration.html) you can read about what the camera calibration parameters mean. Use [this](http://wiki.ros.org/camera_calibration) ros node to obtain them for your camera. If you use a stereo or RGBD cam in addition to the calibration and resolution you also need to adjust three other parameters: Camera.bf, ThDepth and DepthMapFactor.
 2) **The ros launch file** which is at ros/launch needs to have the correct topics to subscribe to from the new camera.
+**NOTE** If your camera supports this, orb_slam_2_ros can subscribe to the camera_info topic and read the camera calibration parameters from there.
 
 ### Problem running the realsense node
 The node for the RealSense fails to launch when running

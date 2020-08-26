@@ -25,13 +25,17 @@ image_transport
 tf
 sensor_msgs
 dynamic_reconfigure
+message_generation
 )
 
-find_package(OpenCV 3.0 QUIET)
+find_package(OpenCV 4.0 QUIET)
 if(NOT OpenCV_FOUND)
-   find_package(OpenCV 2.4.3 QUIET)
+   find_package(OpenCV 3.0 QUIET)
    if(NOT OpenCV_FOUND)
-      message(FATAL_ERROR "OpenCV > 2.4.3 not found.")
+      find_package(OpenCV 2.4.3 QUIET)
+      if(NOT OpenCV_FOUND)
+         message(FATAL_ERROR "OpenCV > 2.4.3 not found.")
+     endif()
    endif()
 endif()
 
@@ -61,8 +65,18 @@ ${OpenCV_LIBS}
 ${catkin_LIBRARIES}
 )
 
+add_service_files(
+        FILES
+        SaveMap.srv
+)
+
+generate_messages(
+        DEPENDENCIES
+        std_msgs
+)
+
 catkin_package (
-  CATKIN_DEPENDS roscpp rospy std_msgs cv_bridge image_transport tf sensor_msgs dynamic_reconfigure
+  CATKIN_DEPENDS roscpp rospy std_msgs cv_bridge image_transport tf sensor_msgs dynamic_reconfigure message_runtime
   LIBRARIES {PROJECT_NAME} libDBoW2 libg2o
 )
 
@@ -104,6 +118,14 @@ target_link_libraries(${PROJECT_NAME}
 ${LIBS_ORBSLAM}
 )
 
+# map serialization addition - library boost serialization 
+message(STATUS "Compile With map save/load function")
+find_library(BOOST_SERIALIZATION boost_serialization)
+if (NOT BOOST_SERIALIZATION)
+    message(FATAL_ERROR "Can't find libboost_serialization")
+endif()
+target_link_libraries(${PROJECT_NAME} ${BOOST_SERIALIZATION})
+
 add_executable (${PROJECT_NAME}_mono
 ros/src/MonoNode.cc
 ros/src/Node.cc
@@ -113,7 +135,28 @@ add_dependencies (${PROJECT_NAME}_mono ${PROJECT_NAME} ${PROJECT_NAME}_gencfg)
 target_link_libraries(${PROJECT_NAME}_mono
 ${LIBS_ROS}
 )
-install(TARGETS ${PROJECT_NAME}_mono
+
+add_executable (${PROJECT_NAME}_stereo
+ros/src/StereoNode.cc
+ros/src/Node.cc
+)
+add_dependencies (${PROJECT_NAME}_stereo ${PROJECT_NAME} ${PROJECT_NAME}_gencfg)
+
+target_link_libraries(${PROJECT_NAME}_stereo
+${LIBS_ROS}
+)
+
+add_executable (${PROJECT_NAME}_rgbd
+ros/src/RGBDNode.cc
+ros/src/Node.cc
+)
+add_dependencies (${PROJECT_NAME}_rgbd ${PROJECT_NAME} ${PROJECT_NAME}_gencfg)
+
+target_link_libraries(${PROJECT_NAME}_rgbd
+${LIBS_ROS}
+)
+
+install(TARGETS ${PROJECT_NAME}_mono ${PROJECT_NAME}_stereo ${PROJECT_NAME}_rgbd
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}

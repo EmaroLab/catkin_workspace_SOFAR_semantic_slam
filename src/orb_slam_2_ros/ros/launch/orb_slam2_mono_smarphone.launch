@@ -1,0 +1,23 @@
+<launch>
+  <node name="orb_slam2_ros_mono" pkg="orb_slam2_ros"
+      type="orb_slam2_ros_mono" args="
+          $(find orb_slam2_ros)/orb_slam2/Vocabulary/ORBvoc.txt
+          $(find orb_slam2_ros)/orb_slam2/config/mono_redmi.yaml"
+      output="screen">
+       <param name="publish_pointcloud" type="bool" value="true" />
+       <param name="publish_pose" type="bool" value="true" />
+       <param name="pointcloud_frame_id" type="string" value="map" />
+       <param name="camera_frame_id" type="string" value="camera_link" />
+  </node>
+
+
+  <node name="republish" type="republish" pkg="image_transport" output="screen" args="compressed in:=/camera/image out:=/camera/image_raw" />
+
+
+  <node pkg="rosbag" type="record" name="rosbag_record_semPoint"
+       args="record -o $(find orb_slam2_ros)/ros/Bagfile/semantical_loci.bag /semantical_loci"/>
+
+ <node pkg="rosbag" type="record" name="rosbag_record_map"
+       args="record -o $(find orb_slam2_ros)/ros/Bagfile/point_cloud.bag /map"/>
+
+</launch>

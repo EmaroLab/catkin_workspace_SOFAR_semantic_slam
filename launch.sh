@@ -3,7 +3,7 @@
 #sourcing roslaunch orb_slam2_ros orb_slam2_mono.launch
 source devel/setup.bash
 
-echo -n "Type 'create' in order to create a new map or 'load' in order to load an existing map." 
+echo -n "Type 'create' in order to create a new map or 'load' in order to load an existing map."
 echo
 read MODE
 case "$MODE" in
@@ -13,21 +13,22 @@ create)
 	echo
 	echo "This will delete any previos map, type y to continue."
 	read REPLY
-	echo    
+	echo
 	if [[ $REPLY =~ ^[Yy]$ ]]
 	then
    		rm -rf src/orb_slam_2_ros/ros/Bagfile
 		mkdir src/orb_slam_2_ros/ros/Bagfile
-		
-		roslaunch orb_slam2_ros orb_slam2_mono.launch &
+
+		roslaunch ip_camera ip_camera.launch &
+		roslaunch orb_slam2_ros mono_smartphone.launch &
 		roslaunch semantical_slam semantical_slam.launch &
-		
-	else 
+
+	else
 		exit
 	fi
 	;;
 
-load)	
+load)
 	echo -n "___________________Load mode___________________"
 	echo
 	roslaunch orb_slam2_ros orb_slam2_mono_localizantion_only.launch &
@@ -39,6 +40,3 @@ load)
 	;;
 
 esac
-
-
-

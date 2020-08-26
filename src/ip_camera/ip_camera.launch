@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="ip_camera" pkg="ip_camera" type="ip_camera.py" args="-u http://192.168.1.2:8080/video" output="screen">
+  </node>
+
+</launch>
