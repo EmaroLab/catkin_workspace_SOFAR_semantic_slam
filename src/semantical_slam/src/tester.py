@@ -11,9 +11,12 @@ from semantical_slam.msg import SemanticalPoint
 from semantical_slam.srv import CreateSemMsg
 
 def test():
+	#publisher and node are initialized
 	pub = rospy.Publisher('/adapted_message', String, queue_size=10)
 	rospy.init_node('test')
+	#frequecy of published msg is set
 	rate = rospy.Rate(0.1)
+	#we simulate to publish a semantic information (string type) hypotetically acquired from beacons
 	detected_places_or_interesting_objects = ["kitchen", "person", "ball", "sofa", "laptop", "restroom", "book", "mug", "diego milito", "television", "chair"]
 	
 
