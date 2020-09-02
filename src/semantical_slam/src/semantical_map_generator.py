@@ -1,3 +1,7 @@
+#the node receives the pose of the robot and the semantical information. 
+#It merges the two received data in an SemanticalPoint type message; 
+#the new message is then published on '/semantical_loci' topic.
+
 #!/usr/bin/env python
 import rospy
 
