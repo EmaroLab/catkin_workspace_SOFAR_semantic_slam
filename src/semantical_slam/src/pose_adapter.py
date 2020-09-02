@@ -14,7 +14,7 @@ from geometry_msgs.msg import PoseStamped, Pose2D
 
 #callback
 def callback(msg, args):
-    #Initialization of the variable which corresponds to the adapted pose
+    #Initialization of the variable used for the adapted pose
     adapted_pose2D = Pose2D()
     #Extraction of the instance '.position' (x, y) from the PoseStamped message
     adapted_pose2D.x = msg.pose.position.x
