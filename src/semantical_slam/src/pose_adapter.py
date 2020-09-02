@@ -1,3 +1,7 @@
+#it subscribes to '/orb_slam2_mono/pose' topic: 
+#from the read messages it extracts the instance '.orientation'.
+#Suddenly it publics the orientation data in the '/adapted_pose2D' topic.
+
 #!/usr/bin/env python
 
 import rospy
