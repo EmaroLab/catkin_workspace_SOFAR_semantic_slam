@@ -11,7 +11,7 @@ from semantical_slam.msg import SemanticalPoint
 
 #assemble the msg from the two msgs in input pose and string. We keep just
 # x y from the pose and the string. We use just x and y for compatibility reason
-# navigation use 2d points. The message is stored in SemanticalPoint castom msg
+# navigation use 2d points. The message is stored in SemanticalPoint custom msg
 
 def create_sem_msg(request)
 	final_message=SemanticalPoint()
