@@ -18,7 +18,7 @@ from semantical_slam.msg import SemanticalPoint
 
 #Service function
 def create_sem_msg(request)
-	#Initialization of the variable
+	#Initialization of the variable for the new customized message
 	final_message=SemanticalPoint()
 	#Extraction of the 2D pose from the received message
 	final_message.x=actual_pose.position.x
@@ -28,7 +28,7 @@ def create_sem_msg(request)
 	
 	return CreateSemMsgResponse(final_message)	
 
-#Inizialization of both the node 'semantical_assembler_server' and the service 'create_sem_msg'
+#Inizialization of both the node named 'semantical_assembler_server' and the service named 'create_sem_msg'
 rospy.init('semantical_assembler_server')
 service = rospy.Service('create_sem_msg',CreateSemMsg, create_sem_msg)
 rospy.spin()
