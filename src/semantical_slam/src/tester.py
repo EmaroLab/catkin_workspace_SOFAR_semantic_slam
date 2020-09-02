@@ -1,3 +1,5 @@
+#This script is meant for testing the nodes. 
+#Some random string are published in the '/adapted_message' topic and then the process is suspended.
 #!/usr/bin/env python
 import rospy
 import random 
