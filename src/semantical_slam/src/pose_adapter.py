@@ -33,11 +33,11 @@ def callback(msg, args):
 
 # main
 def main():
-    #Initialization of the subscriber to '/orb_slam2_mono/pose'
+    #Initialization of the subscriber to the topic named '/orb_slam2_mono/pose'
     sub = rospy.Subscriber('/orb_slam2_mono/pose', PoseStamped, callback, (pub))
-    #Initialization of the publisher to '/adapted_pose2D'
+    #Initialization of the publisher to the topic named '/adapted_pose2D'
     pub = rospy.Publisher('/adapted_pose2D', Pose2D, queue_size=10)
-    #Initialization of the node 'pose_adapter'
+    #Initialization of the node named 'pose_adapter'
     rospy.init_node('pose_adapter')
     rospy.spin()
 
