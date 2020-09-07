@@ -45,8 +45,9 @@ $ source ./devel/setup.bash
 ```
 At this point it is possible to run our module by typing the command:<br/> ```roslaunch cob_people_object_detection_tensorflow cob_people_object_detection_tensorflow.launch```
 
-Remark: you can set the parameters in the file 
-```cob_people_object_detection_tensorflow_params.yaml ```
+Remark: there is the posibility to set the parameters in the file 
+```cob_people_object_detection_tensorflow_params.yaml ``` in order to change the camera topic and pretrained model according to the user's specific needs.<br/>
+Peruse the [TensorFlow 1 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md) to have a full list of models offered by Tensorflow.
 
 ## Results
 Below there is the demonstration video of our module on the mobile robot MiRo in the Gazebo simulator.<br/>
