@@ -29,7 +29,7 @@ The first node exploiting the OpenCV library and the cv_bridge tool, in order to
 Consequently, for we wanted to make the information available for the other modules constrained to a simple label in a publish / subscribe fashion, we have developed an adapter (ir_adapter node) which according to the score and the threshold set by the user eventually advertise the label as a string, e.g. chair, table, person, etc, on the topic /adapted_message.<br/>
 
 ## Installation and running
-First, [ROS Kinetic](http://wiki.ros.org/kinetic/Installation) and [Tensorflow](https://www.tensorflow.org/install/pip) should be installed on your machine (Tensorflow 1 has been adopted for the project).<br/>
+First, [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu) and [Tensorflow](https://www.tensorflow.org/install/pip) should be installed on your machine (Tensorflow 1 has been adopted for the project).<br/>
 After:<br/>
 
 ```
