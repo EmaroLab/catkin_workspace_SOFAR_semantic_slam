@@ -20,7 +20,7 @@ The main goal of Module 3 is to enable Miro to detect and recognize objects and 
 
 ## Architecture of the system
 <p align="center"> 
-<img src="Modulo3_diagram(1).png">
+<img src="Modulo3_diagram(2).png">
 </p>
 The architecture consists substantially of 2 ROS nodes:<br/><br/>
 1. cob_people_object_detection_tensorflow<br/>
