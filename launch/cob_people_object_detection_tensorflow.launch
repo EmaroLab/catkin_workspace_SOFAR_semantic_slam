@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="ir_adapter" pkg="cob_people_object_detection_tensorflow" type="ir_adapter.py"/>
+  <node name="cob_people_object_detection_detection" pkg="cob_people_object_detection_tensorflow" type="cob_people_object_detection_tensorflow.py" output="screen">
+    <rosparam command="load" file="$(find cob_people_object_detection_tensorflow)/launch/cob_people_object_detection_tensorflow_params.yaml"/>
+  </node>
+</launch>
