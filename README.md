@@ -35,7 +35,7 @@ After:<br/>
 ```
 $ cd && mkdir -p catkin_ws/src && cd ..
 $ catkin_make && cd src
-$ git clone --recursive https://github.com/EmaroLab/ros_people_object_detection_tensorflow.git
+$ git clone --recursive https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/Module3
 $ cd cob_people_object_detection_tensorflow/src
 $ protoc object_detection/protos/*.proto --python_out=.
 $ cd ~/catkin_ws
