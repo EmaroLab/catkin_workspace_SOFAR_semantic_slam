@@ -1,4 +1,4 @@
-string actual_place
+std_msgs/String.msg actual_place
 geometry_msgs/Pose actual_pose
 ---
 SemanticalPoint final_message
