@@ -20,25 +20,24 @@ actual_pose = Pose()
 #Every time a message from the "beacon" or the "image recognition" module is received the callback stores the string in a variable and
 #calls the service in order to create the SemanticalPoint to be published
 def callback0(msg_from_adapter):
-	#Initialization of the publisher to the topic named '/semantical_loci' 
-	pub=rospy.Publisher('/semantical_loci', SemanticalPoint,queue_size=1)
 	
 	#initialization of the variables for the label and the final message
 	actual_place=String()
 	final_point=SemanticalPoint()
 
-	#actual_place.data=msg_from_adapter.data 
-	#rospy.wait_for_service('create_sem_msg')
-	#creator_sem_msg = rospy.ServiceProxy('create_sem_msg',CreateSemMsg)
-	#service call to assemble message
-	#final_point=create_sem_msg(actual_place, actual_pose)
-	#publish the semantic message
-	
-	final_point.x=actual_pose.position.x
-	final_point.y=actual_pose.position.y
-	final_point.place_name=msg_from_adapter.data
+	#Call the server in order to create the customized message
+	actual_place.data=msg_from_adapter.data 
+	rospy.wait_for_service('create_sem_msg')
+	creator_sem_msg = rospy.ServiceProxy('create_sem_msg',CreateSemMsg)
+	service call to assemble message
+	final_point=create_sem_msg(actual_place, actual_pose)
 
-	pub.publish(final_point)
+# 	final_point.x=actual_pose.position.x
+# 	final_point.y=actual_pose.position.y
+# 	final_point.place_name=msg_from_adapter.data
+
+# 	publish the semantic message
+#	pub.publish(final_point)
 	return 0
 
 
@@ -56,6 +55,10 @@ def main():
 	#Initialization of both the subscribers to the topic named '/adapted_message' and to the one named '/orb_slam2_mono/pose'
 	sub1=rospy.Subscriber('/adapted_message', String, callback0)
 	sub2=rospy.Subscriber('/orb_slam2_mono/pose',PoseStamped,callback1) #world referenced pose
+	
+	#Initialization of the publisher to the topic named '/semantical_loci' 
+	#pub=rospy.Publisher('/semantical_loci', SemanticalPoint,queue_size=1)
+	
 	rospy.spin()
 
 if __name__== "__main__":
