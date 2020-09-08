@@ -37,7 +37,7 @@ def callback0(msg_from_adapter):
 # 	final_point.place_name=msg_from_adapter.data
 
 # 	publish the semantic message
-#	pub.publish(final_point)
+	pub.publish(final_point)
 	return 0
 
 
@@ -57,7 +57,7 @@ def main():
 	sub2=rospy.Subscriber('/orb_slam2_mono/pose',PoseStamped,callback1) #world referenced pose
 	
 	#Initialization of the publisher to the topic named '/semantical_loci' 
-	#pub=rospy.Publisher('/semantical_loci', SemanticalPoint,queue_size=1)
+	pub=rospy.Publisher('/semantical_loci', SemanticalPoint,queue_size=1)
 	
 	rospy.spin()
 
