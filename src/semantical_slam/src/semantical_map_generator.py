@@ -29,7 +29,7 @@ def callback0(msg_from_adapter):
 	actual_place.data=msg_from_adapter.data 
 	rospy.wait_for_service('create_sem_msg')
 	creator_sem_msg = rospy.ServiceProxy('create_sem_msg',CreateSemMsg)
-	service call to assemble message
+	#service call to assemble message
 	final_point=create_sem_msg(actual_place, actual_pose)
 
 # 	final_point.x=actual_pose.position.x
