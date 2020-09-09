@@ -12,7 +12,7 @@ from geometry_msgs.msg import Pose, PoseStamped
 from semantical_slam.msg import SemanticalPoint
 
 #import service
-from semantical_slam.srv import CreateSemMsg
+from semantical_slam.srv import CreateSemMsg, CreateSemMsgResponse
 
 #Initialization of the Pose variable in which the current 3D pose of the robot is stored
 actual_pose = Pose()
