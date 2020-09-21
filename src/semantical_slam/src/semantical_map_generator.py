@@ -11,9 +11,6 @@ from std_msgs.msg import String
 from geometry_msgs.msg import Pose, PoseStamped
 from semantical_slam.msg import SemanticalPoint
 
-#import service
-from semantical_slam.srv import CreateSemMsg, CreateSemMsgResponse
-
 #Initialization of the Pose variable in which the current 3D pose of the robot is stored
 actual_pose = Pose()
 
@@ -41,7 +38,8 @@ def callback1(msg_from_miro):
 	actual_pose.position=msg_from_miro.pose.position
 	actual_pose.orientation=msg_from_miro.pose.orientation
 	return 0
-	
+
+
 #main
 def main():
 	#Initialization of the node named 'semantical_map_generator'
