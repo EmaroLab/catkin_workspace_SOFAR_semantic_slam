@@ -25,16 +25,10 @@ def callback0(msg_from_adapter):
 	actual_place=String()
 	final_point=SemanticalPoint()
 
-	#Call the server in order to create the customized message
-	actual_place.data=msg_from_adapter.data 
-	rospy.wait_for_service('create_sem_msg')
-	creator_sem_msg = rospy.ServiceProxy('create_sem_msg',CreateSemMsg)
-	#service call to assemble message
-	final_point=create_sem_msg(actual_place, actual_pose)
-
-# 	final_point.x=actual_pose.position.x
-# 	final_point.y=actual_pose.position.y
-# 	final_point.place_name=msg_from_adapter.data
+	#Create the customized message
+ 	final_point.x=actual_pose.position.x
+ 	final_point.y=actual_pose.position.y
+ 	final_point.place_name=msg_from_adapter.data
 
 # 	publish the semantic message
 	pub.publish(final_point)
