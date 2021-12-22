@@ -32,7 +32,7 @@ Consequently, for we wanted to make the information available for the other modu
 First, [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu) and [Tensorflow](https://www.tensorflow.org/install/pip) should be installed on your machine (Tensorflow 1 has been adopted for the project).<br/>
 After:<br/>
 
-```
+```bash
 $ cd && mkdir -p catkin_ws/src && cd ..
 $ catkin_make && cd src
 $ git clone --recursive https://github.com/EmaroLab/catkin_workspace_SOFAR_semantic_slam/tree/Module3
